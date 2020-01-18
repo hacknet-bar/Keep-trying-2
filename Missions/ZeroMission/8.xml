@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="2">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="afk">AFK</posting>
+
+  <email>
+    <sender>0</sender>
+    <subject>1</subject>
+    <body>F U C K
+</body>
+    <attachments>
+
+    </attachments>
+  </email>
+</mission>

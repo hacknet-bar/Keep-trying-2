@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EWT" name="医疗服务 白名单" type="empty" allowsDefaultBootModule="false" security="11" >
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 25, 6881, 554, 443</ports>
+  <trace time="80" />
+
+
+  <CustomConnectDisplayDaemon />
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+</Computer>

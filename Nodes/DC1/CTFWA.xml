@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFWA" 
+          name="CTF 白名单总控" 
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="3" />
+  <ports>443, 554</ports>
+  <trace time="0.01" />
+  <portRemap>443=8080,554=5040</portRemap>
+  <proxy time="2998" />
+  <adminPass pass="1106548" resetPassword="false" isSuper="false" />
+  <file path="home" name="info.txt">关于此服务器：此服务器控制着CTF的白名单
+如果你是CTF的内部员工 请与CTF的管理员联系以获取白名单权限
+但如果你是通过非法途径进入的 我们会立即采取行动 请你自重</file>
+  <file path="sys" name="authenticator.dll">101010011000100010001111010101011111111101001111110111110001101101001011100001110101110111001101011100000111111100011111101101100101010011111001101100000110001100101001001111111011010100100110001101110001011110110100011111010011110000111110110111111011010100110101111010010111101001010101101001111100011010001110110011101000110100001110110111001101100101011111011101110111111010110001111100101001100100000110101110000010100001011110001100010111111000</file>
+  <file path="sys" name="source.txt">Access Denied.</file>
+  <tracker/>
+</Computer>

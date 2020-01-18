@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<Instantly>
+<HideNode DelayHost="Zero" Delay="5" TargetComp="DCDHS" />
+<ChangeIP DelayHost="Zero" Delay="5" TargetComp="DCDHS" NewIP="Reset" />
+<CrashComputer TargetComp="DCDHS" CrashSource="Cheater" DelayHost="DCDHS" Delay="5" />
+  </Instantly>
+
+</ConditionalActions>

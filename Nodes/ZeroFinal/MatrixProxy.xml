@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MatrixProxy"
+          name="Matrix 代理01"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 104, 25, 1433, 443, 554</ports>
+  <proxy time="2" />
+  <file path="home" name="MedRecord.txt">Files Not Found</file>
+  <file path="home" name="AgentData01.rec">代号：Yan
+破解能力：A
+破解速度：B
+探索深入性：B
+破解持续性：C
+吸取教训的提升能力：C
+精准度：C
+
+我一直很看好你 从一开始你就是我的得力助手...我相信你也会一直忠心于我</file>
+  
+  <file path="home" name="AgentData02.rec">代号：N0pe
+破解能力：B
+破解速度：A
+探索深入性：C
+破解持续性：A
+吸取教训的提升能力：D
+精准度：A
+
+第二位通过试炼的人... 一直平平淡淡.. 但在破解谜题的能提上远高人一筹...和Sup4rX一起通过试炼
+但是似乎有叛变于我的心...
+那你就准备试试和Sup4rX一样的下场吧</file>
+
+  <file path="home" name="AgentData03.rec">代号：Sup4rX
+破解能力：A
+破解速度：A
+探索深入性：C
+破解持续性：A
+吸取教训的提升能力：A
+精准度：A
+
+...个人能力十分强... 但是知道我的秘密的人绝不能活在这个世界上
+Rest in Peace.</file>
+  
+  <file path="home" name="AgentData04.rec">代号：#PLAYERNAME#
+破解能力：?
+破解速度：?
+探索深入性：infinity
+破解持续性：?
+吸取教训的提升能力：infinity
+精准度：infinity
+
+SES来的一名"新人" 能力会怎么样呢...</file>
+</Computer>

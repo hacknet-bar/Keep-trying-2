@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+   <OnAdminGained target="8Clock" >
+    <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="20.0">@Channel 又来了....</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="23.0">这该死的白名单竟如此的甜美</AddIRCMessage>
+	<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="25">......</AddIRCMessage>
+	<AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="27">FXXXXXXX</AddIRCMessage>
+	<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="29.0">稍等...</AddIRCMessage>
+	<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="33.0">马上就好...</AddIRCMessage>
+	<CrashComputer TargetComp="CTFWT3" CrashSource="Zero" DelayHost="Zero" Delay="29" />
+	<AppendToFile DelayHost="Zero" Delay="29.0" TargetComp="CTFWT3" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
+	<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="38.0">好了，你们应该能连上被这个白名单保护的服务器了</AddIRCMessage>
+  </OnAdminGained>
+
+</ConditionalActions>

@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<OnConnect target="Heaven" needsMissionComplete="false">
+<RunFunction FunctionName="playCustomSong:Music/AlphysTakeAction.ogg" />
+<StartScreenBleedEffect AlertTitle="Final Attack" CompleteAction="Actions/DCMission/FailActions2.xml" TotalDurationSeconds="725" DelayHost="Zero" Delay="1.5">进入BrokenHeart服务器
+清空sys文件夹
+断开</StartScreenBleedEffect>
+</OnConnect>
+</ConditionalActions>

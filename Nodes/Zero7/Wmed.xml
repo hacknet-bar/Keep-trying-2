@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Wmed" name="医疗服务中心 - 西" type="empty" allowsDefaultBootModule="false" security="4" >
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 80, 25, 6881, 554, 443</ports>
+  <trace time="75" />
+  <firewall level="4" solution="WestMedical" additionalTime="1.0"/>
+
+  
+  <CustomConnectDisplayDaemon />
+  <file path="sys" name="CoreAdmin.dll">#BINARY##BINARY#</file>
+  <file path="sys" name="info.txt">管理员版本起搏器核心，更换核心后可以获得管理员级别权限
+包括屏蔽外部链接等
+并且能够造成"假死现象"来迷惑入侵者
+要想替换核心 就必须得获得核心的管理员权限</file>
+
+
+</Computer>

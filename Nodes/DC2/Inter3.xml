@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Inter3" name="??? 3" type="empty" allowsDefaultBootModule="true" security="0" icon="chip">
+
+  <portsForCrack val="33333" />
+  <ports>80, 9418</ports>
+  <proxy time="29999998" />
+  <trace time="1" />
+</Computer>

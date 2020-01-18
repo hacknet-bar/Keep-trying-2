@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<OnConnect target="Z.IP" needsMissionComplete="false">
+<AddConditionalActions Filepath="Actions/ZWCheck/ZWlose3.xml" DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="playCustomSong:Music/Shadow.ogg" />
+  </OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="7" >
+  <goals>
+    <goal type="filechange" target="adDB" file="ad.txt" path="home/DataBase" keyword="dangerous" />
+	<goal type="filechange" target="adDB" file="ad.txt" path="home/DataBase" keyword="money" />
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS3.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="惊喜" reqs="DHS3" >
+打乱Macrosoft的计划
+  </posting>
+
+  <email>
+    <sender>IcaRus</sender>
+    <subject>惊喜</subject>
+    <body>#PLAYERNAME# Macrosoft最近在在广告公司里上传了一则广告 意图宣传Macrosoft
+我们需要打乱他们的计划 令他们出大丑
+他们的广告是英文版本的 如果我们仅仅只是删除的话那不够意思
+我有一个想法 将广告词中的safe改成dangerous 将nothing改成money
+我想那会很有趣
+</body>
+    <attachments>
+	<note title="任务细节">找到广告公司的数据库 更改Database的文件夹中的ad.txt
+将safe改成dangerous 将nothing改成money</note>
+      <link comp="adweb" />
+    </attachments>
+  </email>
+</mission>

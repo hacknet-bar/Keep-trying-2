@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Yuri" name="Yuri的云储存" type="empty" allowsDefaultBootModule="true" security="0" icon="chip">
+
+  <portsForCrack val="0" />
+  <ports>80, 9418</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+  <file path="home" name="Email">Username: Yuri
+Password: GOODGUYnick</file>
+</Computer>

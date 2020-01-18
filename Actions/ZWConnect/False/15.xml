@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+<OnConnect target="Invitation" needsMissionComplete="false" requiredFlags="3">
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<AddConditionalActions Filepath="Actions/lose1/1.xml" DelayHost="Cheater" Delay="12.0"/>
+<AddConditionalActions Filepath="Actions/lose3/1.xml" DelayHost="Cheater" Delay="12.0"/>
+<AddConditionalActions Filepath="Actions/loseall/1.xml" DelayHost="Cheater" Delay="12.0"/>
+<AddConditionalActions Filepath="Actions/all/1.xml" DelayHost="Cheater" Delay="12.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/False/15.xml" DelayHost="Cheater" Delay="12.0"/>
+  </OnConnect>
+
+</ConditionalActions>

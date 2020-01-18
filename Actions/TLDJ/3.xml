@@ -1,0 +1,37 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">攻击者的内存记录...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="6">他，就是攻击了#PLAYERNAME#的人</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="7">那他是谁...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="8">你真的想知道吗</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="11">真墨迹 快点说啊</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="14">他就是Matrix</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="16">我从他那找到这份文件的...</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="18">怎么会...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="20">可恶，Matrix怎么会这样</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="22">我一定不会放过他</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="23">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="25">IcaRus</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="29">还不承认吗</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="33">...?</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="36">也是...得让你看点证据你才会承认</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="38">你，就是Matrix.</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="40">什么？！</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="42">这不可能 我们可是亲眼看见Matrix和IcaRus一起存在的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="45">但在证据面前，你的说法也只是片面的</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="45">请选择证物:</AddIRCMessage>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+
+
+<AddConditionalActions Filepath="Actions/TLDJ/lose1/3.xml" DelayHost="Cheater" Delay="45.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/lose3/3.xml" DelayHost="Cheater" Delay="45.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/loseall/3.xml" DelayHost="Cheater" Delay="45.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/all/3.xml" DelayHost="Cheater" Delay="45.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/test/3.xml" DelayHost="Cheater" Delay="45.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Flag3.xml" DelayHost="Cheater" Delay="20.0"/>
+  </Instantly>
+</ConditionalActions>

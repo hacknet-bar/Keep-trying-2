@@ -1,0 +1,120 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CreditFake" 
+          name="Credit?" 
+          security="0"
+          allowsDefaultBootModule="true"
+          icon="chip" 
+          type="1"
+          ip="232.48.225.64"> 
+
+  <portsForCrack val="0" />
+  <ports>443, 22, 6881, 554, 21, 80, 1433, 25</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="-1" />
+ <file path="home" name="CreditsData.txt"> 
+  %---  Keep Trying 2  ---
+
+^Hacknet的制作者:
+
+Matt Trobbiani
+
+^剧情设想：
+
+kang_zi
+
+^拓展设计：
+
+kang_zi
+
+Notepad + +
+
+^音乐：
+Hacknet OST
+
+Hacknet Labyrinths OST
+
+History of the Moon  By 上海爱丽丝幻乐团
+
+东方辉针城 OST By 上海爱丽丝幻乐团
+
+东方妖妖梦 OST By 上海爱丽丝幻乐团
+
+东方红魔乡 OST By 上海爱丽丝幻乐团
+
+MiHoYo OST  By HOYO - MIX
+
+Fade  By Janji
+
+大逆转裁判2原声带 By 北川保昌
+
+Brainiac Maniac (Kyle Xian Remix) By Plant vs Zombies OST and Kyle Xian 
+
+UndertaleOST By Toby Fox
+
+Shadow  By Janji
+
+Funky Stars(Byproduct remix) By Byproduct and Quazar
+
+Ink Unleashed
+
+Alphys takes action
+
+Arknights OST by HyperGryph
+
+Call of Duty ModernWarfare 2 OST by Hans Zimmer and Lorne Balfe
+
+或许还有很多 欢迎补充
+
+
+^X-server 提供：
+
+Unsplash
+
+Microsoft Wall Paper
+
+
+^测试者：
+
+因测试者要求不予显示名称
+
+
+^Special Thanks:
+
+Pitiedwzr
+
+html-qwq
+
+Hui_Night
+
+
+所有在Hacknet百度贴吧的各位
+
+
+^And You...
+
+%感谢你们...
+
+%Thanks for Playing Keep Trying 2!
+</file>
+  
+  
+  
+
+<file path="home" name="AboutMe.txt">感谢游玩Keep Trying 2.
+这是我完成kt1的时候想做的第二部
+尽管大部分时间都在鸽子- -
+也请大家多多支持
+这是我第二个Extensions的制作...
+也希望你们多多支持Keep trying 2...
+再次表示真诚的感谢！
+
+尽管我的技术比不上制作HellSec World.exe 以及各种各样的Extensions的制作者大大们
+但是我已经十分努力了！
+谢谢你们 
+Yours,
+                                   ——kang_zi</file>
+								   
+<file path="home" name="No_Secret.txt">这里没有彩蛋，作者太懒了...</file>
+
+
+</Computer>

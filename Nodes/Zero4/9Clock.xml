@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="9Clock"
+          name="9 o'Clock"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>22, 80, 21, 443, 6881, 554</ports>
+  <trace time="75" />
+
+  <WhitelistAuthenticatorDaemon Remote="CTFWT3" />
+	<file path="home" name="COREpassword5.txt">9 - - - - ·</file>
+
+  
+</Computer>

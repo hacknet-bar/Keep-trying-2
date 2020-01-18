@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P_Admin" name="Joseph的办公室电脑" type="empty" allowsDefaultBootModule="false" security="9" ip="159.55.37.2">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="60" />
+  <WhitelistAuthenticatorDaemon Remote="P_WT3"/>
+  <CustomConnectDisplayDaemon />
+  <file path="home" name="AboutMe.txt">我 Joseph PiliPili的CEO
+在此写下这个文档
+不为了什么 只不过是记录下一个新的成就而已
+不说了 我要去管理一下其他员工了</file>
+
+<file path="home" name="Important.txt">本月上传服务器密码更改
+***110001010001010010 + 2019年二月份的天数 + PiliPliCEO的名字***
+嘿嘿嘿</file>
+
+  <Memory>
+    <Commands>
+      <Command>Imcoming Connection by Pitiedwzr@44.129.236.5</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+  <dlink target="P_Upload" />
+</Computer>

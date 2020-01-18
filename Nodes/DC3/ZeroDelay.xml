@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ZeroDelay" name="Zero 缓存服务器" type="empty" allowsDefaultBootModule="true" security="4" icon="DLCPC2">
+
+  <portsForCrack val="5" />
+  <ports>80, 443, 554, 6881, 21</ports>
+  <proxy time="1.9" />
+  <trace time="83" />
+  <file path="sys" name="MemScanData.dat">#BINARY#</file>
+  <Memory>
+    <Commands>
+      <Command>ping 238.144.56.72</Command>
+    </Commands>
+    <Data>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+</Computer>

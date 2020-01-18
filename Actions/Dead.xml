@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+<HasFlags requiredFlags="Dead">
+<LaunchHackScript Filepath="HackerScripts/Err0r233Help.txt" 
+                  DelayHost="Cheater" 
+                  Delay="50" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<CrashComputer TargetComp="Matrix" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="N0peDHS" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="Matrix" />
+<ChangeIP DelayHost="Cheater" Delay="3" TargetComp="Matrix" NewIP="17.3.2.168" />
+<ChangeIP DelayHost="Cheater" Delay="3" TargetComp="playerComp" NewIP="#RANDOM_IP#" />
+<HideAllNodes DelayHost="Cheater" Delay="50.0"/>
+<AddConditionalActions Filepath="Actions/Err0r233time.xml" DelayHost="Cheater" Delay="98.0"/>
+  </HasFlags>
+</ConditionalActions>

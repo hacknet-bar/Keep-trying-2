@@ -1,0 +1,32 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">这段聊天记录...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="6">你们自己看看就知道了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="7">...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="8">果然... IcaRus</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="11">不 是Matrix</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="14">至于你们的聊天...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="16">你的真正目的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="18">也写在了这个聊天文件上</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="21">但在此之前</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="24">我想问你一件事</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="27">你真的只是想让#PLAYERNAME#加入你们Zero吗</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="31">那是当然...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="35">我们可是诚心诚意的邀请了他</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="39">...还在撒谎吗...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="41">你实在是无药可救了..</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="42">请选择证物:</AddIRCMessage>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+
+<AddConditionalActions Filepath="Actions/TLDJ/lose1/3.xml" DelayHost="Cheater" Delay="43.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/lose3/3.xml" DelayHost="Cheater" Delay="43.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/loseall/3.xml" DelayHost="Cheater" Delay="43.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/all/3.xml" DelayHost="Cheater" Delay="43.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/test/5.5.xml" DelayHost="Cheater" Delay="43.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Flag5.5.xml" DelayHost="Cheater" Delay="1.0"/>
+  </Instantly>
+</ConditionalActions>

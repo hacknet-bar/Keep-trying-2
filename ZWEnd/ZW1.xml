@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:ZW1"/>
+<AddConditionalActions Filepath="Actions/FreeEnd0.xml" DelayHost="Cheater" Delay="10.0"/>
+</Instantly>
+
+</ConditionalActions>

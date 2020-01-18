@@ -1,0 +1,6 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/17.xml" TargetComp="Zero"/>
+</Instantly>
+</ConditionalActions>

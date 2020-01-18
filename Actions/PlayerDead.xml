@@ -1,0 +1,35 @@
+<ConditionalActions>
+  
+<OnConnect target="Matrix" needsMissionComplete="false">
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+		<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+		<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+<LaunchHackScript Filepath="HackerScripts/PlayerDead.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+		<SwitchToTheme ThemePathOrName="HacknetPurple" FlickerInDuration="1.0" DelayHost="Cheater" Delay="35.5" />
+		<SwitchToTheme ThemePathOrName="HacknetBlue" FlickerInDuration="1.0" DelayHost="Cheater" Delay="36.5" />
+		<SwitchToTheme ThemePathOrName="HacknetTeal" FlickerInDuration="1.0" DelayHost="Cheater" Delay="36.6" />
+		<SwitchToTheme ThemePathOrName="HacknetYellow" FlickerInDuration="1.0" DelayHost="Cheater" Delay="36.7" />
+		<SwitchToTheme ThemePathOrName="HackerGreen" FlickerInDuration="1.0" DelayHost="Cheater" Delay="36.8" />
+		<SwitchToTheme ThemePathOrName="HacknetWhite" FlickerInDuration="1.0" DelayHost="Cheater" Delay="36.9" />
+		<SwitchToTheme ThemePathOrName="HacknetPurple" FlickerInDuration="1.0" DelayHost="Cheater" Delay="37" />
+		<SwitchToTheme ThemePathOrName="HacknetMint" FlickerInDuration="1.0" DelayHost="Cheater" Delay="37.1" />
+		<SwitchToTheme ThemePathOrName="Themes/Win10Theme.xml" FlickerInDuration="1.0" DelayHost="Cheater" Delay="37.3" />
+		<SwitchToTheme ThemePathOrName="HacknetPurple" FlickerInDuration="1.0" DelayHost="Cheater" Delay="37.4" />
+		<SwitchToTheme ThemePathOrName="HacknetBlue" FlickerInDuration="1.0" DelayHost="Cheater" Delay="38.4" />
+		<SwitchToTheme ThemePathOrName="HacknetTeal" FlickerInDuration="1.0" DelayHost="Cheater" Delay="38.5" />
+		<SwitchToTheme ThemePathOrName="HacknetYellow" FlickerInDuration="1.0" DelayHost="Cheater" Delay="39.6" />
+		<SwitchToTheme ThemePathOrName="HackerGreen" FlickerInDuration="1.0" DelayHost="Cheater" Delay="39.7" />
+		<SwitchToTheme ThemePathOrName="HacknetWhite" FlickerInDuration="1.0" DelayHost="Cheater" Delay="39.8" />
+		<SwitchToTheme ThemePathOrName="HacknetPurple" FlickerInDuration="1.0" DelayHost="Cheater" Delay="40.9" />
+		<SwitchToTheme ThemePathOrName="HacknetMint" FlickerInDuration="1.0" DelayHost="Cheater" Delay="41" />
+		<SwitchToTheme ThemePathOrName="Themes/Win10Theme.xml" FlickerInDuration="1.0" DelayHost="Cheater" Delay="41.1" />
+		<SwitchToTheme ThemePathOrName="TerminalOnlyBlack" FlickerInDuration="1.0" DelayHost="Cheater" Delay="42" />
+		<RunFunction FunctionName="addFlags:Dead"/>
+  </OnConnect>
+
+</ConditionalActions>

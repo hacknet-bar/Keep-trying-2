@@ -1,0 +1,139 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Debug" 
+          name="Debug" 
+          ip="debug"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="101" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <adminPass pass="Err0r233" resetPassword="false" isSuper="false" />
+  <trace time="-1" />
+  
+  <file path="home" name="MemRecord.rec">scan 24.168.75.133</file>
+  <file path="home" name="list.txt">21.32.107.210</file>
+    <memoryDumpFile name="*IcaRus.txt" path="home">
+    <Memory>
+      <Data>
+        <Block></Block>
+      </Data>
+      <Commands>
+        <Command></Command>
+      </Commands>
+    <Images>
+      <Image>Images/QM.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+  
+    <memoryDumpFile name="*Invitation.docx" path="home">
+    <Memory>
+      <Data>
+        <Block></Block>
+      </Data>
+      <Commands>
+      </Commands>
+      <Data>
+      </Data>
+	  <Images>
+      <Image>Images/Invitation.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+  
+  
+  <file path="home" name="*Chat.txt">
+|IcaRus| : 就快了...
+|Sup4rX| : IcaRus... **那个** 计划太过危险了... P将密码保存在这是有它的用意的
+|IcaRus| : 我知道 但是只有这样我才能够解锁它
+|Sup4rX| : ....
+|Sup4rX| : 收手吧... 你知道这样下去会发生什么
+|IcaRus| : 收手？ 你知道你在说什么吗
+|Sup4rX| : 我知道 我也很清楚
+|IcaRus| : 那你为什么要阻止我？
+|Sup4rX| : P制作这个的本意是好的... 但是 你已经越界了...
+|IcaRus| : 呵呵.... Sup4rX 你在说什么呢？
+|IcaRus| : 想想看吧
+|IcaRus| : 用那个摧毁一切的感觉... 你就是信息安全的主宰!
+|Sup4rX| : .... IcaRus 你彻底疯了
+|IcaRus| : 别逼我 Sup4rX... 我可是把你当作是Zero的一员的
+|IcaRus| : 你知道下场会是什么... 我可是会  把你从这个世界上抹除的
+|Sup4rX| : 停下吧 那个计划
+|IcaRus| : !
+|Channel| : @Channel
+|Channel| : Sup4rX 被 管理员IcaRus禁言
+|IcaRus| : 呵呵
+-------------------------Sup4rX在此记录下聊天记录-------------------------
+如果让IcaRus拿到那个密码的话... 后果就严重了
+但是我们根本对他没什么办法...</file>
+
+   <memoryDumpFile name="*list.docx" path="home">
+    <Memory>
+      <Data>
+        <Block>这是我们的计划...</Block>
+        <Block>SES并不在名单上...?</Block>
+      </Data>
+      <Commands>
+        <Command></Command>
+      </Commands>
+      <Data>
+        <Block></Block>
+      </Data>
+	  <Images>
+      <Image>Images/list.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+  
+  
+  
+  <file path="home" name="Letter.txt">你好,Err0r233
+恭喜你成功拯救了所有人 也解决了这次的BrokenHeart事件
+但更大的阴谋你还没有发掘...
+去探寻吧 隐藏在BrokenHeart后面的阴谋...
+在CTF的一个用途未知的密码会派上用场的...
+如果你不知道的话 我告诉你 是Iseeyou
+嘛 这也不要紧了 既然你已经成功化解这次事件
+那么也说明了他们的计划也会泡汤
+(不过我还是希望你能够在事情发生前解决掉的)
+
+-P
+
+系统提示：可以通过二周目来进行此分支线路(当然 没做)</file>
+  <file path="home" name="JustForYou.txt">你好,#PLAYERNAME#
+...很遗憾呢... 你没有完全解决BrokenHeart
+不用担心Pitiedwzr 他现在很好...
+当然 也许是你们的能力还未足够 亦或者是...
+在CTF的一个用途未知的密码会派上用场的...
+如果你不知道的话 我告诉你 是Iseeyou
+或许会在某天派上用场呢？
+不过还是好好享受目前的和平吧... 这只是暂时的
+
+-P
+
+系统提示：可以通过二周目来进行此分支线路(当然 没做)</file>
+  
+  
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   
+</Computer>

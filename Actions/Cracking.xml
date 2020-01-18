@@ -1,0 +1,18 @@
+<ConditionalActions>
+  
+<OnConnect target="Pacific" needsMissionComplete="false">
+<StartScreenBleedEffect AlertTitle="THE FINAL CRACK" CompleteAction="Actions/FailActions.xml" TotalDurationSeconds="166" DelayHost="Zero" Delay="8">攻入服务器
+删除Sys文件
+断开</StartScreenBleedEffect>
+<LaunchHackScript Filepath="HackerScripts/Cracking.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  
+<LaunchHackScript Filepath="HackerScripts/Cracking2.txt" 
+                  DelayHost="Cheater" 
+                  Delay="28" SourceComp="Zero" TargetComp="Pacific" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  
+<RunFunction FunctionName="playCustomSong:Music/Brainiac_Maniac.ogg" />
+  </OnConnect>
+
+</ConditionalActions>

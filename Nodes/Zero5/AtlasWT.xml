@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AtlasWT"
+          name="Atlas 白名单"
+          security="8"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="empty" >
+
+  <portsForCrack val="7" />
+  <ports>554, 80, 21, 1433, 22, 6881, 443</ports>
+  <portRemap>554=1021,22=8080,1433=340</portRemap>
+  <trace time="85" />
+
+  
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+  <file path="Whitelist" name="list.txt">#RANDOM_IP#</file>
+  
+</Computer>

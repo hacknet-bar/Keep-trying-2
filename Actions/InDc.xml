@@ -1,0 +1,43 @@
+<ConditionalActions>
+  
+<OnConnect target="DCDHS2" needsMissionComplete="false">
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="4">啊 你来了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="7">@Channel 还不来迎新？</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="8">hyxr</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="12">hyxr</AddIRCMessage>
+<AddIRCMessage Author="iBot" TargetComp="DCDHS2" Delay="14">hyxr</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="17">机器人别闹</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="20">...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="23">对了@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="26">我刚刚对你所运行的程序进行了检查</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="29">我发现了一个不明追踪器程序 SecurityTracker.exe</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="31">... 不可能...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="33">怎么会... ATK....？</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="35">ATK是什么？</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="38">但是不管如何 我们的当务之急是要将它清除</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="40">稍等...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="48">好了！</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="52">我很好奇...@#PLAYERNAME# 为什么你会被追踪</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="55">Zero...？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="58">我这段时间都在Zero这个组织</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="60">...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="64">还好发现的早</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="68">我们要提防下Zero了...</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="70">啧 真烦人</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="74">CTF那边搞好了吗@Tom</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="78">别催我 我在试着绕过白名单</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="80">啧... 那我得等你的好消息了对吗？</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="84">@#PLAYERNAME# 你可以来帮我一下吗？</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="88">Tom实在太菜了...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="92">我tm...</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DCMission/1.xml" DelayHost="Cheater" Delay="90.0"/>
+<RunFunction FunctionName="setHubServer:DCDHS2"/>
+<ChangeAlertIcon Target="DCDHS2" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<HideAllNodes DelayHost="Cheater" Delay="40.0"/>
+<KillExe DelayHost="Cheater" Delay="40" ExeName="*" />
+<ShowNode DelayHost="Cheater" Delay="48" Target="playerComp" />
+<ShowNode DelayHost="Cheater" Delay="48" Target="DCDHS2" />
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+  </OnConnect>
+
+</ConditionalActions>

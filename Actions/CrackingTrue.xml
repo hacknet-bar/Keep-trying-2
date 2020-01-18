@@ -1,0 +1,16 @@
+<ConditionalActions>
+  
+<OnConnect target="Pacific" needsMissionComplete="false">
+
+<LaunchHackScript Filepath="HackerScripts/TCracking.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  
+<LaunchHackScript Filepath="HackerScripts/TCracking2.txt" 
+                  DelayHost="Cheater" 
+                  Delay="26" SourceComp="Zero" TargetComp="Pacific" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  
+<AddConditionalActions Filepath="Actions/TrueEnd/Cracking2.xml" DelayHost="Cheater" Delay="0.0"/>
+  </OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,40 @@
+<ConditionalActions>
+  
+<OnConnect target="N0peDHS" needsMissionComplete="false" requiredFlags="Save">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<RunFunction FunctionName="setHubServer:N0peDHS"/>
+<ChangeAlertIcon Target="N0peDHS" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="2">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="2.2">用户'#PLAYERNAME#'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="4">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="4.2">用户'Sup4rX'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="3.8">呼...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="5">还好我们提前救下了他</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="7">啧.. Matrix那家伙真就想将他置于死地吗</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="10">...问题不是这个</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="11">我们已经看了Matrix储存的记录了...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="13">Matrix的下一个目标就是你N0pe</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="15">所以 你有什么打算吗</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="N0peDHS" Delay="17">在Matrix解决"我"以后 我们已经不能回到Zero了</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="N0peDHS" Delay="19">Matrix或许就是因为我知道了那个计划</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="25">...什么？</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="N0peDHS" Delay="28">BrokenHeart.</AddIRCMessage>
+<AddAsset FileName="KBTPortTest.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="30">没听过 那是什么</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="N0peDHS" Delay="32">...有时间再说吧 简单地说那就是能够轻易控制生死的邪恶软件</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="33">...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="35">行吧... 但是我们不能回去Zero了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="37">我得回去SES 同时SES也欢迎你们</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="N0peDHS" Delay="40">谢了#PLAYERNAME# 我稍后就到</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="N0peDHS" Delay="43">N0pe 或许我们还可以把Yan也叫过来 Yan那边就交给你了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="46">收到</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="47">提示：回到SES</AddIRCMessage>
+<DeleteFile TargetComp="ZeroWT" FilePath="Whitelist" FileName="list.txt" DelayHost="Zero" Delay="5.5"/>
+<CopyAsset DestFilePath="Whitelist" DestComp="ZeroWT" SourceComp="Debug" SourceFileName="list.txt" SourceFilePath="home" />
+<CrashComputer TargetComp="Zero" CrashSource="Zero" DelayHost="Zero" Delay="7" />
+<HideNode DelayHost="Cheater" Delay="7" TargetComp="Zero" />
+<ChangeIP DelayHost="Cheater" Delay="7" TargetComp="Zero" NewIP="11.67.38.245" />
+<AddConditionalActions Filepath="Actions/TrueEnd/SES.xml" DelayHost="Cheater" Delay="46.0"/>
+  </OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,218 @@
+<CustomFaction name="Starting Faction" id="Intro" playerVal="0">
+  
+  <Action ValueRequired="10">
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="1">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="2">干得不错</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="4">你们都完成的很漂亮</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="7">你们现在可以享受一下难得的自由时间</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="9">@#PLAYERNAME# 你应该不知道自由时间是什么</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="11">在自由时间里 你可以随意走走 收集点东西</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="13">在任务时间收集的东西(带*号的)是不算数的</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="16">当有新任务时@IcaRus会提醒你的</AddIRCMessage>
+  <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="18">好好享受</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="20">(我应该回去SES一下)</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="20">!ANNOUNCEMENT! @Channel 自由时间 开始！</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="20">提示：本次自由时间为无限时间 只要触发剧情和下载完带*文件即可继续剧情</AddIRCMessage>
+  <AddConditionalActions Filepath="Actions/ZW.xml" DelayHost="Cheater" Delay="20.0"/>
+  <AddConditionalActions Filepath="Actions/SES1.xml" DelayHost="Cheater" Delay="20.0"/>
+  <RunFunction FunctionName="playCustomSong:Music/3.ogg" />
+  </Action>
+  
+
+  
+  <Action ValueRequired="30">
+  <AddConditionalActions Filepath="Actions/Mission3.xml" DelayHost="Cheater" Delay="35.0"/>
+  <AddConditionalActions Filepath="Actions/Surprise.xml" DelayHost="Cheater" Delay="17.0"/>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="3">@IcaRus 计划顺利进行</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="4">很好.</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="7">等待我的指示@Yan</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="8">对了@IcaRus 我想问个问题</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="9">邀请函上的Matrix是谁 还有签名是手写的吗</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="11">...Matrix...</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="15">他原本是这里的头 但是在发出邀请函之后的一次行动里与我们丢失了联系</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="19">所以 这里的元老级成员IcaRus就顺利的成为了Zero的头头</AddIRCMessage>
+  <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="21">至于签名 Matrix本人说他总是喜欢在任何要签名的地方签上自己的名字</AddIRCMessage>
+  <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="24">所以呀 这可是Matrix本人的真迹呢</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="26">emmmm...那么IcaRus能给我一份你的签名吗</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="30">拿去</AddIRCMessage>
+  <CopyAsset DestFilePath="home" DestComp="playerComp" SourceComp="Debug" SourceFileName="*IcaRus.txt" SourceFilePath="home" />
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="33">爽快！</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="33">(不要吐槽这字体 我懒得手写一张了)</AddIRCMessage>
+  <RunFunction FunctionName="addFlags:ZW2"/>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="35">新任务发布@Channel</AddIRCMessage>
+  <RunFunction FunctionName="playCustomSong:Music/Chinese_Tea.ogg" />
+  </Action>
+
+  <Action ValueRequired="40">
+  <RunFunction FunctionName="playCustomSong:Music/Funky_Stars.ogg" />
+  <AddConditionalActions Filepath="Actions/Mission4.xml" DelayHost="Cheater" Delay="0.0"/>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="3">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="4">大型任务已发布</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="7">这是我们最重要的一次团队任务</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="8">？</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="9">最重要？</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="11">哦@#PLAYERNAME#</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="15">其实我和@Sup4rX @N0pe之前一直在监视CTF公司的动向</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="19">严格来说 是做了点搜查工作</AddIRCMessage>
+  <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="21">早在Matrix还在的时候 CTF公司就一直作为我们的目标</AddIRCMessage>
+  <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="24">为了拿到CTF高层文件的密码</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="26">？那么那个密码有什么用呢</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="30">这个密码是我们一直需要的东西 但具体作用是什么... 这是秘密</AddIRCMessage>
+  <CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="Debug" SourceFileName="Decypher.exe" SourceFilePath="bin" />
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="33">只可惜那个密码被CTF格式加密了</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="35">其实@Yan如果我们使用Decypher的话会怎么样 万一成功了呢</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="38">...我这倒没试过</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="40">@Channel Decypher解码器已经上传到你们各自的电脑了</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="43">一旦解码成功 立刻告诉我们被CTF加密的那个密码</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="46">@#PLAYERNAME# @N0pe</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="48">你们从这里进攻</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="50">!ATTACHMENT:link#%#CTF 缓存服务器#%#224.151.26.193</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="52">@Yan @Sup4rX</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="54.5">你们从这里进攻</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="56">!ATTACHMENT:link#%#Proxy Node 5#%#224.151.78.66</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="57.5">@#PLAYERNAME# 可千万不要好奇来探索我们这 后果自负</AddIRCMessage>
+  <AddConditionalActions Filepath="Actions/WTdown1.xml" DelayHost="Cheater" Delay="46.0"/>
+  <AddConditionalActions Filepath="Actions/WTdown2.xml" DelayHost="Cheater" Delay="46.0"/>
+  <AddConditionalActions Filepath="Actions/DONTHACKMYPC.xml" DelayHost="Cheater" Delay="46.0"/>
+  <RunFunction FunctionName="addFlags:DHS4"/>
+  </Action>
+  
+  <Action ValueRequired="50">
+  <RunFunction FunctionName="playCustomSong:Music/3.ogg" />
+  <AddConditionalActions Filepath="Actions/ZW3.xml" DelayHost="Cheater" Delay="0.0"/>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="3">!</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="4">@#PLAYERNAME# 你做到了</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="7">啊可恶 我还卡在文件解码那儿</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="8">嘿嘿嘿 天知道我怎么做到的</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="9">厉害了@#PLAYERNAME#</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="12">啊，我想可以休息下...</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="18">@Channel 你们都可以休息了</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="19">......</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="20">!ANNOUNCEMENT! @Channel 自由时间 开始！(6分钟)</AddIRCMessage>
+  <AddConditionalActions Filepath="Actions/freeEnd.xml" DelayHost="Cheater" Delay="360.0"/>
+  <AddConditionalActions Filepath="Actions/SaveSup4rX1.xml" DelayHost="Cheater" Delay="0.0"/>
+  </Action>
+    <Action ValueRequired="60">
+	<RunFunction FunctionName="playCustomSong:Music/Fade.ogg" />
+<AddConditionalActions Filepath="Actions/Mission6.xml" DelayHost="Cheater" Delay="0.0"/>
+  </Action>
+  <Action ValueRequired="80">
+<RunFunction FunctionName="playCustomSong:Music/3.ogg" />
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="0">你们都干的很好 这是你们应得的</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="2">!ANNOUNCEMENT! @Channel 自由时间 开始！</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/freeEnd2.xml" DelayHost="Cheater" Delay="198.0"/>
+<AddConditionalActions Filepath="Actions/SaveSup4rX3.xml" DelayHost="Cheater" Delay="0.0"/>
+  </Action>
+  <Action ValueRequired="90">
+  <RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+  <AddConditionalActions Filepath="Actions/checksave.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="0">@Channel ... 告诉大家一个消息...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="2">Sup4rX 已经....死了...</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="4">噢不......</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="6">Sup4rX... 他怎么会..</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="8">Sup4rX....... 我会想你的...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="15">...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="18">@IcaRus 我有些事想要跟@#PLAYERNAME#私底下聊聊</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="20">或者 他不愿意来的话....</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="23">我能接受的</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="26">行吧 等我一下我就来</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="29">!ATTACHMENT:link#%#N0pe DHS#%#165.237.168.9</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="31">... 我也要加强下Zero的安全了，以及修改Zero的IP</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="33">你们很可能不会在节点地图上看见Zero</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="34.5">等更新完成了我会私聊你们的</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DeathCheck.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/Save.xml" DelayHost="Cheater" Delay="0.0"/>
+  </Action>
+
+    <Action ValueRequired="1100">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1110">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1120">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1130">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1140">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1150">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1160">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1170">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1180">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="1190">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+  </Action>
+  <Action ValueRequired="2000">
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">没错 就是这样...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="3">这是什么啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="6">... 毫无逻辑可言...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="12">...这这这...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="12">发言机会 -1</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="14">发言机会已为0</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="16">推理失败</AddIRCMessage>
+  </Action>
+
+</CustomFaction>

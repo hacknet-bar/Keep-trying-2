@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  </goals>
+  <missionStart val="0">setFaction:Intro</missionStart>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Err0r233</sender>
+    <subject>再一次</subject>
+    <body>#PLAYERNAME#，这一次叫你回来不是为了什么。我收到了一封邀请函，他需要一名SES的成员。
+
+你知道的，我总是很欣赏你。所以，这一次我打算让你加入他们。
+
+相信我，那会很好玩的！
+</body>
+    <attachments>
+      <link comp="MissionDHS" />
+	  <link comp="MissionDrop" />
+	  <account comp="MissionDrop" user="admin" pass="Replite" />
+    </attachments>
+  </email>
+</mission>

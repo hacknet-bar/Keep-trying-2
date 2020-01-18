@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Inter2R" name="???? 2" type="empty" allowsDefaultBootModule="true" security="0" icon="chip">
+
+  <portsForCrack val="3" />
+  <ports>554, 443, 6881</ports>
+  <proxy time="1.8" />
+  <trace time="75" />
+  <file path="PUZZLE" name="Puzzle2.txt">此谜题为CTF储存服务器储存的ctf文件的第一通用密码
+请问电解KCl饱和溶液所产生的两种气体副产物的相对分子质量之和为?</file>
+
+</Computer>

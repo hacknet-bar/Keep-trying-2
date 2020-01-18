@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="StopMission2" activeCheck="true">
+
+<goals>
+<goal type="clearfolder" target="Heaven" path="sys"/>
+<goal type="clearfolder" target="Hell" path="sys"/>
+<goal type="clearfolder" target="Karma" path="sys"/>
+</goals>
+
+  <missionEnd>loadConditionalActions:Actions/End.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>kang_zi</sender>
+<subject>ERROR</subject>
+<body>你看到这个的话...BUG又出现了...</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="QM"
+          name="签名照"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" 
+		  ip="*QM.txt">
+
+  <portsForCrack val="60000" />
+  <ports>21, 22, 104, 25, 1433, 443</ports>
+  <proxy time="2000" />
+  <trace time="1.0" />
+  
+</Computer>

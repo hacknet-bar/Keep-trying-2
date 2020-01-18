@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacWIFI" name="太平洋航空 WIFI" type="1" icon="chip">
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="-1" />
+  <adminPass pass="admin" />
+
+<file path="home" name="emoji.txt">你看什么呢？</file>
+<WhitelistAuthenticatorDaemon Remote="PacWT3" />
+  
+<dlink target="Lisa" />
+<dlink target="Yusa" />
+<dlink target="Faith" />
+  
+</Computer>

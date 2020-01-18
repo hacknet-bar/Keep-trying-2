@@ -1,0 +1,23 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+writel_silent #PLAYERNAME# : 什... $#%#$
+delay 3 $#%#$
+writel_silent #PLAYERNAME# : Matrix的代理服务器... $#%#$
+delay 3 $#%#$
+writel #PLAYERNAME# : 怎么teja能跟Matrix的服务器连在一起？ $#%#$
+delay 3 $#%#$
+writel #PLAYERNAME# : 这个服务器很奇怪... $#%#$
+delay 3 $#%#$
+writel #PLAYERNAME# : 总之先去看看吧... $#%#$
+delay 20 $#%#$
+writel #PLAYERNAME# : 怎么可能... Matrix要杀死Sup4rX... $#%#$
+delay 3 $#%#$
+writel #PLAYERNAME# : 糟了... $#%#$
+delay 2 $#%#$
+writel #PLAYERNAME# : 看上面的资料 N0pe与Matrix很熟 把这件事跟N0pe说下吧 $#%#$
+delay 2 $#%#$
+writel #PLAYERNAME# : 最好把log文件夹清空 虽然Matrix可能根本不会看 $#%#$
+delay 2 $#%#$
+writel System : 提示 现在回到Zero log文件夹可以不清理 $#%#$
+delay 2 $#%#$

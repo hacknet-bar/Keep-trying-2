@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="10" >
+  <goals>
+<goal type="getstring" target="YKX251" />
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS4.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="清除" reqs="DHS4" >
+不留痕迹地清除CTF的日志
+  </posting>
+
+  <email>
+    <sender>IcaRus</sender>
+    <subject>翻越那座山</subject>
+    <body>#PLAYERNAME# 详细情况我在DHS已经讲得十分清楚了
+你所需要做的就是找到被CTF加密的密码
+</body>
+    <attachments>
+	<note title="任务细节">找到密码 回复</note>
+    </attachments>
+  </email>
+</mission>

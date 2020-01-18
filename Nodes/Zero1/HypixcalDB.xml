@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="HypixcalDB" 
+          name="Hypixcal 数据库" 
+          security="3"
+          allowsDefaultBootModule="true"
+          type="1" > 
+
+  <portsForCrack val="5" />
+  <ports>32, 9418, 3724, 3659, 554</ports>
+  <trace time="-1" />
+  <adminPass pass="Hyp105aclg" />
+
+
+
+
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+
+
+<DatabaseDaemon Permissions="admin" DataType="GitCommitEntry" Foldername="database" Color="255,255,28" Name="Hypixcal Database">
+
+    <GitCommitEntry>
+      <EntryNumber>8613</EntryNumber>
+      <ChangedFiles>
+        <String>Update.exe</String>
+      </ChangedFiles>
+      <Message>更新主页 推出新游戏</Message>
+      <UserName>Hypixcal Admin</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+    
+    <GitCommitEntry>
+      <EntryNumber>8611</EntryNumber>
+      <ChangedFiles>
+        <String>Restored</String>
+      </ChangedFiles>
+      <Message>修复了玩家存档丢失的问题</Message>
+      <UserName>Hypixcal Admin</UserName>
+      <SourceIP>54.189.77.3</SourceIP>
+    </GitCommitEntry>
+	<GitCommitEntry>
+      <EntryNumber>9732</EntryNumber>
+      <ChangedFiles>
+        <String>###ALERT###</String>
+      </ChangedFiles>
+      <Message>Br????????? PLAN开始运行
+Error! Database was destroyed by ***REMOVED BY HACKER***</Message>
+      <UserName>Unknown</UserName>
+      <SourceIP>***REMOVED BY HACKER***</SourceIP>
+    </GitCommitEntry>
+	<GitCommitEntry>
+      <EntryNumber>10225</EntryNumber>
+      <ChangedFiles>
+        <String>Pass.docx</String>
+      </ChangedFiles>
+      <Message>修改了控制中心的密码 现在密码更改为***崩坏的凶手***</Message>
+      <UserName>Hypixcal Admin</UserName>
+      <SourceIP>192.168.1.1(Localhost)</SourceIP>
+    </GitCommitEntry>
+  
+  </DatabaseDaemon>
+<CustomConnectDisplayDaemon />
+
+
+
+
+  
+</Computer>

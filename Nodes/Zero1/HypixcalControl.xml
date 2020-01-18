@@ -1,0 +1,134 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="HypixcalControl" 
+          name="Hypixcal 储存服务器" 
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" 
+		  ip="54.189.77.3"> 
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="60" />
+  <adminPass pass="OttoApocalypse"/>
+  
+  
+<DatabaseDaemon Permissions="admin" DataType="CAROData" Color="255,255,28" Name="Hypixcal 存档数据库">
+    <CAROData>
+      <UserID>Mike</UserID>
+      <Rank>VIP+</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>1056</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Naix</UserID>
+      <Rank>MVP+</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>9999</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Bit</UserID>
+      <Rank>MVP+</Rank>
+      <BanStatus>Yes</BanStatus>
+	  <Kills>Inf.</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Jex</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>554</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Pitiedwzr</UserID>
+      <Rank>MVP</Rank>
+      <BanStatus>Yes</BanStatus>
+	  <Kills>3000</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Yan</UserID>
+      <Rank>VIP</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>500</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Deller</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>194</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Err0r233</UserID>
+      <Rank>MVP+</Rank>
+      <BanStatus>Yes</BanStatus>
+	  <Kills>Inf.</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>QingCheng</UserID>
+      <Rank>VIP+</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>450</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>Coel</UserID>
+      <Rank>VIP</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>792</Kills>
+    </CAROData>
+	    <CAROData>
+      <UserID>IcaRus</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>Yes</BanStatus>
+	  <Kills>104258</Kills>
+    </CAROData>
+	<CAROData>
+      <UserID>IcARus</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>Yes</BanStatus>
+	  <Kills>104252548</Kills>
+    </CAROData>
+
+	    <CAROData>
+      <UserID>1caRus</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>Yes</BanStatus>
+	  <Kills>148</Kills>
+    </CAROData>
+	
+	    <CAROData>
+      <UserID>D3f4ult</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>18</Kills>
+    </CAROData>
+
+	    <CAROData>
+      <UserID>Hui_Night</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>1</Kills>
+    </CAROData>
+
+	    <CAROData>
+      <UserID>r00t</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>Yes</BanStatus>
+	  <Kills>935648</Kills>
+    </CAROData>
+
+	    <CAROData>
+      <UserID>Operator</UserID>
+      <Rank>Operator</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>Inf.</Kills>
+    </CAROData>
+
+	    <CAROData>
+      <UserID>Admin</UserID>
+      <Rank>NONE</Rank>
+      <BanStatus>NO</BanStatus>
+	  <Kills>0</Kills>
+    </CAROData>
+  </DatabaseDaemon>
+  <CustomConnectDisplayDaemon />
+  
+</Computer>

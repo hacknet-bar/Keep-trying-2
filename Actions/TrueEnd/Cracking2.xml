@@ -1,0 +1,16 @@
+<ConditionalActions>
+  
+<OnAdminGained target="Pacific">
+
+<LaunchHackScript Filepath="HackerScripts/TCracking3.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  
+<LaunchHackScript Filepath="HackerScripts/TCracking4.txt" 
+                  DelayHost="Cheater" 
+                  Delay="15" SourceComp="Zero" TargetComp="Karma" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  
+
+  </OnAdminGained>
+
+</ConditionalActions>

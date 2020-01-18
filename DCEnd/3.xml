@@ -1,0 +1,39 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DC3">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="4">啊 找到了？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="8">对... 这是我认为比较可疑的</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="12">...BrokenHeart项目计划的数据库损坏了... 我觉得这是人为所致的</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="15">...等等 BrokenHeart? 我们之前拿到的文本就叫BKHPlan... 我怀疑...他们是一致的</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="18">该死... 我这边解码出来的文本</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="21">就是关于BrokenHeart的</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="24">也就是说...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="26">没错 这件事就是关于BrokenHeart的...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="29">...BrokenHeart这个东西 可不得了...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="31">如果我们没有阻止BrokenHeart的话 整个世界...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="35">都会被他所控制... 包括任何人</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="38">而且... ATK...也介入了吗... 真是 什么都做得出来</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="42">也？ 难道你们跟它有过交集？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="46">... 之后有空再说吧... 等这件事结束以后</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="49">行吧... 好了 我们回归正题</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="52">我们能不能... 看看那份文本...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="54">啊 我都忘记了...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="57">那我就长话短说了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="62">简单地说就是BrokenHeart能够控制一切物品 也能够通过屏幕发出的特殊的射线影响在屏幕前的人 达到控制的作用</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="65">啧啧啧...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="68">也就是说 我们必须要阻止BrokenHeart咯</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="70">没错</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="72">我们现在必须要与时间赛跑了 不是吗</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="76">没错</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="78">P在文本上指引着我们去找到BrokenHeart的储存位置...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="82">上面写到了3个IP @Pot @Tom 你们去探查这个IP</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="83">收到</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="83.5">明白了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="86">@#PLAYERNAME# 你将去太平洋公司 寻找他们的Pacific破解器...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="89">我觉得它迟早会有帮助的</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="91">没问题</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DCMission/4.xml" DelayHost="Cheater" Delay="91.0"/>
+</HasFlags>
+
+</ConditionalActions>

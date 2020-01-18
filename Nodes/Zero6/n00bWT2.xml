@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="n00bWT2" name="n00b 白名单 2" type="empty" allowsDefaultBootModule="true" security="9" >
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 80, 25, 6881, 554, 443, 1433</ports>
+  <proxy time="2" />
+  <trace time="80" />
+
+  
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+</Computer>

@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/19.xml" TargetComp="Zero"/>
+<RunFunction FunctionName="addFlags:DHS8"/>
+</Instantly>
+</ConditionalActions>

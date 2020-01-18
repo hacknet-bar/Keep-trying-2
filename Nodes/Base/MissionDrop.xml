@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MissionDrop"
+          name="SES 共享服务器"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>9418, 3724, 3659</ports>
+  <trace time="-1" />
+  <adminPass pass="Replite" /> 
+
+<uploadServerDaemon name="SES-共享" folder="Drop"
+                    needsAuth="false" color="176,23,31" hasReturnViewButton="true"/>
+  
+  
+  <file path="Drop/Uploads" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <memoryDumpFile name="*Invitation.docx" path="Drop/Uploads">
+    <Memory>
+      <Data>
+        <Block></Block>
+      </Data>
+      <Commands>
+      </Commands>
+      <Data>
+      </Data>
+	  <Images>
+      <Image>Images/Invitation.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+
+</Computer>

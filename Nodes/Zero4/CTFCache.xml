@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFCache" name="CTF 缓存服务器" type="empty" allowsDefaultBootModule="true" security="9" ip="224.151.26.193">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+
+  <dlink target="CTFRepo" />
+  <file path="sys" name="MemScanData.dat">#BINARY#</file>
+  
+    <Memory>
+    <Commands>
+      <Command>ping 95.66.83.2</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image>Images/preview.jpg</Image>
+    </Images>
+  </Memory>
+
+</Computer>

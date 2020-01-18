@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Pt3" name="Pt3" type="empty" allowsDefaultBootModule="false" security="9" ip="63.125.221.74" icon="chip">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="65" />
+  <CustomConnectDisplayDaemon />
+
+  <file path="home" name="Password3.txt">KOH + HCl = KCl + ?</file>
+</Computer>

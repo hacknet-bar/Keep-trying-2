@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacIRC" name="太平洋航空 内部IRC" type="1" icon="Psylance" ip="86.99.133.7">
+
+  <portsForCrack val="7" />
+  <ports>3724, 9418</ports>
+  <trace time="-1" />
+ <account username="Lisa" password="GAMEOVER" type="0" />
+<IRCDaemon themeColor="53,44,228" name="Psylance Private Channel" needsLogin="true" >
+    <user name="Faith" color="19,248,253"/>
+    <user name="Yusa" color="255,153,18"/>
+	<user name="Lisa" color="0,255,0"/>
+<post user="Faith">sry. 我居然让PacificCrusher.exe泄露了</post>
+<post user="Faith">所以这次我加强了防御 嘿嘿嘿</post>
+<post user="Yusa">感觉不太可靠的样子...</post>
+<post user="Faith">喂喂喂 别不信我啊</post>
+<post user="Lisa">那就看看咯... 顺便问问 项目服务器的IP是186.45.166.238</post>
+<post user="Faith">没错</post>
+<post user="Lisa">行 我过去看看</post>
+</IRCDaemon>
+<WhitelistAuthenticatorDaemon Remote="PacWT2" />
+</Computer>

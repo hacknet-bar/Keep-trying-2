@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="18" >
+  <goals>
+<goal type="getstring" target="Archimedes"/>
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS7.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="搜寻服务器 2" reqs="DHS7" >
+找到一个服务器的密码
+  </posting>
+
+  <email>
+    <sender>IcaRus</sender>
+    <subject>搜寻服务器 2</subject>
+    <body>#PLAYERNAME# 你已经做得足够好了....
+但是还是不够
+我已经帮你扫除了路上的障碍
+获取密码 回复我
+</body>
+    <attachments>
+	<note title="任务细节">找到服务器的密码 尽量地往深处探索</note>
+    </attachments>
+  </email>
+</mission>

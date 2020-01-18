@@ -1,0 +1,14 @@
+<ConditionalActions>
+<HasFlags requiredFlags="ZW3Failed">
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="0">!ATTACHMENT:link#%#邀请函#%#*Invitation.docx</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="0">上面介绍了Zero 而且说到了他们的系统很安全</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="1">!ATTACHMENT:link#%#Zero名单#%#*list.docx</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="1">Zero的邀请人员名单 似乎没有SES的任何一个成员</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="2">!ATTACHMENT:link#%#签名照#%#*QM.txt</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="2">是IcaRus的亲手签名 似乎...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="3">!ATTACHMENT:link#%#攻击者内存#%#*Attack.mem</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="3">攻击了#PLAYERNAME#的电脑的攻击者留下的内存记录</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="4">!ATTACHMENT:link#%#计划书#%#*BrokenHeartPlan.txt</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="4">BrokenHeart计划书...</AddIRCMessage>
+  </HasFlags>
+</ConditionalActions>

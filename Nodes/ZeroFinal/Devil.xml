@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Devil"
+          name="Devil"
+          security="12"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" 
+		  ip="160.235.48.9">
+
+  <portsForCrack val="13333" />
+  <ports>21, 22, 104, 25, 1433, 443, 192, 554, 6881, 80, 9418, 32, 3724</ports>
+  <firewall level="99" solution="Macrosoft-FirewallService-0018" additionalTime="99999"/>
+  <proxy time="2.6" />
+  <file path="sys" name="Base.dll">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="config.sys">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="Tracking.dll">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="Launcher.exe">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="Heart.dll">#BINARY##BINARY_SMALL#</file>
+</Computer>

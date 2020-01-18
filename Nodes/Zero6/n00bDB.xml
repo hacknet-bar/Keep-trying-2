@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="n00bDB" name="n00b 数据库" type="empty" allowsDefaultBootModule="true" security="9">
+
+  <portsForCrack val="8" />
+  <ports>21, 22, 80, 25, 6881, 554, 443, 1433</ports>
+  <proxy time="2" />
+  <trace time="85" />
+
+  <file path="home" name="ServerPW.txt">最近获取的服务器
+IcaRus Server  password= F=G=ρ液(密度符号)gV排 的发现者的英文名
+BitCoin Server@***Dead*** password=getString
+MXLYR Server@***Dead*** password=Bitlock
+Project Bro??nHe?rt ?????
+qwq2333 Server@***Dead*** password=html-qwq</file>
+</Computer>

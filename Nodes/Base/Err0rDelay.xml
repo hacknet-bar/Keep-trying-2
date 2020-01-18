@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Err0rDelay" name="Err0r 缓存" type="empty" icon="chip" ip="106.132.158.9">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+  <file path="Drop/Uploads" name="HDDStroyer.bat">#BINARY#</file>
+</Computer>

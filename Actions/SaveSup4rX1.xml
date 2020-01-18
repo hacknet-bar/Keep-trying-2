@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+<OnAdminGained target="MatrixProxy">
+<AddConditionalActions Filepath="Actions/N0peDHS.xml" DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="playCustomSong:Music/ButNobodyCame.ogg" />
+<LaunchHackScript Filepath="HackerScripts/Check.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </OnAdminGained>
+
+</ConditionalActions>

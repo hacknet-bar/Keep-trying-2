@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+<OnAdminGained target="ZeroControl" >
+
+				  
+<LaunchHackScript Filepath="HackerScripts/flash.txt" 
+                  DelayHost="Cheater" 
+                  Delay="3" SourceComp="DCDHS2" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<HideNode DelayHost="DCDHS2" Delay="6.5" TargetComp="ZeroFakeInternal" />
+<ShowNode DelayHost="DCDHS2" Delay="8.5" Target="ZeroInternal" />
+  </OnAdminGained>
+</ConditionalActions>

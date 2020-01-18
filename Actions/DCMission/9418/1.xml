@@ -1,0 +1,18 @@
+<ConditionalActions>
+  
+<OnConnect target="CTFOFFL" needsMissionComplete="false">
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="8">@Channel.</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="10">你们有没有感觉到... 很奇怪</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="4">?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="11">没错...的确很奇怪 为什么他们开启了9418端口...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="13">啊 该死...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="15">...没关系 交给我吧 我帮你们</AddIRCMessage>
+				  
+<LaunchHackScript Filepath="HackerScripts/9418Crack1.txt" 
+                  DelayHost="Cheater" 
+                  Delay="15" SourceComp="DCDHS2" TargetComp="CTFOFFL" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="20">好了 9418端口已经打开了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="23">接下来 我会继续为你们在必要的节点打开9418端口</AddIRCMessage>
+  </OnConnect>
+</ConditionalActions>

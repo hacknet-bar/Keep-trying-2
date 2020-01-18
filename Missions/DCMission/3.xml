@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+ <goal type="fileupload" target="DCDrop" file="WhitelistCracker.bat" path="Drop" destTarget="CTFWA" destPath="sys"/>
+  </goals>
+    <missionEnd>loadConditionalActions:DCEnd/1.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="突围 - Pot" reqs="DC1" >
+从CTF的白名单中打开一道口子
+  </posting>
+
+  <email>
+    <sender>Pot</sender>
+    <subject>破坏</subject>
+    <body>#PLAYERNAME#
+没有办法 这是你在Disconnect的第一个任务
+Tom那边似乎出现了大麻烦= = 或者说...Tom在摸鱼？
+不管如何 我需要你去帮帮他
+共享服务器的IP和目标IP已经贴在附件上了
+</body>
+    <attachments>
+	<note title="任务细节">1.去共享服务器获取所需要的工具
+2.找到进入CTF白名单总控的方法
+3.在白名单总控的sys文件夹安装Bat文件 不要上传错了</note>
+      <link comp="DCDrop" />
+      <link comp="CTFX05" />
+	  <account comp="DCDrop" user="admin" pass="Retry" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<OnConnect target="QM" needsMissionComplete="false" requiredFlags="3">
+<AddConditionalActions Filepath="Actions/TLDJ/4.xml" DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="removeFlags:3"/>
+  </OnConnect>
+
+</ConditionalActions>

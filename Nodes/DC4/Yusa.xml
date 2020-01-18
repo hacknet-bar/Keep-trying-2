@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Yusa" name="Yusa的个人笔记本" type="1" icon="Laptop" >
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="-1" />
+
+  <WhitelistAuthenticatorDaemon Remote="PacWT2" />
+
+  
+</Computer>

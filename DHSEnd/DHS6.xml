@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DHS6">
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:DHS7"/>
+<RunFunction FunctionName="removeFlags:DHS6"/>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/18.xml" TargetComp="Zero"/>
+<AppendToFile DelayHost="Zero" Delay="0.0" TargetComp="n00bWT2" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
+</HasFlags>
+
+</ConditionalActions>

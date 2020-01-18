@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacWT3" name="太平洋航空 白名单3" type="1">
+
+  <portsForCrack val="7" />
+  <ports>443, 22, 80, 25, 1433, 554, 6881</ports>
+  <trace time="80" />
+
+  <tracker />
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  <file path="sys" name="MemScanData.dat">#BINARY#</file>
+  <Memory>
+    <Commands>
+      <Command>ping 226.48.234.59</Command>
+    </Commands>
+    <Data>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+</Computer>

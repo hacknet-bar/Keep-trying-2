@@ -1,0 +1,30 @@
+<ConditionalActions>
+  
+<OnConnect target="N0peDHS" needsMissionComplete="false" requiredFlags="Walter_Green:DEAD">
+<RunFunction FunctionName="playCustomSong:Music/ButNobodyCame.ogg" />
+<RunFunction FunctionName="setHubServer:N0peDHS"/>
+<ChangeAlertIcon Target="N0peDHS" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="2">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="2.2">用户'#PLAYERNAME#'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="3.8">...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="5">关于Sup4rX...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="7">我想请你帮我调查一下...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="10">我知道... 他不可能突然就死了吧...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="11">肯定有人控制了起搏器</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="13">对的...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="15">@#PLAYERNAME# 你所需要的工具已经上传到你的PC了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="17">你一定要保护好自已</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="19">凶手可能下一个的目标 就是你...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="25">...不要立flag啊</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="28">额... Sry.</AddIRCMessage>
+<AddAsset FileName="KBTPortTest.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="30">你应该知道起搏器的IP吧 不知道的话...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="32">!ATTACHMENT:link#%#KBT - 6626#%#55.144.62.1</AddIRCMessage>
+<CrashComputer TargetComp="Zero" CrashSource="Zero" DelayHost="Zero" Delay="7" />
+<HideNode DelayHost="Cheater" Delay="7" TargetComp="Zero" />
+<ChangeIP DelayHost="Cheater" Delay="3" TargetComp="Zero" NewIP="11.67.38.245" />
+<AddConditionalActions Filepath="Actions/PlayerDead.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/Dead.xml" DelayHost="Cheater" Delay="0.0"/>
+  </OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tejaPrj" name="teja 工程储存" type="empty" allowsDefaultBootModule="true" security="0" icon="chip">
+
+  <portsForCrack val="6666" />
+  <ports>21, 22, 80, 25, 6881, 554, 443</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+  <adminPass pass="AB5682PARR" /> 
+  <file path="home" name="Record01.txt">我曾经是Entech的一名员工...
+啧 rc那家伙 说什么都要把我安排在CTF里面工作
+在这里的生活 可以算得上是十分的平淡
+毕竟CTF的加密文件安全性可是当前最安全的
+...等等 rc那家伙给我发信息了</file>
+  <file path="home" name="Record02.txt">FinalEnd计划失败 这是我意料之中的事情了...
+可是这件已经过去的事情 怎么rc还要跟我重新提出来呢...</file>
+  <file path="home" name="Record03.txt">...我并不觉得rc的野心小
+Ensec技术... FinalEnd...从这些计划就可见一斑
+说实话 我认为他这样完全不奇怪...</file>
+  <file path="home" name="Record05.txt">合作愉快，M。我想我们这个计划会成功的</file>
+  <dlink target="MatrixProxy" />
+  <WhitelistAuthenticatorDaemon Remote="CTFWT3"/>
+</Computer>

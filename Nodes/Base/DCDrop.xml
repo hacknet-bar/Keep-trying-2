@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DCDrop"
+          name="Disconnect 共享服务器"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>9418, 3724, 3659</ports>
+  <trace time="-1" />
+  <adminPass pass="Retry" /> 
+
+<uploadServerDaemon name="Disconnect-共享" folder="Drop"
+                    needsAuth="true" color="176,23,31" hasReturnViewButton="true"/>
+  
+  <file path="Drop/Uploads" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="Drop/Uploads" name="WhitelistCracker.bat">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+</Computer>

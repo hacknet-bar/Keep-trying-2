@@ -1,0 +1,6 @@
+<ConditionalActions>
+  
+<Instantly>
+<LoadMission MissionName="Missions/hiddenMission/ZW3.xml" />
+</Instantly>
+</ConditionalActions>

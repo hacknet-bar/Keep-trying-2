@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<OnConnect target="DCDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="4">?</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="8">你是谁？</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="12">...</AddIRCMessage>
+  </OnConnect>
+
+</ConditionalActions>

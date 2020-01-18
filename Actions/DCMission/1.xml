@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/DCMission/1.xml" TargetComp="DCDHS2"/>
+<RunFunction FunctionName="addFlags:DC1"/>
+<RunFunction FunctionName="setAssetServer:DCDrop"/>
+<RunFunction FunctionName="playCustomSong:Music/SML.ogg" />
+</Instantly>
+</ConditionalActions>

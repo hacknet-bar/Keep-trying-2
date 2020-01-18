@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Andrew" name="Andrew的卧室PC" type="empty" allowsDefaultBootModule="false" security="3" >
+
+  <portsForCrack val="11111" />
+  <ports>21, 22, 80, 25, 6881</ports>
+  <trace time="70" />
+  <adminPass pass="time" />
+  <firewall level="4" solution="time" additionalTime="2.0"/>
+ <file path="home" name="ImpactIII.txt">在崩坏3中 为了对抗崩坏
+人类团结在一起，形成了对抗崩坏的组织---天命
+天命现由主教：奥托 · 阿波卡利斯(OttoApocalypse) 掌管
+而他的"孙女"：德莉莎 · 阿波卡利斯(Theresa Apocalypse)则在极东支部建造了圣芙蕾雅学院
+而在西历2014年 第三次崩坏降临
+在千羽学院逃离的 琪亚娜 · 卡斯兰娜(Kiana Kaslana) 芽衣(Mei) 布洛妮娅在逃亡途中加入了圣芙蕾雅学院
+并成为了 ***女武神***
+但是这一切在奥托的掌控之下
+奥托最终将琪亚娜（K423）回收
+潜藏在K423中的西林人格觉醒 导致了崩坏爆发</file>
+  
+  <CustomConnectDisplayDaemon />
+   
+
+
+</Computer>

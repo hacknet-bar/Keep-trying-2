@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Jack" name="Jack的私人笔记本" type="1" allowsDefaultBootModule="true" security="0" icon="DLCLaptop">
+
+  <portsForCrack val="2" />
+  <ports>443</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+  <adminPass pass="10awa01" resetPassword="false" isSuper="false" />
+  <file path="sys" name="MemScanData.dat">#BINARY#</file>
+  <Memory>
+    <Commands>
+      <Command>scan 192.173.68.77</Command>
+    </Commands>
+    <Data>
+    </Data>
+    <Images>
+    </Images>
+  </Memory>
+  <dlink target="Inter1" />
+  <dlink target="Inter2" />
+  <dlink target="Inter3" />
+</Computer>

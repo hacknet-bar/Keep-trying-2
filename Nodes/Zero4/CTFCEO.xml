@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFCEO" name="Bill的办公室电脑" type="2" allowsDefaultBootModule="true" security="9" >
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="75" />
+
+
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="sys" name="eos_SyncLog.dat">#BINARY#</file>
+  <customthemefile path="sys" name="Leaf_x-server.sys" themePath="Themes/LeafTheme.xml"/>
+  <eosDevice name="Bill的Ephone8" id="billPhone" icon="ePhone2" empty="false" passOverride="alpine">
+      <note>重要事项
+重要事项:
+Pt1-2储存的是CTF的密码
+Pt3储存的是***????***的密码
+CTF文件现已经兼容Decypher.exe
+1-12Clock储存的是核心密码
+此处为Pt1: Bill</note>
+    <mail username="Bill@ctfmail.com" pass="divingsparrow" />
+  </eosDevice>
+</Computer>

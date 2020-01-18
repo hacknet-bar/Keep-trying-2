@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="ZW3failed">
+<RunFunction FunctionName="removeFlags:ZW3"/>
+</HasFlags>
+
+</ConditionalActions>

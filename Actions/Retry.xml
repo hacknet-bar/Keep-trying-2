@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<OnDisconnect target="DCDHS">
+<RunFunction FunctionName="removeFlags:test"/>
+<AddConditionalActions Filepath="Actions/Surprise.xml" DelayHost="Cheater" Delay="0.0"/>
+  </OnDisconnect>
+
+</ConditionalActions>

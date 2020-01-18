@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AlizaPC" name="Aliza PC" type="empty" allowsDefaultBootModule="true" security="7">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+  <adminPass pass="APTX4869" />
+
+
+  
+    <Memory>
+    <Commands>
+      <Command>Incoming connection from Atlas Workstation@102.56.99.7</Command>
+	  <Command>Port#6881 opened by Atlas Workstation@102.56.99.7</Command>
+	  <Command>Port#554 opened by Atlas Workstation@102.56.99.7</Command>
+	  <Command>Port#25 opened by Atlas Workstation@102.56.99.7</Command>
+	  <Command>Port#22 opened by Atlas Workstation@102.56.99.7</Command>
+	  <Command>Port#21 opened by Atlas Workstation@102.56.99.7</Command>
+	  <Command>Atlas Workstation@102.56.99.7 became Admin</Command>
+	  <Command>file copied Atlas Workstation@102.56.99.7</Command>
+	  <Command>disconnected by Atlas Workstation@102.56.99.7</Command>
+	  <Command>LocalAdmin closed port#6881</Command>
+	  <Command>LocalAdmin closed port#554</Command>
+	  <Command>LocalAdmin closed port#25</Command>
+	  <Command>LocalAdmin closed port#22</Command>
+	  <Command>LocalAdmin closed port#21</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+
+</Computer>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Storge3" name="ATK 储存服务器3" allowsDefaultBootModule="true" icon="chip" type="4" ip="103.31.198.235">
+
+  <portsForCrack val="0" />
+  <ports>443, 3724, 3659, 9418, 32</ports>
+  <portRemap>3724=495</portRemap>
+  <trace time="98" />
+  <firewall level="6" solution="GAMEOVER"/>
+
+  <file path="home" name="Nisei.dat">#BINARY##BINARY#</file>
+  <file path="home" name="FinalEnd.dat">[失败]#BINARYSMALL#</file>
+  <file path="home" name="Code.dat">[失败]#BINARY##BINARY#</file>
+  <file path="home" name="BrokenHeart.dat">[Status:active]#BINARY##BINARYSMALL#</file>
+  <file path="home" name="Readme.txt">[File Not Found]</file>
+  
+<CustomConnectDisplayDaemon />
+<WhitelistAuthenticatorDaemon Remote="ATKAuth"/>
+				  				  
+</Computer>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="StopMission" activeCheck="true">
+  <goals>
+<goal type="fileupload" target="DCDrop" file="CoreProtection.dll" path="Drop/Uploads" destTarget="Core1" destPath="sys"/>
+<goal type="fileupload" target="DCDrop" file="CoreProtection.dll" path="Drop/Uploads" destTarget="Core2" destPath="sys"/>
+<goal type="fileupload" target="DCDrop" file="CoreProtection.dll" path="Drop/Uploads" destTarget="Core3" destPath="sys"/>
+<goal type="fileupload" target="DCDrop" file="CoreProtection.dll" path="Drop/Uploads" destTarget="Core4" destPath="sys"/>
+  </goals>
+<missionEnd>loadConditionalActions:DCEnd/5.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>kang_zi</sender>
+    <subject>Error</subject>
+    <body>Bug....
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFRepo" name="CTF Repo" type="empty" allowsDefaultBootModule="true" security="12" >
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 443, 6881, 554</ports>
+  <proxy time="3" />
+  <trace time="80" />
+  <firewall level="10" solution="ithoughtyouweretryingtosolveme" additionalTime="10000.0"/>
+  <WhitelistAuthenticatorDaemon Remote="CTFWT2"/>
+  
+  <file path="home" name="GOODJOB.txt">so...
+That is all.
+Try to find a new way.</file>
+  
+  
+  
+  
+  <dlink target="1Clock" />
+  <dlink target="2Clock" />
+  <dlink target="3Clock" />
+  <dlink target="4Clock" />
+  <dlink target="5Clock" />
+  <dlink target="6Clock" />
+  <dlink target="7Clock" />
+  <dlink target="8Clock" />
+  <dlink target="9Clock" />
+  <dlink target="10Clock" />
+  <dlink target="11Clock" />
+  <dlink target="12Clock" />
+</Computer>

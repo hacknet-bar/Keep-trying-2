@@ -1,0 +1,23 @@
+<ConditionalActions>
+  
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/DCEnd.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  <CancelScreenBleedEffect DelayHost="advExamplePC" Delay="0.0" />
+<SaveGame DelayHost="Cheater" Delay="40"/>
+<RunFunction FunctionName="playCustomSong:Music/TEMEIMF.ogg" />
+<SwitchToTheme ThemePathOrName="Themes/Win10Theme.xml" FlickerInDuration="1.0" DelayHost="Cheater" Delay="100" />
+  		<SetLock DelayHost="Cheater" Delay="100.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="100.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="100.1" Module="ram" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="100.1" Module="netmap" IsLocked="false" IsHidden="false" />
+		<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+		<HideAllNodes DelayHost="Cheater" Delay="0.5"/>
+		<ShowNode DelayHost="Cheater" Delay="0.5" Target="playerComp" />
+		<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="DCDHS2" />
+		<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="DCDrop" />
+		<ShowNode DelayHost="Cheater" Delay="0.5" Target="CreditFake" />
+		<CopyAsset DestFilePath="home" DestComp="CreditFake" SourceComp="Debug" SourceFileName="JustForYou.txt" SourceFilePath="home" />
+</Instantly>
+</ConditionalActions>

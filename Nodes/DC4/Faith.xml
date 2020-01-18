@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Faith" name="King Smith的工作PC" type="1" icon="DLCPC1">
+
+  <portsForCrack val="4" />
+  <ports>32, 22, 25, 21, 554</ports>
+  <trace time="60" />
+  <portRemap>554=443</portRemap>
+  <WhitelistAuthenticatorDaemon Remote="PacWT2" />
+  <file path="home" name="Project#1020.rec">项目1020: PacificPortCrusher.exe
+存放地点：项目服务器
+是否加密：是
+加密/解密密码：Faithless</file>
+  <file path="home" name="Project#2247.rec">项目2247: Tracekill.exe
+存放地点：项目服务器
+是否加密：是
+加密/解密密码：Failure</file>
+  <file path="home" name="Notes.txt">项目服务器账号与密码
+USERNAME:TGACTATGGCTAGTGCCAAGGCATAGTGGCGAT
+PASSWORD:TCTTCCCATATGCCTAGGACGGAGTCCTAAATGGGTTTAGCTTAAGTAGGATC
+P.S : 有些png文件是可以由MemForensics打开的</file>
+  <memoryDumpFile name="Notes.png" path="home">
+    <Memory>
+	<Images>
+      <Image>Images/BIO.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+</Computer>

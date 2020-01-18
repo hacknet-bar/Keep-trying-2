@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Pitiedwzr" name="Pitiedwzr 作战基地" type="empty" allowsDefaultBootModule="false" security="9" ip="44.129.236.5">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="4" />
+  <trace time="99" />
+  <CustomConnectDisplayDaemon />
+
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <dlink target="DCDHS" />
+</Computer>

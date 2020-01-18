@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ZeroInternal" name="Zero 内部服务器" type="empty" allowsDefaultBootModule="true" security="5" icon="DLCServer">
+
+  <portsForCrack val="6" />
+  <ports>443, 554, 21, 22, 80, 6881, 25</ports>
+  <proxy time="1.9" />
+  <trace time="83" />
+  <firewall level="6" solution="Stella" additionalTime="6553600.0"/>
+  <WhitelistAuthenticatorDaemon Remote="ZeroWhitelist"/>
+  <dlink target="ATKFront" />
+</Computer>

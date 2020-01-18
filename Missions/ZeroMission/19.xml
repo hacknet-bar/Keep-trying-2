@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="19" >
+  <goals>
+<goal type="getstring" target="dead"/>
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS8.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="查看" reqs="DHS8" >
+看看Sup4rX的状况
+  </posting>
+
+  <email>
+    <sender>N0pe</sender>
+    <subject>十万火急</subject>
+    <body>#PLAYERNAME# OK 感谢你的协助...
+长话短说 Sup4rX现在在医院里接受治疗
+但是我不知道是哪家医院...
+不过经过搜索 我还是找到了三家最近有新病患的医院
+你需要做的是找到Sup4rX的住院处 看看他是否还活着
+如果活着就回复alive 如果他... 就回复dead吧...
+对了 Sup4rX的名字叫做 Green Walter...
+
+-N0pe
+</body>
+    <attachments>
+	<note title="任务细节">查看Sup4rX的状况</note>
+	<link comp="Emed" />
+	<link comp="Wmed" />
+	<link comp="Cmed" />
+    </attachments>
+  </email>
+</mission>

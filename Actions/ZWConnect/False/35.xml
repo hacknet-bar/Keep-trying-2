@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+<OnConnect target="Invitation" needsMissionComplete="false" requiredFlags="6">
+<AddConditionalActions Filepath="Actions/ZWConnect/False/P2.xml" DelayHost="Cheater" Delay="0.0"/>
+  </OnConnect>
+
+</ConditionalActions>

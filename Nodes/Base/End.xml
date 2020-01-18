@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="End"
+          name="快速结束自由时间"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1"
+		  ip="End">
+
+<adminPass pass="AKLSJFKAFDJLKASJLKJLKFJAKLJFDJIAJFLIALAJKFLAJLKGJ"/>
+
+<ports>22, 21, 25, 80, 1433, 554, 6881, 443, 192, 104</ports>
+<portsForCrack val="1010101"/>
+
+</Computer>

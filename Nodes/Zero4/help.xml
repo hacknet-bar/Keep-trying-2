@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="help" 
+          name="卡关求助" 
+          ip="192.66.75.111"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="0" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <admin type="progess"/>
+  <adminPass pass="*"  resetPassword="false" isSuper="false" />
+  <trace time="-1" />
+
+  <file path="home" name="Pt1-Pt2.txt">BillNoneofyourbusiness</file>
+  <file path="home" name="Pt3.txt">gunawslwhy(在teja的邮箱里有的吧 也可以在1-4clock找到)</file>
+  <file path="home" name="COREPassword.txt">201930199182745721171893393</file>
+</Computer>

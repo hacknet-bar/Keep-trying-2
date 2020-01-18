@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AtlasBU" name="Atlas 备份" type="empty" allowsDefaultBootModule="true" security="7" icon="chip">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 443, 6881, 554</ports>
+  <proxy time="2.8" />
+  <trace time="85" />
+  <WhitelistAuthenticatorDaemon Remote="AtlasWT" />
+  <dlink target="AlphaTestDB" />
+</Computer>

@@ -1,0 +1,65 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="2">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5">BH.dll这个东西...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="7">完全没有见过</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="10">只能去找Zero问问了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="11">先ping一下 保险</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="13">@Channel Ping 77.77.77.77</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="15">Pinging . . .</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="20">Connection Lost.</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="22">......</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="25">线索...全断了</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="27">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="28">用户 'Coel' 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="30">...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="33">哟</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="36">你怎么会在这...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="39.5">想必... 你也知道了</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="41">SES的警报</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="43">是来自#PLAYERNAME#的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="45">...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="47">没事的Err0r233，吉人自有天相</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="50">而且很奇怪不是吗 我去检查过#PLAYERNAME#的电脑</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="52">什么都没损坏...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="55">是的 正是因为这样</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="57">我才要去找#PLAYERNAME#曾经执行过任务的地方</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="60">Zero.</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="64">可是 线索全断了... Zero也更改了IP</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="66">我想我可以帮忙:] 正在查找IP</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="74">找到了！ 然而...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="77.5">什么</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="80">我只能查到一个叫做Z.IP的服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="82">Z.IP.. Zero的IP么</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="85">把IP给我 我去探查一下</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="88">!ATTACHMENT:link#%#Z.IP#%#42.68.117.5</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="90">对了 我现在就把工具传到你的PC</AddIRCMessage>
+
+
+<AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="PacificPortcrusher.exe" FileContents="#PACIFIC_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="NetmapOrganizer.exe" FileContents="#NETMAP_ORGANIZER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="ThemeChanger.exe" FileContents="#THEMECHANGER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="KBTPortTest.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="Sequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+
+<AppendToFile DelayHost="Zero" Delay="29.0" TargetComp="ZeroWT" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
+<AddConditionalActions Filepath="Actions/ZIP.xml" DelayHost="Cheater" Delay="88.0"/>
+<AddConditionalActions Filepath="Actions/ZeroFinal.xml" DelayHost="Cheater" Delay="88.0"/>
+<RunFunction FunctionName="addFlags:ZW4"/>
+<RunFunction FunctionName="addFlags:ZW5"/>
+  </OnConnect>
+
+</ConditionalActions>

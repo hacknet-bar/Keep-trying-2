@@ -1,0 +1,11 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+delay 3 $#%#$
+writel Err0r233 : #PLAYERNAME# 我先去下一个服务器 $#%#$
+delay 48 $#%#$
+clearTerminal $#%#$
+delay 1 $#%#$
+writel Err0r233 : Karma的防火墙密码是BrkoenH1art $#%#$
+
+
+

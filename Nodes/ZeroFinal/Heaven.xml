@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Heaven"
+          name="Heaven"
+          security="12"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1"
+          ip="103.31.227.125">
+
+  <portsForCrack val="9" />
+  <ports>21, 22, 104, 25, 1433, 443, 192, 554, 6881, 80</ports>
+  <firewall level="7" solution="dig1talH" additionalTime="0.9"/>
+  <trace time="155" />
+  <proxy time="2.6" />
+  <file path="sys" name="Base.dll">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="config.sys">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="Tracking.dll">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="Launcher.exe">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="Heart.dll">#BINARY##BINARY_SMALL#</file>
+  <file path="sys" name="devil.txt">160.235.48.9</file>
+  <dlink target="Hell"/>
+  <dlink target="Karma" />
+</Computer>

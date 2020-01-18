@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PeaceMaker"
+          name="KBT - 6626"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="1" 
+		  ip="55.144.62.1">
+
+  <portsForCrack val="3" />
+  <ports>21, 22, 104</ports>
+  <proxy time="2" />
+
+  <HeartMonitor patient="Walter_Green"/>
+  <Memory>
+    <Commands>
+      <Command>InComing Connection from *UnknownSource*</Command>
+      <Command>Port#104 Opened by *UnknownSource*</Command>
+      <Command>Port#22 Opened by *UnknownSource*</Command>
+      <Command>Port#21 Opened by *UnknownSource*</Command>
+      <Command>HiddenProgram is running... System Ended</Command>
+      <Command>@13.188.276.1 became Administrator</Command>
+      <Command>B R O K E N   H E A R T   I S   R U N N I N G.</Command>
+      <Command>system has been shut down</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+</Computer>

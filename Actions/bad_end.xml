@@ -1,0 +1,22 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<LaunchHackScript Filepath="HackerScripts/bad_end.txt" 
+                  DelayHost="Cheater" 
+                  Delay="1" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<CrashComputer TargetComp="Heaven" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="Heaven" />
+<CrashComputer TargetComp="Hell" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="Hell" />
+<CrashComputer TargetComp="Karma" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<HideNode DelayHost="Zero" Delay="1" TargetComp="Karma" />
+<KillExe DelayHost="Cheater" Delay="1" ExeName="*" />
+<SaveGame DelayHost="Cheater" Delay="30"/>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+</Instantly>
+
+</ConditionalActions>

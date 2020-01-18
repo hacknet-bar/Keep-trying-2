@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Pt1" name="Pt1" type="empty" allowsDefaultBootModule="false" security="9" ip="45.96.133.58" icon="chip">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="65" />
+  <CustomConnectDisplayDaemon />
+
+  <file path="home" name="Password1.txt">2NaOH + H2SO4 = Na2SO4 + ?</file>
+</Computer>

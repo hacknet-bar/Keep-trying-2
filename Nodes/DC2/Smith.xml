@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Smith" name="Smith的个人PC" type="empty" allowsDefaultBootModule="true" security="0" icon="DLCPC1">
+
+  <portsForCrack val="6" />
+  <ports>80, 22, 443, 554, 32, 21, 6881</ports>
+  <proxy time="1.8" />
+  <trace time="82" />
+  
+  
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<eosDevice name="Smith的Epad" id="SmithPad" icon="tablet" empty="false" passOverride="Catsarethebest">
+    <note>Jack的电脑密码
+为了不让自己忘记掉Jack的密码 我特地将他的密码放在我的手机上
+反正只有一个人知道我的手机密码
+
+Password: 10awa01</note>
+
+<file path="home/IMPORTANT" name="ATOM.txt">K-39  Na-23  Br-80  Ca-40  Cl-35.5  C-12  O-16  N-14  H-1 I-127</file>
+  </eosDevice>
+
+
+</Computer>

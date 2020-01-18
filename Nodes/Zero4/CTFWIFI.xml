@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFWIFI" name="CTF Wifi" type="empty" allowsDefaultBootModule="true" security="0" icon="chip">
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+  <adminPass pass="admin" resetPassword="false" isSuper="false" />
+  <WhitelistAuthenticatorDaemon Remote="CTFWT1"/>
+  <dlink target="CTFCEO" />
+  <dlink target="teja" />
+
+
+</Computer>

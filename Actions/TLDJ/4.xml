@@ -1,0 +1,45 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">没想到吧...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="6">你给#PLAYERNAME#的签名，恰恰成为了你是Matrix的证据</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="7">这...</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="8">单凭一张签名也不能证明什么...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="11">就是</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="14">不...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="16">Matrix对于任何文件的签名都是手写的对吧</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="18">没错</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="20">他每次都会这样</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="22">那就是了 邀请函的签名也是他亲自手写的吧</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="23">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="25">拿过来比对就知道了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="29">还不承认吗</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="33">......</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="36">你...IcaRus</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="38">真的如Err0r233所说的一样吗</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="40">快点回答我啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="42">没错</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="45">我就是Matrix</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="48">呵呵</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="51">什么...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="54">所以... 你杀了Sup4rX？</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="59">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="62">不用说 你的朋友估计也是他杀的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="65">你，Matrix 应该是与Sup4rX有一段过节的吧 不然你怎么会杀了他</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="69">你可不要这么说 我没有承认是我杀了他</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="71">那我就让你心服口服</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="71">请选择证物:</AddIRCMessage>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+
+<RunFunction FunctionName="playCustomSong:Music/TLPhase2.ogg" />
+<AddConditionalActions Filepath="Actions/TLDJ/lose1/3.xml" DelayHost="Cheater" Delay="71.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/lose3/3.xml" DelayHost="Cheater" Delay="71.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/loseall/3.xml" DelayHost="Cheater" Delay="71.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/all/3.xml" DelayHost="Cheater" Delay="71.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/test/4.xml" DelayHost="Cheater" Delay="71.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Flag4.xml" DelayHost="Cheater" Delay="1.0"/>
+  </Instantly>
+</ConditionalActions>

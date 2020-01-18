@@ -1,0 +1,21 @@
+config playerComp DCDHS2 0.0 $#%#$
+delay 1 $#%#$
+clearTerminal $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 0.8 $#%#$
+flash $#%#$
+delay 0.8 $#%#$
+flash $#%#$
+delay 0.8 $#%#$
+flash $#%#$
+delay 0.8 $#%#$
+flash $#%#$
+delay 0.8 $#%#$
+flash $#%#$
+delay 0.8 $#%#$
+flash $#%#$
+delay 0.8 $#%#$
+flash $#%#$
+
+

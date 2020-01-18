@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME# 作战基地" security="3" allowsDefaultBootModule="false" type="empty" ip="216.22.55.187" >
+
+<adminPass pass="absolute" />
+<account username="#PLAYERNAME#" password="absolute" type="ADMIN" />
+
+<ports>443</ports>
+
+<proxy time="5" />
+<portsForCrack val="6666" />
+<trace time="2.5" />
+<firewall level="6" solution="Ithinkyoucannotbreakin" additionalTime="5.0"/>
+
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+</Computer>

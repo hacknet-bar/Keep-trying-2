@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="17" >
+  <goals>
+<goal type="getadmin" target="n00bInternal"/>
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS6.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="搜寻服务器 1" reqs="DHS6" >
+找到一个服务器的密码
+  </posting>
+
+  <email>
+    <sender>IcaRus</sender>
+    <subject>搜寻服务器 1</subject>
+    <body>#PLAYERNAME# 我需要一个服务器来运行一个重要软件
+但是我的服务器似乎被一个人偷窃了...
+这个任务本应该由我自己完成 但是...
+嘛，我已经在服务器上初步搜索 找到了一个IP
+交给你了 #PLAYERNAME#
+</body>
+    <attachments>
+	<link comp="n00bProxy" />
+	<note title="任务细节">找到服务器的密码 尽量地往深处探索 如果探索到极限时回复我</note>
+    </attachments>
+  </email>
+</mission>

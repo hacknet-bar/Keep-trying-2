@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Storge1" name="ATK 储存服务器1" allowsDefaultBootModule="true" icon="chip" type="4" ip="103.31.188.233">
+
+  <portsForCrack val="5" />
+  <ports>22, 80, 25, 192, 6881</ports>
+  <trace time="65" />
+  <firewall level="4" solution="Staskcnkl"/>
+
+  <file path="home" name="Nisei.dat">#BINARY##BINARY#</file>
+  <file path="home" name="FinalEnd.dat">[失败]#BINARYSMALL#</file>
+  <file path="home" name="Code.dat">[失败]#BINARY##BINARY#</file>
+  <file path="home" name="BrokenHeart.dat">[Status:active]#BINARY##BINARYSMALL#</file>
+  <file path="home" name="Readme.txt">[File Not Found]</file>
+  
+<CustomConnectDisplayDaemon />
+<WhitelistAuthenticatorDaemon Remote="ATKAuth"/>
+				  				  
+</Computer>

@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKDEC"
+          name="ATK 加密方案服务器"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1">
+  
+  <portsForCrack val="8" />
+  <ports>21, 22, 80, 25, 1433, 443, 554, 192</ports>
+  <portRemap>80=55,22=355</portRemap>
+  <trace time="101"/>
+  <tracker />
+  <proxy time="3" />
+  <dlink target="ATKSolve" />
+  <dlink target="ATKAuth" />
+  
+  <LogoDaemon Name="ATK Encryption Server" ShowsTitle="true" TextColor="52, 44, 214, 121">
+Only for the agent of ATK.
+  </LogoDaemon>
+  
+    <encryptedFile path="home/encrypted" name="Security.dec" ip="192.168.1.1" header="Security.txt">
+far5w5ll.
+Auto Tracker
+Whitelist Authentic System</encryptedFile>
+   <encryptedFile path="home/encrypted" name="StorgeServerIP.dec" extension=".txt" ip="192.168.1.1" header="[CLASSFIELD]" pass="56">
+103.31.188.233
+103.31.188.234
+103.31.198.235
+  </encryptedFile>
+  <encryptedFile path="home/encrypted" name="P.dec" extension=".txt" ip="192.168.1.1" header="[CLASSFIELD]" pass="Iseeyou">
+对不起 由于种种原因我只能将此文件加密于此...
+ATK应该没有发现 Matrix那家伙简直是疯了 还和ATK开始合作了
+知道ATK是做什么的吗？ 那家伙估计已经上当了
+我已经成功调查到了储存服务器的IP了 就在上面的加密文件里..
+密码就是56 如果能看到的话...
+请务必要阻止他和ATK
+其实Entech也不是什么好东西...
+但摆在眼前的最严重的问题就是ATK了</encryptedFile>
+  
+</Computer>

@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="ZW0,ZW1,ZW2,ZW3,ZW4,ZW5">
+<CopyAsset DestFilePath="home" DestComp="Matrix" SourceComp="Debug" SourceFileName="*IcaRus.txt" SourceFilePath="home" />
+<CopyAsset DestFilePath="home" DestComp="Matrix" SourceComp="Debug" SourceFileName="*Invitation.docx" SourceFilePath="home" />
+<CopyAsset DestFilePath="home" DestComp="Matrix" SourceComp="Debug" SourceFileName="*Chat.txt" SourceFilePath="home" />
+<CopyAsset DestFilePath="home" DestComp="Matrix" SourceComp="Debug" SourceFileName="*list.txt" SourceFilePath="home" />
+<AddConditionalActions Filepath="Actions/ZWlose1.xml" DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="addFlags:ZWall"/>
+</HasFlags>
+
+</ConditionalActions>

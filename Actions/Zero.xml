@@ -1,0 +1,28 @@
+<ConditionalActions>
+  
+<OnConnect target="Zero" needsMissionComplete="false">
+<RunFunction FunctionName="setHubServer:Zero"/>
+<ChangeAlertIcon Target="Zero" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="2">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="2.2">用户'#PLAYERNAME#'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="3.8">嗨</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="5">额... 欢迎</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="7">emmmm 嗨，我是来自SES的#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="10">你好，我叫Yan</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="11">你好啊</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="13">看来我们人齐了</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="15">长话短说</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="17">我们这个Zero是一个机密组织</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="19">在这里，你将成为Zero中的一员</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="25">携手共进</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="28">酷</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="30">准备好了吗 @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="32">我们将会有一段好时光的</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="35">谢谢大家awa</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="37">好了#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="39.5">开始你的工作</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/MissionStart.xml" DelayHost="Cheater" Delay="40.0"/>
+<RunFunction FunctionName="addFlags:DHS1,DHS2,DHS3"/>
+  </OnConnect>
+
+</ConditionalActions>

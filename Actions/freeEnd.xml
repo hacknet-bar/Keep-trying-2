@@ -1,0 +1,16 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="setHubServer:Zero"/>
+<ChangeAlertIcon Target="Zero" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+  <AddConditionalActions Filepath="Actions/Mission5.xml" DelayHost="Cheater" Delay="0.0"/>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="10">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="12">自由时间结束</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="14">新任务已经发布</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="17">请去接受你们的合同</AddIRCMessage>
+  <RunFunction FunctionName="addFlags:ZW3failed"/>
+  <RunFunction FunctionName="addFlags:DHS5"/>
+  <RunFunction FunctionName="playCustomSong:Music/ACE.ogg" />
+  <AddConditionalActions Filepath="Actions/test.xml" DelayHost="Cheater" Delay="17.0"/>
+</Instantly>
+</ConditionalActions>

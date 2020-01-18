@@ -1,0 +1,32 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">BrokenHeart计划...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="6">看来又是一个妄图垄断信息安全的计划呢</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="7">怎么样Matrix</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="8">哈哈...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="11">哈哈哈...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="14">哈哈哈哈哈哈哈哈哈哈</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="16">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈！！</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="22">...我输了...</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="24">推理成功!</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="28">BrokenHeart计划本来是我和P制作的</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="32">但是P太愚蠢了 没有发现他真正的作用</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="36">制作了最终一段就抛弃了这个工程</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="38">密码就封存在一个CTF文件</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="40">你的#PLAYERNAME#帮我拿到了哦</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="42">什...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="45">现在 BrokenHeart就能启用最终模式了</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="47">而你们 就是我的第一批实验对象！</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="48">不好！</AddIRCMessage>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+
+<RunFunction FunctionName="playCustomSong:Music/TLSuccess.ogg" />
+
+<AddConditionalActions Filepath="Actions/MatrixHack.xml" DelayHost="Cheater" Delay="34.0"/>
+
+  </Instantly>
+</ConditionalActions>

@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="removeFlags:DHS2"/>
+
+</Instantly>
+
+</ConditionalActions>

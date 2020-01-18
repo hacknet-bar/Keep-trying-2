@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFSOLVE" name="CTF Solve" type="empty" allowsDefaultBootModule="true" security="9" >
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554, 443</ports>
+  <trace time="75" />
+  <WhitelistAuthenticatorDaemon Remote="CTFWT1"/>
+  <file path="home" name="RepoSolve.txt">ithoughtyouweretryingtosolveme</file>
+  <file path="home" name="???.txt">Iseeyou</file>
+  
+
+</Computer>

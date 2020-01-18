@@ -1,0 +1,32 @@
+<ConditionalActions>
+  
+<OnConnect target="Yes" needsMissionComplete="false">
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="0">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="1">欢迎听取推理对决教程</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="2">你即将要面对的</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="5">和一切的真相 都需要通过这一次的推理彻底揭开</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="7">运用你在前面搜集到的证物来揭穿这一次的阴谋吧</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="10">推理对决分为两个阶段</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="11">一阶段 称为缓和状态 您现在所听到的就是推理对决一阶段的bgm</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="13">在这一阶段 您会有10次机会</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="15">每一次错误的言论会使你减少1次机会</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="17">当10次错误的发言之后 推理判为失败</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="20">将会进入另一分支</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="24">当成功渡过这一阶段后</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="26">人物将会因为谎言被揭穿而变得不耐烦</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="31">这时将会进入推理对决二阶段 您现在听到的就是二阶段的BGM</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="35">称之为严峻状态</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="39.5">在二阶段下 您的发言必须正确</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="41">否则直接判为失败</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="43">那么</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="45">加油吧</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="46">!ANNOUNCEMENT! @Channel 推理对决 开始！</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="45.5">!ANNOUNCEMENT! @Channel 若右侧有异常报错请无视</AddIRCMessage>
+<RunFunction FunctionName="addRank" FunctionValue="1000"/>
+<RunFunction FunctionName="playCustomSong:Music/TLPhase1.ogg" />
+<AddConditionalActions Filepath="Actions/BGM.xml" DelayHost="Cheater" Delay="31.0"/>
+<AddConditionalActions Filepath="Actions/BGM2.xml" DelayHost="Cheater" Delay="47.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/1.xml" DelayHost="Cheater" Delay="47.0"/>
+  </OnConnect>
+
+</ConditionalActions>

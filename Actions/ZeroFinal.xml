@@ -1,0 +1,45 @@
+<ConditionalActions>
+  
+<OnConnect target="Zero" needsMissionComplete="false">
+<RunFunction FunctionName="setHubServer:Zero"/>
+<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+<ChangeAlertIcon Target="Zero" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="1">用户 'Err0r233' 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="2">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="5">你们好 Zero的各位</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="7">我是SES的Err0r233</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="10">我来到这里是为了一件事情</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="11">#PLAYERNAME#似乎失踪了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="13">我想他的失踪和你们有关</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="15">?</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="20">呵呵</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="22">抱歉Err0r233 IcaRus的心情有些不好</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="25">那无妨</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="30">给我一些时间，我会向他证明这件事会与他有关的</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="33">哼 就看看你能玩什么花样</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="36">#PLAYERNAME#和Sup4rX接连的离去已让Zero难以再承受</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="39.5">但... 也不差这个时候吧</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="41">我们可以听一下 他想说的</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="43">同意</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="45">谢谢了 @Yan @N0pe</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="47">没时间在这里胡闹了Err0r233, 有什么话快说</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="50">不用担心我@IcaRus，刚刚看到一些证物</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="52">我现在可以推断出一些真相了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="55">我只是需要一些时间去整理...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="57">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="60">我的人 怎么可能 会让你们随意弄没就没了</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="64">...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="66">说完了吗？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="74">不急</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="77.5">是否听取推理对决教程</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="78">!ATTACHMENT:link#%#是#%#Yes</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="79">!ATTACHMENT:link#%#否#%#No</AddIRCMessage>
+<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+
+<AddConditionalActions Filepath="Actions/Yes.xml" DelayHost="Cheater" Delay="80.0"/>
+<AddConditionalActions Filepath="Actions/No.xml" DelayHost="Cheater" Delay="80.0"/>
+
+  </OnConnect>
+
+</ConditionalActions>

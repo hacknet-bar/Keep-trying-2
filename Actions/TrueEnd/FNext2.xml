@@ -1,0 +1,72 @@
+<ConditionalActions>
+  
+<Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="1.0">@Channel 你们成功了？ 我这里能够在显示屏上看到Matrix停止了运动</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">看来Sup4rX成功了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="4.0">干的漂亮</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="7.0">正在路上 Matrix没有下车 毕竟周围都是车流</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="11.0">哈哈 估计后面的司机要骂死他</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="13.0">接下来我们所需要做的就是等Frost那边的好消息了吧</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="16.0">那Nisei MK III呢</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="17.0">那玩意怎么可能能真正研发出来 这种秘密组织除了安布雷拉以外还没有几个呢</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="19.0">安布雷拉... 不也是虚构的吗</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="21.0">鬼知道 管他呢</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="23.0">[语音]</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="25.0">???</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="29.0">@Channel 开启自动语音转换文字设置</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="31.0">[语音]:Sandman 我们赶上了 Truck 这里被车包围了 我们下车 直接抓捕</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="34.0">[语音]: 车内的人 请立马下车 接受调查</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="37.0">看 成功了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="40.0">hummmm...</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="42.0">[语音]: (另一个声音)BrokenHeart已经被SES所毁 我的希望也毁于一旦</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="44.0">[语音]: (Frost)正因为BrokenHeart太过恐怖 造成的危害已经从网络世界蔓延到了现实世界</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="47.0">[语音]: (Frost)我们才要抓捕你</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="50.0">[语音]: (另一个声音)呵呵... 看来你们已经知道了吧 应该是从SES那知道的吧</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="52.0">这另一个声音应该就是Matrix了</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="54.0">[语音]: (Matrix)你们应该不知道我和ATK在干什么吧</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="57.0">[语音]: (Frost)快说！</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="60.0">[语音]: (Matrix)呵呵... 地狱见</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="62.0">？！</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="66">[语音]: (爆炸声)</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="66.2">用户'Frost'的链接已被切断</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="69.0">wtf? 怎么会</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="71.0">可恶 发信器也没有信号了</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="75.0">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="75.2">用户'Frost'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="78.0">该死... 是生化武器</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="80.0">Nisei MK III...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="83.0">Frost 没事吧</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="85.0">还好... 我们带了防毒面具</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="88.0">可是周围的人全部都要完了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="91.0">...怎么会</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="93.0">看起来Matrix已经失去了生命体征...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="96.0">Matrix...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="99.0">比起担心Matrix 更不如担心我们</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="102.0">Coel所说的Nisei MK III已经被ATK他们所研发出来了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="105.0">揪出ATK才是目前最重要的任务</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="110.0">这种事情 就交给SES来吧...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="113.0">@#PLAYERNAME# @Coel 你们要在14分钟内找到ATK的储存服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="116.0">安装我在ip为106.132.158.9上传到home文件夹里的HDDestroyer.bat 一举摧毁所有数据/AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="118.0">收到</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="121.0">收到</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="124.0">准备好... 最后的决战</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="127.0">这是我从Matrix的手机中找出的ATK的一个IP 已经标注在netmap上了</AddIRCMessage>
+
+
+<ShowNode DelayHost="DCDHS2" Delay="141.5" Target="ATKDEC" />
+
+
+<AddConditionalActions Filepath="Actions/TrueEnd/Stop4.xml" DelayHost="Cheater" Delay="127.0"/>
+
+
+<HideNode DelayHost="Cheater" Delay="0.1" TargetComp="Core" />
+<HideNode DelayHost="Cheater" Delay="0.3" TargetComp="pc" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="core" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="pc" />
+<SaveGame DelayHost="Cheater" Delay="0"/>
+<SaveGame DelayHost="Cheater" Delay="127"/>
+</Instantly>
+
+</ConditionalActions>

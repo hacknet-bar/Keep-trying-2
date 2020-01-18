@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+<OnConnect target="CTFStorge" needsMissionComplete="false">
+
+				  
+<LaunchHackScript Filepath="HackerScripts/9418Crack2.txt" 
+                  DelayHost="Cheater" 
+                  Delay="15" SourceComp="DCDHS2" TargetComp="CTFStorge" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+  </OnConnect>
+</ConditionalActions>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKAuth"
+          name="ATK 身份验证"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1">
+  
+  <portsForCrack val="101" />
+  <ports>21, 22, 80, 25, 1433, 443, 554, 192</ports>
+  <portRemap>80=55,22=355</portRemap>
+  <trace time="101"/>
+  <tracker />
+  <proxy time="3" />
+  <adminPass pass="far5w5ll" />
+  <CustomConnectDisplayDaemon />
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  <file path="home" name="AudioFailed.txt">由于James的带来的情报有很大的误差 语音验证系统研发失败</file>
+  <file path="home" name="Oxygen.txt">6.02x10^23</file>
+  <file path="home" name="Readme.txt">没什么特别的 只是为了让你点进来拖延你的时间而已
+--谜之声</file>
+    
+  
+</Computer>

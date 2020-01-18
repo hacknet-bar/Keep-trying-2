@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacPrj" name="太平洋 项目服务器" type="1" ip="186.45.166.238">
+
+  <portsForCrack val="1000010" />
+  <WhitelistAuthenticatorDaemon Remote="PacWT1" />
+  <account username="MASAKA" password="MPRTESMGLA" type="0" />
+  <ports>22, 21, 25, 80, 443, 554, 1433, 6881, 192</ports>
+  <trace time="0.001" />
+  <proxy time="245741" />
+  <tracker />
+  <firewall level="6" solution="Project" additionalTime="29999"/>
+  <encryptedFile path="bin" name="PacificPortCrusher.dec" extension=".exe" ip="192.168.1.1" header="[UNKNOWN]" pass="Faithless">#PACIFIC_EXE#</encryptedFile>
+  <encryptedFile path="bin" name="Tracekill.dec" extension=".exe" ip="192.168.1.1" header="[UNKNOWN]" pass="Failure">#TRACEKILL_EXE#</encryptedFile>
+  
+</Computer>

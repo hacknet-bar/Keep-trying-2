@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Inter3RR" name="??? 3.5" type="empty" allowsDefaultBootModule="true" security="0" icon="chip">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25, 80, 443, 554, 104, 1433, 6881, 3724</ports>
+  <proxy time="28888" />
+  <trace time="20" />
+  <file path="PUZZLE" name="Puzzle3Real.txt">在任意三角形ABC中 ∠A为75度 求tan75度的值（结果取整数）
+此答案作为CTF储存服务器中通用二层密码</file>
+  <file path="PUZZLE" name="HINT1.txt">参考数据: sin45度=cos45度约等于0.707  tan45度=1  tan60度约等于0.577  根号2约等于1.414
+根号3约为1.732  sin60度约为0.866  sin30度=0.5  cos30度约为0.866  cos60度=0.5</file>
+  <file path="PUZZLE" name="HINT2.txt">sin(A+B)=sinA*cosB + cosA*sinB
+
+sin(A-B)=sinA*cosB - cosA*sinB
+
+cos(A+B)=cosA*cosB - sinA*sinB
+
+cos(A-B)=cosA*cosB + sinA*sinB
+
+tan(A+B)=tanA+tanB/1-tanA*tanB
+
+tan(A-B)=tanA-tanB/1+tanA*tanB
+
+其中A B为任意角</file>
+
+  <dlink target="Inter3RR" />
+</Computer>

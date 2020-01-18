@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFOL" 
+          name="CTF 销售服务器" 
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="5" />
+  <ports>443, 554, 21, 22, 6881, 80</ports>
+  <trace time="75" />
+  <portRemap>443=8080,554=5040</portRemap>
+  <proxy time="2" />
+  <file path="home" name="info.txt"></file>
+  <LogoDaemon Name="CTF Encrypt Inc." ShowsTitle="true" TextColor="52, 44, 214, 121">
+The best Encryptions. The best Services.
+  </LogoDaemon>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true" />
+  <dlink target="CTFOFFL" />
+  <dlink target="ctfmail" />
+  <dlink target="CTFWIFI1" />
+</Computer>

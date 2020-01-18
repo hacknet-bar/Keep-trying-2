@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Pt4" name="Pt4" type="empty" allowsDefaultBootModule="false" security="9" ip="12.196.238.10" icon="chip">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="65" />
+  <CustomConnectDisplayDaemon />
+
+  <file path="home" name="Password4.txt">BaCl2 + H2SO4 = BaSO4 + 2HCl</file>
+  <file path="home" name="DataBasePassword.txt">Pt1 - Pt4中水的数量排列</file>
+  <file path="home" name="NaCl.txt">氯化钠
+也就是人们俗称的盐 人体内每天都需要少量的Na
+而盐中存在着Na的化合物 NaCl</file>
+</Computer>

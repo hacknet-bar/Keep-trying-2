@@ -1,0 +1,24 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="4">... 我失败了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5">...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="5.2">...</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="5.4">...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="7.1">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="11">怎么回事</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="13">这样子的话 我们承担不起下一次失败了</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="15">该死 Matrix离我们更远了</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="18">我来完成剩下的工作</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="21">行吧...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="25">@#PLAYERNAME# 丢人 马上给我退出战场</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="30">...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="33">放心吧Err0r233 Sup4rX出手一定不会失败的</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="34">吧</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="36.5">但愿如此</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/TrueEnd/FNext2.xml" DelayHost="Cheater" Delay="55.5"/>
+<SaveGame DelayHost="Cheater" Delay="35.5"/>
+<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+</Instantly>
+</ConditionalActions>

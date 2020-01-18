@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Core" name="车载电脑 安全核心" allowsDefaultBootModule="true" icon="chip" type="4" >
+
+  <portsForCrack val="4" />
+  <ports>22, 80, 25, 554, 6881</ports>
+  <trace time="-1" />
+  <firewall level="5" />
+
+  <file path="home" name="Security.dll">#BINARYSMALL#</file>
+  
+  <dlink target="pc" />
+				  				  
+</Computer>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="World" name="The World" type="2" allowsDefaultBootModule="true" security="7" icon="DLCPC2" ip="233.157.68.214">
+
+  <portsForCrack val="2" />
+  <ports>443, 554</ports>
+  <proxy time="3" />
+  <trace time="80" />
+  <file path="home" name="Oops.txt">Something Changed.</file>
+
+</Computer>

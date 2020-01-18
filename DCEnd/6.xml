@@ -1,0 +1,35 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Heaven" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Heaven" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Hell" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Hell" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Karma" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Karma" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Devil" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Devil" />
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+		<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="4">啊啊啊 成功了</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="5">我这边成功了</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="5">我们这边也是</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="7">干的漂亮！</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="9">为什么倒计时没有结束?</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="13">不好 还有一个BrokenHeart服务器！</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="15">有EnSec保护着...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="18">赶紧断开链接</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="21">可恶 没有办法 图形界面被锁上了</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="25">我的也是</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="29">...没办法了...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="31">就让我来 帮你们</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DCMission/7.xml" DelayHost="Cheater" Delay="34.5"/>
+<SaveGame DelayHost="Cheater" Delay="34.5"/>
+<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+</Instantly>
+
+</ConditionalActions>

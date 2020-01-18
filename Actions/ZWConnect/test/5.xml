@@ -1,0 +1,25 @@
+<ConditionalActions>
+  
+<HasFlags requiredFlags="5">
+<AddConditionalActions Filepath="Actions/ZWConnect/True/5.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash2.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash3.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash4.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash5.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash6.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash7.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash8.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Crash/Crash9.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/False/21.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/False/22.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/False/23.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/False/24.xml" DelayHost="Cheater" Delay="0.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/False/25.xml" DelayHost="Cheater" Delay="0.0"/>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="false" IsHidden="false" />
+  </HasFlags>
+
+</ConditionalActions>

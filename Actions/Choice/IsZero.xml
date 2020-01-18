@@ -1,0 +1,28 @@
+<ConditionalActions>
+<OnConnect target="IsZero" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">是Zero的人干的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="6">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="5">从理论上来说</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="8">既然如此"无懈可击"的系统</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="11">只有这里的人才能攻击自己人吧</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="14">呵，理论上</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="16">不要着急@IcaRus</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="18">我可是有证据的</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="20">请选择证物:</AddIRCMessage>
+
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+
+
+
+<AddConditionalActions Filepath="Actions/TLDJ/lose1/2.xml" DelayHost="Cheater" Delay="20.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/lose3/2.xml" DelayHost="Cheater" Delay="20.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/loseall/2.xml" DelayHost="Cheater" Delay="20.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/all/2.xml" DelayHost="Cheater" Delay="20.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Flag2.xml" DelayHost="Cheater" Delay="20.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/test/2.xml" DelayHost="Cheater" Delay="20.0"/>
+  </OnConnect>
+</ConditionalActions>

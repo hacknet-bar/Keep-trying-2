@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFX05" 
+          name="CTF 代理X05" 
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80, 6881, 554</ports>
+  <trace time="80" />
+  <proxy time="-1" />
+<dlink target="CTFY08" />
+  
+</Computer>

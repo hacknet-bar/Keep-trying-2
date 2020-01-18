@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="PacificEnding">
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Recollection.ogg"/>
+</HasFlags>
+
+</ConditionalActions>

@@ -1,0 +1,36 @@
+<ConditionalActions>
+  
+<Instantly>
+<HideNode DelayHost="Cheater" Delay="0.1" TargetComp="Heaven" />
+<HideNode DelayHost="Cheater" Delay="0.3" TargetComp="Hell" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Karma" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Heaven" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Hell" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Karma" />
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.1" />
+<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">@Channel 看样子是结束了...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="5.0">呼....</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="9.0">终于...</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="11.0">啊..我还以为我就要挂了呢..</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="15.0">相信#PLAYERNAME#很快就会回来的</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="18.0">应该吧</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="23.0">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="23.1">用户 '#PLAYERNAME#' 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="24.5">啊 #PLAYERNAME#你回来了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="26.0">哟... 感觉我睡了一大觉呢</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="32.0">= =</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="35.0">好了 皆大欢喜 欢迎回来#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="38.0">以防万一 我还是和Yan去解决下IcaRus</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="40.0">那我去清理下日志:]</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="42.0">呼...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="43.0">!ATTACHMENT:link#%#Credit?#%#232.48.225.64</AddIRCMessage>
+<CopyAsset DestFilePath="home" DestComp="CreditFake" SourceComp="Debug" SourceFileName="Letter.txt" SourceFilePath="home" />
+  <RunFunction FunctionName="playCustomSong:Music/Reunited.ogg"/>
+  <RunFunction FunctionName="removeFlags:FinalCrack"/>
+
+  </Instantly>
+
+</ConditionalActions>

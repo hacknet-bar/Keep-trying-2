@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<HasFlags requiredFlags="PreSave">
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="2">走吧@#PLAYERNAME#</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/SaveSup4rX4.xml" DelayHost="Cheater" Delay="0.0"/>
+  </HasFlags>
+
+</ConditionalActions>

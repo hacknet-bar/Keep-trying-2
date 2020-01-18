@@ -1,0 +1,44 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<RunFunction FunctionName="setHubServer:MissionDHS"/>
+<ChangeAlertIcon Target="MissionDHS" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="2">@Err0r233 你在吗</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5">？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="7">我们遇上大麻烦了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="10">详细情况要等到其他人到了才能跟你说</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="11">其他人？</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="12">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="12.2">用户'N0pe'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="13">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="13.2">用户'Sup4rX'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="15">额..</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="17">刚刚说的"其他人"来了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="19">欢迎... 吧</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="21">详细情况就由N0pe跟你说吧</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="23">啧 行吧</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="25">我也就长话短说了 Zero的创立者 Matrix想要将Sup4rX杀了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="29">然后 你们救下了他 来到我这里了？</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="32">没错 等等为什么你那么清楚啊</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="35">或许我也经历过这种情况吧</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="37">噗</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="39.5">扯了那么久 说正事</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="41">就是为什么Matrix想要杀了Sup4rX</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="43">原因是他想要阻止BrokenHeart</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="45">得 这个BrokenHeart跟FinalEnd差不多吧</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="47">没错 而且应该更具威胁</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="49">对了 Yan呢</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="51">她没有来...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="53">果然跟文档所说的一模一样...</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="54">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="54.2">用户'Coel'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="56">哟 SES怎么这么热闹</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="59">来的正好 Coel 我们正需要你</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="61">...?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="65">详细情况见聊天记录 我们没有时间了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="67">各位 开工吧</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/TrueEnd/SES2.xml" DelayHost="Cheater" Delay="67.0"/>
+<CopyAsset DestFilePath="Whitelist" DestComp="ZeroWT" SourceComp="Debug" SourceFileName="list.txt" SourceFilePath="home" />
+  </OnConnect>
+
+</ConditionalActions>

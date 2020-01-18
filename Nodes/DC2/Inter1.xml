@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Inter1" name="??? 1" type="empty" allowsDefaultBootModule="true" security="6" icon="chip">
+
+  <portsForCrack val="5" />
+  <ports>80, 22, 443, 554, 21</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+  <portRemap>80=7999,443=8080</portRemap>
+  <file path="home" name="info.txt">这里有你需要的东西~ 另外 2号和3号服务器储藏有CTF文件的密码
+CTF文件可以由Decypher破解 但是需要两个密码哦~</file>
+  <encryptedFile path="home" name="SMTPOverflow.dec" extension=".exe" ip="192.168.1.1" header="[PRIVATE]" pass="103">#SMTP_CRACK#</encryptedFile>
+  <file path="PUZZLE" name="Puzzle1.txt">我也不知道是哪个nc高层要求我在这设置一个谜题的
+那我也没有办法 只能瞎想一个了= =
+接下来是我想的谜题 但愿BOSS能通过.
+已知一固体粉末中有且只有NaBr MgCl2 CuSO4 NaCl CaCO3 KI中的一种或几种
+为了鉴别出该固体粉末 某人采用了以下方法
+1.取少量固体粉末于烧杯中 加入足量蒸馏水 充分搅拌后没有沉淀 溶液呈无色
+2.在上一步的溶液中取少量溶液于一支试管中 向其加入足量NaOH溶液 无明显现象
+3.另取1.中的溶液于另一支试管中 加入过量酸化的AgNO3溶液 产生沉淀
+4.再取1.中溶液于新试管中 通入Cl2气体 溶液变为红棕色 通入过量Cl2气体后仍为红棕色
+请问固体粉末中 !一定! 含有的物质是什么？（相对分子质量）
+答案为home文件夹中dec文件的密码</file>
+  <file path="PUZZLE" name="Hint1.txt">已知Cl- Br- I-能与Ag+形成AgBr AgCl AgI沉淀</file>
+  <file path="PUZZLE" name="Hint2.txt">已知2NaBr + Cl2 = 2NaCl + Br2
+2NaI + Cl2 = 2NaCl + I2
+5Cl2 + I2 + 6H2O = 10HCl + 2HIO3
+I2 与 Br2溶液都是红棕色的</file>
+  <file path="sys" name="SmncMtDaeaa.atd">#BINARY#</file>
+  <Memory>
+    <Commands>
+    </Commands>
+    <Data>
+      <Block>The World!</Block>
+      <Block>233.157.68.214</Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+</Computer>

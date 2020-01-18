@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="system" 
+          name="跳关系统" 
+          ip="SHIT"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="10086" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <admin type="progess"/>
+  <adminPass pass="*"  resetPassword="false" isSuper="false" />
+  <trace time="-1" />
+   
+<variableMissionListingServer name="跳关系统" iconPath="Images/SlashBot.png" articleFolderPath="Docs/tg" color="148,4,255" assigner="false" public="true" title="跳关系统"/>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <memoryDumpFile name="*Invitation.docx" path="bin">
+    <Memory>
+      <Data>
+        <Block></Block>
+      </Data>
+      <Commands>
+      </Commands>
+      <Data>
+      </Data>
+	  <Images>
+      <Image>Images/Invitation.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+      <memoryDumpFile name="*IcaRus.txt" path="bin">
+    <Memory>
+      <Data>
+        <Block></Block>
+      </Data>
+      <Commands>
+        <Command></Command>
+      </Commands>
+    <Images>
+      <Image>Images/QM.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+     <memoryDumpFile name="*list.docx" path="bin">
+    <Memory>
+      <Data>
+        <Block>这是我们的计划...</Block>
+        <Block>SES并不在名单上...?</Block>
+      </Data>
+      <Commands>
+        <Command></Command>
+      </Commands>
+      <Data>
+        <Block></Block>
+      </Data>
+	  <Images>
+      <Image>Images/list.png</Image>
+    </Images>
+    </Memory>
+  </memoryDumpFile>
+</Computer>

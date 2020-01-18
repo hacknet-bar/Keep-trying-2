@@ -1,0 +1,24 @@
+<ConditionalActions>
+  
+<OnConnect target="QM" needsMissionComplete="false" >
+<CrashComputer TargetComp="Attack" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="QM" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="Invitation" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="BrokenHeartPlan" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="Chat" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="list" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="SomeOne" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="IsZero" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<CrashComputer TargetComp="Unknown" CrashSource="Cheater" DelayHost="Zero" Delay="1" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="Attack" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="QM" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="list" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="Invitation" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="BrokenHeartPlan" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="Chat" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="IsZero" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="SomeOne" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="Unknown" />
+  </OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFInternal" name="CTF 内部服务器" type="empty" allowsDefaultBootModule="true" security="9" ip="95.66.83.2" >
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="1.5" />
+  <trace time="75" />
+
+  <dlink target="CTFWIFI" />
+
+</Computer>

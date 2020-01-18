@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/1.xml" TargetComp="Zero"/>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/2.xml" TargetComp="Zero" AssignmentTag="Sup4rX"/>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/3.xml" TargetComp="Zero" AssignmentTag="Yan"/>
+</Instantly>
+</ConditionalActions>

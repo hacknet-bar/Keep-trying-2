@@ -1,0 +1,17 @@
+-------Preparing for booting...-------
+  
+Checking folders... 0 error(s) found
+  
+Checking system.......... 0 error(s) found
+  
+No logs detected
+  
+It will be ignored......
+  
+All clear!
+  
+---------------Booting...---------------
+ 
+Welcome Back.
+ 
+You received a message...

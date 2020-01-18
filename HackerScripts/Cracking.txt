@@ -1,0 +1,23 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+writel Channel : SES内部网络 已连接 $#%#$
+delay 3 $#%#$
+writel Err0r233 : 大家 应该都连接上了吧 $#%#$
+delay 3 $#%#$
+connect $#%#$
+writel Coel : 没错 我来负责防火墙 $#%#$
+delay 1 $#%#$
+writel N0pe : 我和Yan负责端口 $#%#$
+delay 3 $#%#$
+writel Err0r233 : 那么大家 上吧！ $#%#$
+delay 45 $#%#$
+clearTerminal $#%#$
+delay 1 $#%#$
+writel Coel : 防火墙密码是Macrosoft-FirewallService-0018 $#%#$
+delay 3 $#%#$
+writel Err0r233 : 好 $#%#$
+delay 3 $#%#$
+writel Err0r233 : 等下...这个密码...没时间了... $#%#$
+
+

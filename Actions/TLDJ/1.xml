@@ -1,0 +1,26 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="0">好了 我们先来说说看</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">为什么会更改Zero的IP吧</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="5">@IcaRus他曾经说了 为了安全起见 他更改了IP</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="8">没错 在两名成员的失踪后我必须得增强下Zero的安全了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="11">我不见得是为了所谓的"增强安全"</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="14">我只需要通过这个就能揭穿你的谎言</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="15">请选择证物:</AddIRCMessage>
+
+
+
+
+<AddConditionalActions Filepath="Actions/TLDJ/lose1/1.xml" DelayHost="Cheater" Delay="15.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/lose3/1.xml" DelayHost="Cheater" Delay="15.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/loseall/1.xml" DelayHost="Cheater" Delay="15.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/all/1.xml" DelayHost="Cheater" Delay="15.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/test/1.xml" DelayHost="Cheater" Delay="15.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Flag.xml" DelayHost="Cheater" Delay="1.0"/>
+
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+  </Instantly>
+</ConditionalActions>

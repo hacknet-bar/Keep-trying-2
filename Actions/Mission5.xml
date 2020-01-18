@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/14.xml" TargetComp="Zero"/>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/15.xml" TargetComp="Zero" AssignmentTag="N0pe"/>
+<AddMissionToHubServer MissionFilepath="Missions/ZeroMission/16.xml" TargetComp="Zero" AssignmentTag="Yan"/>
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="End" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="End" />
+</Instantly>
+</ConditionalActions>

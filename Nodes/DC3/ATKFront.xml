@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKFront" name="ATK 项目服务器 离线缓存" ip="116.255.52.168" type="empty" allowsDefaultBootModule="true" security="5" icon="chip">
+
+  <portsForCrack val="0" />
+  <ports>443, 554, 21, 22, 80, 6881, 25, 192, 554, 104, 9418, 3659, 32, 3724</ports>
+  <proxy time="6000" />
+  <trace time="6000" />
+  <firewall level="6" solution="Stella" additionalTime="6553600.0"/>
+  <WhitelistAuthenticatorDaemon Remote="ZeroWhitelist"/>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="home" name="Project#0001.rec">项目计划0001: SQLBufferOverflow
+当前状况：已经制成并投入使用
+描述：此程序可以运行并破解SQL Server端口(默认端口号为1433)
+它可以越过代理服务器的保护来运行并破坏掉SQL服务器
+这个应该能为你们省下很多时间</file>
+  <file path="home" name="Project#0032.rec">项目计划0032: SecurityTracker
+当前状况：机密
+描述：此程序曾经用于开发FinalEnd的程序上 在目标节点植入后使用者将能监视到#ERROR#
+#ERROR##BINARY#</file>
+  <file path="home" name="Project#1632.rec">项目计划1632: BrokenHeart
+#BINARY##BINARY#
+数据库损坏... 是你干的吗 IcaRus</file>
+  <file path="home" name="ForReaders.txt">*你们不应该来这里...=)</file>
+</Computer>

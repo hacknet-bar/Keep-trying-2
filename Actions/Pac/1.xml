@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+<OnConnect target="PacPrj" needsMissionComplete="false">
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="8">@Channel.</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="11">我们这边已经搞定了...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="15">没错 Matrix实在是太笨了 ip也不懂得重置</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="18">嗯... 干得不错</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="22">@#PLAYERNAME# 你这边呢</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="24">...别说了 这恶心的密码简直了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="27">一堆ATGACGACT什么的一串字母 还有个我看不懂的字母表格</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="30">也就是说 你那边卡住了？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="31">没错</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="34">等等 ATG ACG??? 还有个表格？</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="38">或许我可以帮得上你</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="42">猜的没有错的话这个东西应该就是遗传密码子</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="47">在蛋白质表达的过程中 人体的DNA会首先转录成RNA 再由RNA转换成蛋白质</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="50">这个密码子就是破译从RNA到蛋白质的</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="52">RNA上一共有4种石咸基 分别是A U C G 为了方便换算 可以将U替换成T</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="55">密码子是三个一组 每三个石咸基 就是表上的三个字母只对应一个蛋白质</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="60">在表达蛋白质的时候有一个起始密码子 有一个终止密码子</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="64">终止密码子非常简单 就是出现UAA UAG UGA或TAA TAG TGA时就代表蛋白质表达结束</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="67">起始密码子就是AUG或者叫ATG 它能够表达Met 蛋白质的表达一定要从起始密码子开始 终止密码子结束</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="71">举个例子 比如TACAGTATGCGCGTAGCGAGTATGTAAC 翻译时就在ATG开始 在TAA结束</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="75">这样 它表达出的蛋白质序列其实就是Met(M)-Arg(R)-Val(V)-Ala(A)-Ser(S)-Met(M)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="78">也就是说...比如在破译ATGCAG时 应当分成ATG-CAG这两个 而不是ATG-TGC-GCA-CAG这四个？</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="81">没错 看来你听懂了呢= =</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="85">...emmm（完全没听懂）</AddIRCMessage>
+</OnConnect>
+</ConditionalActions>

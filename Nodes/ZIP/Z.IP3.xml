@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Z.IP3" name="Z.IP3" type="empty" allowsDefaultBootModule="false" security="3" >
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 80, 25, 6881, 554, 1433, 104</ports>
+  <portRemap>104=192,6881=6882,22=340</portRemap>
+  <trace time="85" />
+
+ <firewall level="4" solution="MyNameIsBit" additionalTime="2.0"/>
+ <file path="home" name="Notes.txt">此服务器为Zero的同步更新服务器
+IP分段保存 通常情况下自动更新 Zero的管理员可更改设置
+可根据IP的更改以自动设置谜题
+ZeroIP最后更新时间3.22 21:59
+当前设置 ：未经管理员允许不得更新</file>
+ <file path="home" name="ZeroIP(2).txt">3</file>
+  
+  
+   
+
+
+</Computer>

@@ -1,0 +1,25 @@
+<ConditionalActions>
+  
+<OnConnect target="N0peDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="2">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="N0peDHS" Delay="2.2">用户'#PLAYERNAME#'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="3.8">接下来我要和你讲的事 你千万不要害怕</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="5">Sup4rX被Matrix盯上了 Matrix要杀了他</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="7">...怎么可能</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="9">我早就料到你不信 在teja的备份那scan会有teja的工程计划</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="12">再scan就会找到Matrix的代理服务器 证据就在那</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="15">你再不信 我也没办法</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="24">...我相信你</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="29">接下来我们要做的就是救下Sup4rX</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="31">怎么做？</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="33">Sup4rX身上有心脏起搏器 Matrix要杀了他 只能从那下手</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="36">起搏器最重要的地方就在于他的核心 所以我们只要在下手时替换其他核心就可以了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="39">...在哪里有核心呢</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="41">等下 我会在你的netmap标注出来</AddIRCMessage>
+<ShowNode DelayHost="DCDHS2" Delay="43" Target="Wmed" />
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="44">这里应该就会有</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="46">不过剩下的就让我来吧 等待IcaRus的下一个自由时间 我们一起去救Sup4rX</AddIRCMessage>
+<RunFunction FunctionName="addFlags:PreSave"/>
+  </OnConnect>
+
+</ConditionalActions>

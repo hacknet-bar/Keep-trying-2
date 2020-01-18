@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+<Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<KillExe DelayHost="Cheater" Delay="0.0" ExeName="*"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<CrashComputer TargetComp="Pacific" CrashSource="Cheater" DelayHost="Cheater" Delay="0.0" />
+<AddConditionalActions Filepath="Actions/Cracking.xml" DelayHost="Cheater" Delay="0.0"/>
+
+
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5">!ATTACHMENT:link#%#Pacific#%#95.163.245.9</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="1.0">啊..</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">不可能，我们再试一次</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>
+ 

@@ -1,0 +1,33 @@
+<ConditionalActions>
+  
+<Instantly>
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="ATKCycle" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="ATKCycle" />
+<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="2">nice</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="4">现在就等Sup4rX他们回来</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="10">久   等   了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="13">PacificPortCrusher.exe已经被我们找到了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="16">现在就把他上传到你们的电脑里 另外我们找到了kbt破解器</AddIRCMessage>
+<AddAsset FileName="PacificPortcrusher.exe" FileContents="#PACIFIC_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddAsset FileName="KBTPortTest.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="18">OK 上传完毕</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="20">对了 我发的那个IP 你们去看下</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="24">那是个中转站 里面应该没啥东西 而且还有Ensec保护</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="26">看来是不想让我们轻易找到BrokenHeart了</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="30">没事 就看我的吧</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="33">我可以通过暴力的方式将密码破解</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="36">但是破解完后很可能我们就会被追踪到了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="40">麻烦 你直接破解 我们进攻就完事了</AddIRCMessage>
+<AddAsset FileName="Sequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="43">绝了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="46">那就得用Sequencer这种黑科技了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="49">@#PLAYERNAME# 等到密码出现后你直接破解前面的两台服务器</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="51">我和Sup4rX找到了另外两台服务器，我们来负责那另外两台</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="54">我来帮你#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="59">在Terminal窗口就能看见信息了</AddIRCMessage>
+<SaveGame DelayHost="Cheater" Delay="146"/>
+<AddConditionalActions Filepath="Actions/CrackingTrue.xml" DelayHost="Cheater" Delay="146"/>
+<RunFunction FunctionName="addFlags:FinalCrack"/>
+</Instantly>
+</ConditionalActions>

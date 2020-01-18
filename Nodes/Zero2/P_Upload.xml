@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P_Upload"
+          name="PiliPili 上传服务器"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>9418, 3724, 3659</ports>
+  <trace time="-1" />
+  <adminPass pass="11000101000101001028Joseph" /> 
+<WhitelistAuthenticatorDaemon Remote="P_WT1"/>
+
+<uploadServerDaemon name="PiliPilli 上传" folder="Drop"
+                    needsAuth="true" color="176,23,31" hasReturnViewButton="true"/>
+  
+  <file path="Drop/Uploads/Apocasw4c" name="Recollection.mp3">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Apocasw4c" name="Gaming_time.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Apocasw4c" name="Record1.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Apocasw4c" name="Crazy.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Apocasw4c" name="Record2.mp4">#BINARY##BINARY#</file>
+  
+  <file path="Drop/Uploads/9afasqAB" name="Stop.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/9afasqAB" name="RainbowStar.mp3">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/9afasqAB" name="NightMare_Knight.mp3">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/9afasqAB" name="Disconnect.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/9afasqAB" name="Cracknet1.mp4">#BINARY##BINARY##BINARY#</file>
+  <file path="Drop/Uploads/9afasqAB" name="HowToInstallCracknet.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/9afasqAB" name="Cracknet2.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/9afasqAB" name="CracknetFinal.mp4">#BINARY##BINARY##BINARY##BINARY#</file>
+  
+  <file path="Drop/Uploads/Orann" name="Intro.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Orann" name="Vlog1.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Orann" name="NightMare_Knight.mp3">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Orann" name="NightMare_Knight2.mp3">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Orann" name="BrokenHeart.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Orann" name="Vlog2.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Orann" name="Vlog3.mp4">#BINARY##BINARY#</file>
+  
+  <file path="Drop/Uploads/Pitiedwzr" name="dove.mp4">#BINARY##BINARY#</file>
+  
+  <file path="Drop/Uploads/D3f4ult" name="dove(Powered by Extensions).mp4">#BINARY##BINARY#</file>
+  
+  <file path="Drop/Uploads/Coel" name="dove(Powered by Cracknet).mp4">#BINARY##BINARY#</file>
+  
+  <file path="Drop/Uploads/Q58a1z" name="HowToMakeAMusic.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Q58a1z" name="MusicRecord.mp3">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Q58a1z" name="CracknetRecord.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/Q58a1z" name="Gaming_time4.mp4">#BINARY##BINARY#</file>
+
+  <file path="Drop/Uploads/SkyHeilx" name="HowToMakeAMusic.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/SkyHeilx" name="MusicRecord.mp3">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/SkyHeilx" name="CracknetRecord.mp4">#BINARY##BINARY#</file>
+  <file path="Drop/Uploads/SkyHeilx" name="Gaming_time4.mp4">#BINARY##BINARY#</file>
+
+
+</Computer>

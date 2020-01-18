@@ -1,0 +1,12 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="1">#PLAYERNAME#的失踪是因为:</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="2">!ATTACHMENT:link#%#Zero中的人做的#%#IsZero</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="2">!ATTACHMENT:link#%#其他人让他失踪的#%#Someone</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="2">!ATTACHMENT:link#%#不知道#%#Unknown</AddIRCMessage>
+
+
+<AddConditionalActions Filepath="Actions/Choice/Unknown.xml" DelayHost="Cheater" Delay="0.0"/>
+  </Instantly>
+</ConditionalActions>

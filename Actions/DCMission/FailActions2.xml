@@ -1,0 +1,35 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Heaven" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Heaven" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Hell" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Hell" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Karma" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Karma" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Devil" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Devil" />
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+		<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="4">... 我失败了...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="5">...</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="5">...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="5">...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="11">可恶! 怎么会</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="DCDHS2" Delay="13">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="DCDHS2" Delay="13.1">用户 "IcaRus" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="16">... 看来你们又失败了...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="19">游戏结束了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="22">不好！他想用BrokenHeart！</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="26">赶紧断开Disconnect</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="29">没办法...图形界面被锁住了</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="31">我也是</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="35.5">... 我不会让你们受到伤害的！</AddIRCMessage>
+<SwitchToTheme ThemePathOrName="TerminalOnlyBlack" FlickerInDuration="1.0" DelayHost="Cheater" Delay="35.5" />
+<AddConditionalActions Filepath="Actions/DCMission/7.xml" DelayHost="Cheater" Delay="35.5"/>
+</Instantly>
+</ConditionalActions>

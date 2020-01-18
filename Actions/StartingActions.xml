@@ -1,0 +1,28 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="8.2">用户'#PLAYERNAME#'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="10.8">哦，你来了啊</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="11">我还以为你又要口古我</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="13">怎么可能！我像是那样的人吗？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="15">像</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="17">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="19">行了行了，言归正传</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="21">我已经把邀请函放在共享服务去上了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="23">你的MemForensics应该可以阅读他</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="25">行，那我去看了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="29">话说这个人的手写体真的不错呢</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="34">？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="36">他签名的字迹应该是手写体 凭借我的直觉</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="38">有空得帮我弄张签名啊@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="41">知道了awa</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="43">那么......祝你好运</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="45">事情结束之后我带你去看看Disconnect组织 XD</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="45">!ATTACHMENT:link#%#Zero#%#77.77.77.77</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Zero.xml" DelayHost="Cheater" Delay="0.0"/>
+<AppendToFile DelayHost="Zero" Delay="29.0" TargetComp="ZeroWT" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
+<RunFunction FunctionName="addFlags:ZW0"/>
+  </OnConnect>
+
+</ConditionalActions>

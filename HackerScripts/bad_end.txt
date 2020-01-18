@@ -1,0 +1,106 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+flash $#%#$
+clearTerminal $#%#$
+
+delay 5 $#%#$
+writel $#%#$
+delay 1 $#%#$
+writel $#%#$
+delay 1 $#%#$
+writel $#%#$
+delay 1 $#%#$
+writel $#%#$
+delay 4 $#%#$
+writel ///// fatal_error /// boot_info.dll was corrupted and/or deleted ////// $#%#$
+delay 2 $#%#$
+writel %---  Keep Trying 2  ---
+
+writel ^Hacknet的制作者: $#%#$
+
+writel Matt Trobbiani $#%#$
+
+delay 8 $#%#$
+writel ^剧情设想：
+
+writel kang_zi $#%#$
+
+delay 5 $#%#$
+writel ^拓展设计： $#%#$
+
+writel kang_zi $#%#$
+
+writel Notepad + + $#%#$
+
+delay 6 $#%#$
+writel ^音乐： $#%#$
+writel Hacknet OST $#%#$
+
+writel Hacknet Labyrinths OST $#%#$
+
+writel History of the Moon  By 上海爱丽丝幻乐团 $#%#$
+
+writel 东方辉针城 OST By 上海爱丽丝幻乐团 $#%#$
+
+writel 东方妖妖梦 OST By 上海爱丽丝幻乐团 $#%#$
+
+writel 东方红魔乡 OST By 上海爱丽丝幻乐团 $#%#$
+
+writel MiHoYo OST  By HOYO - MIX $#%#$
+
+writel Fade  By Janji $#%#$
+
+writel 大逆转裁判2原声带 By 北川保昌 $#%#$
+
+writel Brainiac Maniac (Kyle Xian Remix) By Plant vs Zombies OST and Kyle Xian $#%#$
+
+writel UndertaleOST By Toby Fox $#%#$
+
+writel Shadow  By Janji $#%#$
+
+writel Funky Stars(Byproduct remix) By Byproduct and Quazar $#%#$
+
+writel Ink Unleashed $#%#$
+
+writel Alphys takes action $#%#$
+
+writel Arknights OST by HyperGryph $#%#$
+
+writel Call of Duty ModernWarfare 2 OST by Hans Zimmer and Lorne Balfe $#%#$
+
+writel 或许还有很多 欢迎补充 $#%#$
+
+delay 15 $#%#$
+writel ^X-server 提供： $#%#$
+
+writel Unsplash $#%#$
+
+writel Microsoft Wall Paper $#%#$
+
+delay 8 $#%#$
+writel ^测试者： $#%#$
+
+writel 因测试者要求不予显示名称 $#%#$
+
+
+writel ^Special Thanks: $#%#$
+
+writel Pitiedwzr $#%#$
+
+writel html-qwq $#%#$
+
+writel Hui_Night $#%#$
+
+
+writel 所有在Hacknet百度贴吧的各位 $#%#$
+
+
+writel ^And You... $#%#$ 
+
+writel %感谢你们... $#%#$
+
+writel %Thanks for Playing Keep Trying 2! $#%#$
+delay 200 $#%#$
+forkbomb $#%#$
+delete /log * $#%#$
+delete /sys * $#%#$
+disconnect $#%#$

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Cmed" name="医疗服务中心 - 中" type="empty" allowsDefaultBootModule="false" security="10" >
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 25, 6881, 554, 443</ports>
+  <trace time="75" />
+  <firewall level="4" solution="centralMedicine" additionalTime="1.0"/>
+
+  
+  <CustomConnectDisplayDaemon />
+   <dlink target="CM" />
+
+
+</Computer>

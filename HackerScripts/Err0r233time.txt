@@ -1,0 +1,8 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+writel_silent ***与此同时*** Err0r233准备找出幕后的黑手 $#%#$
+delay 3 $#%#$
+writel_silent Err0r233: 我一定不会放过他! $#%#$
+delay 3 $#%#$
+write_silent Err0r233: 先回SES想想办法吧

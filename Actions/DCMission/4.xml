@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/DCMission/5.xml" TargetComp="DCDHS2"/>
+<AddMissionToHubServer MissionFilepath="Missions/DCMission/6.xml" TargetComp="DCDHS2" AssignmentTag="Tom"/>
+<AddMissionToHubServer MissionFilepath="Missions/DCMission/7.xml" TargetComp="DCDHS2" AssignmentTag="Pot"/>
+<RunFunction FunctionName="addFlags:DC4"/>
+<RunFunction FunctionName="playCustomSong:Music/短兵相接.ogg" />
+<AddConditionalActions Filepath="Actions/Pac/1.xml" DelayHost="Cheater" Delay="2.0"/>
+</Instantly>
+</ConditionalActions>

@@ -1,0 +1,18 @@
+<ConditionalActions>
+  
+<Instantly>
+<HideAllNodes DelayHost="Cheater" Delay="0.0"/>
+<LaunchHackScript Filepath="HackerScripts/Err0r233time.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  <RunFunction FunctionName="setHubServer:MissionDHS"/>
+				  <ChangeAlertIcon Target="MissionDHS" Type="irchub" DelayHost="Cheater" Delay="0.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Err0r233Theme.xml" FlickerInDuration="1.0" DelayHost="Cheater" Delay="1.0" />
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="false" IsHidden="false" />
+		<AddConditionalActions Filepath="Actions/SES2.xml" DelayHost="Cheater" Delay="0.0"/>
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/DCMission/2.xml" TargetComp="DCDHS2"/>
+<RunFunction FunctionName="addFlags:DC2"/>
+<AddMissionToHubServer MissionFilepath="Missions/DCMission/3.xml" TargetComp="DCDHS2" AssignmentTag="Tom"/>
+<AddMissionToHubServer MissionFilepath="Missions/DCMission/4.xml" TargetComp="DCDHS2" AssignmentTag="Pot"/>
+</Instantly>
+</ConditionalActions>

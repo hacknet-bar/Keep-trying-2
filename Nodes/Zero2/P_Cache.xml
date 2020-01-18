@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P_Cache" name="PiliPili 缓存服务器" type="1" >
+
+  <portsForCrack val="3" />
+  <ports>80, 22, 25, 21, 80, 554, 1433</ports>
+  <portRemap>80=8080,22=225,1433=65451,21=32</portRemap>
+  <proxy time="3" />
+  <trace time="70" />
+<file path="home" name="Notes.txt">不能忘记的东西
+1.每隔一个月更改一次上传服务器的密码
+本月密码: ***REMOVED BY PiliPili Admin ***
+2.定时检查防火墙的情况
+3.改进用户体验</file>
+<dlink target="P_Internal" />
+<dlink target="P_Service" />
+</Computer>

@@ -1,0 +1,31 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">没错</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="6">就是这份邀请函</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="7">...?</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="8">上面说了，你们这个地方可是十分安全、无懈可击的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="11">那为什么还要增强呢？</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="14">以防万一不行吗？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="16">我可以认为你有这个心思</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="18">但很遗憾</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="20">#PLAYERNAME#的失踪是因为:</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="20">!ATTACHMENT:link#%#Zero中的人做的#%#IsZero</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="20">!ATTACHMENT:link#%#其他人让他失踪的#%#Someone</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="20">!ATTACHMENT:link#%#不知道#%#Unknown</AddIRCMessage>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+
+<AddConditionalActions Filepath="Actions/Choice/IsZero.xml" DelayHost="Cheater" Delay="20.0"/>
+<AddConditionalActions Filepath="Actions/Choice/Someone.xml" DelayHost="Cheater" Delay="20.0"/>
+<AddConditionalActions Filepath="Actions/Choice/Unknown.xml" DelayHost="Cheater" Delay="20.0"/>
+
+
+  		<SetLock DelayHost="Cheater" Delay="20.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="20.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="20.1" Module="ram" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="20.1" Module="netmap" IsLocked="false" IsHidden="false" />
+  </Instantly>
+</ConditionalActions>

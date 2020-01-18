@@ -1,0 +1,24 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="2">?</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5">你怎么回来了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="7">emmmm</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="10">归功于Zero的自由时间</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="11">- -</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="13">那么你在Zero过得怎么样</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="15">还行</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="17">但是发邀请函的那位Matrix并不在Zero</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="19">似乎他们的老大是一位叫IcaRus的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="22">不排除假名的可能？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="25">这应该是两个人...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="29">额... 我觉得他们应该是一个人</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="32">为什么 从态度上来说他们就不一样</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="35">那位Matrix的态度和暴躁老哥IcaRus大相径庭</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="37">... 也许吧 凭直觉</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="39.5">既然Matrix不在 那你帮我弄下IcaRus的签名吧</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="41">行 有空时给你</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/flag1.xml" DelayHost="Cheater" Delay="41.0"/>
+  </OnConnect>
+
+</ConditionalActions>

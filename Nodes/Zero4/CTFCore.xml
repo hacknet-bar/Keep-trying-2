@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFCore"
+          name="CTF 核心"
+          security="10"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="9999998" />
+  <ports>22, 21, 80, 554, 6881, 1433</ports>
+  <trace time="60" />
+  <adminPass pass="201930199182745721171893393" /> 
+  <proxy time="30" />
+  <firewall level="99" solution="macrosoft-firewallservice-0018" additionalTime="9999"/> 
+  <portRemap>web=8080,22=9999,6881=10451</portRemap>
+ <CustomConnectDisplayDaemon />
+ <encryptedFile path="home" name="CTFEncryption.ctf" ip="192.168.1.1" header="CTFEncryption.dec" pass="BillNoneofyourbusiness">
+#DEC_ENC::160727 191701 166193 164371 239073 219031 246361 259115 242717 250005 229963 240895 239073 184413 215387 248183 248183 255471 240895 246361 220853 122465 250005 257293 250005::127931 142507 129753 122465 127931 137041 140685 122465 127931 122465 127931::159291 175689 155647 177511 157469 159291 157469
+51793 195731 170223 193909 124673 130139 122851 51793 91877 91877</encryptedFile>
+  
+
+
+</Computer>

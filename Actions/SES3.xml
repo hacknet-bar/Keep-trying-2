@@ -1,0 +1,65 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<RunFunction FunctionName="setHubServer:MissionDHS"/>
+<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+<ChangeAlertIcon Target="MissionDHS" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="2">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5">到这里 线索又断了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="7">没有从IcaRus口中问出什么呢</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="10">真是够了...</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="11">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="11.5">用户 'Yan' 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="13">哟吼</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="18">来了啊</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="20">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="20.5">用户 'Yan' 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="22">抱歉 我来迟了</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="24">没事 目前的当务之急是要救回#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="26">耽误了一点时间 不过无关紧要</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="28">我刚刚去搜索了Zero的服务器</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="31">IcaRus居然在Zero里留下了一份文本</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="33">！ 是什么？</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="36">关于BrokenHeart.</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="40">#PLAYERNAME#曾经去帮IcaRus找寻他丢失的服务器</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="43">而这份文本就说明了BrokenHeart已经在这个服务器上运行了</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="45">也就是说...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="48">只要我们摧毁掉这个服务器的话</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="52">#PLAYERNAME#就能回来了对吧</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="55">说不准...</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="59">不过也只能冒险一试了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="61">好吧各位</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="64">这个服务器就是我们的目标了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="67.5">大家 上吧！</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="70">我会查到这个服务器的...给我10秒</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="80">！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="85">怎么了？</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="88">这...这不可能</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="90">我搜索不到...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="92">这不应该啊......</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="96">交给我们吧</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="98">好吧...稍等一下 IcaRus将服务器设定为除Zero成员以外不可搜索了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="100">我必须得在他发现前找到服务器...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="102">OK 找到了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="105">但...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="108">看来我们要一起上了...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="110">它的安防实在是超出了我们任何一个人的能力...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="115">...是吗</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="118">那就只能硬着头皮上了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="120">N0pe Yan 你们和我一起破解端口</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="123">Coel去扫描防火墙</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="126">...我们不能在这里失败</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="129">顺带一提 一旦连接上这个服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="131">追踪计时就会立刻开始</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="135">为了方便沟通，我们要连接上SES的内部网络</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="140">这样我们就能在Terminal窗口上看到各自发送的信息了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="143">准备好的话就等待我的指令吧</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="146">!ATTACHMENT:link#%#Pacific#%#95.163.245.9</AddIRCMessage>
+<LoadMission MissionName="Missions/SESMission/StopMission.xml"/>
+
+
+<SaveGame DelayHost="Cheater" Delay="146"/>
+<AddConditionalActions Filepath="Actions/Cracking.xml" DelayHost="Cheater" Delay="146"/>
+  </OnConnect>
+
+</ConditionalActions>

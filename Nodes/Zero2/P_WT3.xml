@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P_WT3" name="PiliPili 白名单 3" type="empty" allowsDefaultBootModule="true" security="9" >
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="3.5" />
+  <trace time="55" />
+  
+  <CustomConnectDisplayDaemon />
+   <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+
+</Computer>

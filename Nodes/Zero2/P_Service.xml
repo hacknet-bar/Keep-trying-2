@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P_Service" name="PiliPili 服务中心" type="empty" allowsDefaultBootModule="false" security="8" >
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="3" />
+  <trace time="70" />
+  
+
+  
+  
+  <CustomConnectDisplayDaemon />
+   
+  <file path="sys" name="MemScanData.dat">#BINARY##BINARY#</file>
+  <Memory>
+    <Commands>
+      <Command>InComing Connection From PiliPili Admin</Command>
+      <Command>login Successfully</Command>
+      <Command>cd /home</Command>
+      <Command>cd /log</Command>
+      <Command>cd /sys</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>Disconnected By PiliPili Admin @159.55.37.2</Command>
+    </Commands>
+    <Data>
+      <Block>173.23.99.6</Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+
+
+</Computer>

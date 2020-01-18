@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ProxyNode5" name="Proxy Node 5" type="empty" allowsDefaultBootModule="true" security="9" ip="224.151.78.66">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+
+
+</Computer>

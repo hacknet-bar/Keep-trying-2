@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Atlas" name="Atlas Workstation" type="empty" allowsDefaultBootModule="true" security="9" ip="102.56.99.7">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 443, 6881, 554</ports>
+  <proxy time="3" />
+  <trace time="80" />
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  
+  <dlink target="AtlasBU" />
+  <dlink target="AtlasWT" />
+</Computer>

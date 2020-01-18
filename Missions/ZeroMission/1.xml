@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="databaseEntryChange" comp="HypixcalControl" recordName="Mike" fieldName="Rank" operation="greater" targetValue="MVP+"/>
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS1.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="非法交易" reqs="DHS1" >
+一名玩家需要我们依法维护Hypixcal对他的不平等待遇
+  </posting>
+
+  <email>
+    <sender>IcaRus</sender>
+    <subject>非法交易</subject>
+    <body>#PLAYERNAME# 听说过Hypixcal吗？
+这是一个游戏服务器
+但是最近有一名玩家Mike向我们倾诉他的MVP+被Hypixcal修改为了VIP+
+这将令他损失数百元
+#PLAYERNAME# 去将他应得的东西拿回来
+
+我建议你先去我的缓存节点弄点东西
+
+</body>
+    <attachments>
+	<note title="任务细节">1.先获取工具
+2.找到进入Hypixcal储存服务器的办法
+3.修改Mike的存档中的VIP+为MVP+</note>
+      <link comp="DelayNode" />
+      <link comp="HypixcalDelay" />
+	  <account comp="DelayNode" user="admin" pass="admin" />
+    </attachments>
+  </email>
+</mission>

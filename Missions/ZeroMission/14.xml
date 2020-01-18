@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="14" >
+  <goals>
+<goal type="clearfolder" target="AlphaTestDB" path="Project"/>
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS5.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="内存转储" reqs="DHS5" >
+通过分析内存文件进入一个服务器
+  </posting>
+
+  <email>
+    <sender>IcaRus</sender>
+    <subject>内存转储</subject>
+    <body>#PLAYERNAME# 一位匿名用户向我们发来了求助
+他的工程文件被窃取了 他希望我们删除被窃取的东西
+然而他没有窃取者的IP
+你应该可以扫描节点的内存来找到这个服务器
+</body>
+    <attachments>
+	<link comp="AlizaPC" />
+	<note title="任务细节">找到攻击者的服务器 清除被窃取的文件</note>
+	<account comp="AlizaPC" user="admin" pass="APTX4869" />
+    </attachments>
+  </email>
+</mission>

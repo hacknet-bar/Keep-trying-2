@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="adweb" name="Advertisment Inc." type="empty" allowsDefaultBootModule="true" security="9" >
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <portRemap>21=2020,6881=7979,554=4028</portRemap>
+  <proxy time="2" />
+  <trace time="75" />
+<addWebServer name="Advertisment Website"
+                url="Web\Presets\adWeb/ad.html" />
+<dlink target="DBWT" />
+<dlink target="adCache" />
+<dlink target="adDB" />
+</Computer>

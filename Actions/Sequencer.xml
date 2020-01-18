@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="2">准备好！Coel赶快</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="4">正在破解... 稍等一下！</AddIRCMessage>
+<StartScreenBleedEffect AlertTitle="Clear BrokenHeart" CompleteAction="Actions/bad_end.xml" TotalDurationSeconds="270" DelayHost="Cheater" Delay="14">进入中转站
+找到储存有BrokenHeart的服务器 清空sys文件夹
+GO! GO! GO!</StartScreenBleedEffect>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="10">找到了！中转站的密码是keystone！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="13">我们上#PLAYERNAME#</AddIRCMessage>
+<LoadMission MissionName="Missions/True/StopMission.xml"/>
+<RunFunction FunctionName="playCustomSong:Music/goddesstemple.ogg" />
+</Instantly>
+</ConditionalActions>

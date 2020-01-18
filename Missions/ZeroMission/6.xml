@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="6">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="DDoS">瘫痪一个白名单节点</posting>
+
+  <email>
+    <sender>0</sender>
+    <subject>1</subject>
+    <body>F U C K
+</body>
+    <attachments>
+
+    </attachments>
+  </email>
+</mission>

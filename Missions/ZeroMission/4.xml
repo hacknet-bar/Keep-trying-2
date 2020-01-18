@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="4" >
+  <goals>
+<goal type="clearfolder" target="P_Upload" path="Drop/Uploads/SkyHeilx"/>
+  </goals>
+    <missionEnd>loadConditionalActions:DHSEnd/DHS2.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="抹除" reqs="DHS2" >
+删除非法窃取并上传的视频
+  </posting>
+
+  <email>
+    <sender>IcaRus</sender>
+    <subject>抹除</subject>
+    <body>#PLAYERNAME# 知名视频网站PiliPili的一名up主向我们发来了邮件
+有一名叫做SkyHeilx的用户窃取了他的视频并上传到了PiliPili
+经过多次与SkyHeilx的协商无果后
+他决定让我们我们帮助他删除这些窃取的视频
+</body>
+    <attachments>
+	<note title="任务细节">想办法进入PiliPili的上传服务器
+将名为SkyHeilx用户的文件夹清空</note>
+      <link comp="P_Cache" />
+    </attachments>
+  </email>
+</mission>

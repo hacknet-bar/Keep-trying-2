@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ctfmail" 
+name="CTF 邮件服务器" 
+allowsDefaultBootModule="true"
+security="3"
+type="1" > 
+
+  <adminPass pass="YOUCANTGETTHEADMINPASS" />
+  
+  <ports>80,22,21,25,1433</ports>
+  <portsForCrack val="99999998" />
+  
+  <WhitelistAuthenticatorDaemon Remote="CTFWT1"/>
+  <account username="Bill" password="divingsparrow" type="2" />
+  <account username="teja" password="Revolution" type="2" />
+  <account username="Yuri" password="GOODGUYnick" type="2" />
+  
+  
+  
+  
+  
+  <mailServer name="CTF 邮件" color="50,237,212" generateJunk="true">
+     <email recipient="Bill" sender="teja" subject="NO SUBJECT">
+我想你可能不知道我的电脑密码
+AB5682PARR
+在你完成之前我都不会更改密码的</email>
+
+     <email recipient="teja" sender="Bill" subject="NO SUBJECT">
+pt3的密码是gunawsl
+不要忘了</email>
+
+     <email recipient="Yuri" sender="Smith" subject="My Epad">
+我的epad密码是Catsarethebest
+不要忘记了</email>
+  </mailServer>  
+  
+</Computer>

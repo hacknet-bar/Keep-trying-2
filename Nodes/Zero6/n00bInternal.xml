@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="n00bInternal" name="n00b 内部服务器" type="empty" allowsDefaultBootModule="true" security="3">
+
+  <portsForCrack val="8" />
+  <ports>21, 22, 80, 25, 6881, 554, 443, 1433</ports>
+  <proxy time="2" />
+  <trace time="85" />
+
+<firewall level="8" additionalTime="0.02"/>
+<dlink target="n00bIRC" /> 
+
+</Computer>

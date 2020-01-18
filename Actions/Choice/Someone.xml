@@ -1,0 +1,8 @@
+<ConditionalActions>
+<OnConnect target="SomeOne" needsMissionComplete="false">
+
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+
+<AddConditionalActions Filepath="Actions/Fail/Someone.xml" DelayHost="Cheater" Delay="0.0"/>
+  </OnConnect>
+</ConditionalActions>

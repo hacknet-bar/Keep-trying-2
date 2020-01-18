@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="Green_Walter" handle="Green_Walter" firstName="Walter" lastName="Green" isMale="true" forceHasNeopals="true">
+  <!-- ID is not used yet, but may be used in the future for reference stuff. Handle is this person's account name for things like PointClicker and neopals.
+  forceHasNeopals set to try guarantees they will have a neopals account generated. Otherwise it's random.-->
+  
+  <!-- Any string works here, but it's designed to accept a city name -->
+  <Birthplace name="The USA" />
+  
+    <!-- You can add as many degrees as you like here - these show up on the academic database-->
+  <Degrees>
+    <Degree uni="University of California" gpa="3.8">Bachelor of Software Engineering</Degree>
+    <Degree uni="University of California" gpa="3.8">Bachelor of Business Management</Degree>
+  </Degrees>
+
+  <!-- This info shows up in the medical database-->
+  <Medical>
+    <Blood>OO</Blood>
+    <Height>182</Height> <!-- Height in cm -->
+    <Allergies>NONE</Allergies>
+    <Perscription>紧急手术</Perscription>
+    
+    <Notes>患者刚刚进入医院 然而已无意识 实施紧急手术 这里是他的起搏器 55.144.62.1</Notes>
+  </Medical>
+  
+  <!-- date and time of birth - used in medical records
+  Format is: DD/MM/YYYY HH:MM:SS-->
+  <DOB>11/09/1995 20:18:00</DOB>
+  
+  <Notes>These notes are never used in-game, but can be handy to keep track of stuff for your own purposes.</Notes>
+</Person>

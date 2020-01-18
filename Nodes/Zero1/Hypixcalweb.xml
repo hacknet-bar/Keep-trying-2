@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Hypixcalweb" 
+          name="Hypixcal 网页服务器" 
+          security="3"
+          allowsDefaultBootModule="true"
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="40" />
+  <proxy time="2" />
+
+<file path="home" name="FinalEnd.txt">新游戏推出：FinalEnd争夺战
+游戏分为两支队伍------ 争夺者和保护者
+争夺者必须从保护者的手里夺取FinalEnd副本并且持有一段时间
+保护者必须保护好FinalEnd副本
+当副本被抢走时保护者可以夺取回来
+游戏时长: 14min
+推荐游戏人数: 10人</file>
+  <memoryDumpFile name="MemAutoGenerator.mem" path="sys">
+    <Memory>
+      <Data>
+        <Block></Block>
+        <Block></Block>
+      </Data>
+      <Commands>
+        <Command>connect HypixcalDataBase</Command>
+		<Command>login</Command>
+		<Command>admin</Command>
+		<Command>Hyp105aclg</Command>
+      </Commands>
+      <Data>
+        <Block></Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+<dlink target="HypixcalDelay" />
+<dlink target="HypixcalDB" />
+  
+</Computer>

@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="getstring" target="116.255.52.168" />
+  </goals>
+    <missionEnd>loadConditionalActions:DCEnd/3.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="蔓延" reqs="DC3" >
+探查Zero周围的服务器
+  </posting>
+
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>蔓延</subject>
+    <body>#PLAYERNAME#
+看来我们不得不迎战了...
+真该死 我们的第一步计划是先去探索你曾经所在的组织 Zero
+但是你不要回到Zero 而是悄悄地探查周围的服务器...
+我想应该很好办的 探查到可疑的服务器时 将它的IP发给我
+
+Pitiedwzr
+</body>
+    <attachments>
+	<note title="任务细节">探查Zero周边的服务器 将可疑的IP发给Pitiedwzr</note>
+      <link comp="ZeroDelay" />
+    </attachments>
+  </email>
+</mission>

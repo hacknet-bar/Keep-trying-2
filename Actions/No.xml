@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+<OnConnect target="No" needsMissionComplete="false">
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="0">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="3">推理对决 开始</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="3">!ANNOUNCEMENT! @Channel 若右侧有异常报错请无视</AddIRCMessage>
+<RunFunction FunctionName="addRank" FunctionValue="1000"/>
+<RunFunction FunctionName="playCustomSong:Music/TLPhase1.ogg" />
+<AddConditionalActions Filepath="Actions/TLDJ/1.xml" DelayHost="Cheater" Delay="5.0"/>
+  </OnConnect>
+
+</ConditionalActions>

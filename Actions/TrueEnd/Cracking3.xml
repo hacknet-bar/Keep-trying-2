@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+<OnConnect target="Core" needsMissionComplete="false">
+
+<StartScreenBleedEffect AlertTitle="STOP MATRIX" CompleteAction="Actions/TrueEnd/FailActions.xml" TotalDurationSeconds="122" DelayHost="Zero" Delay="1.5">入侵红绿灯系统
+删除控制红绿灯的组件
+阻止Matrix逃离</StartScreenBleedEffect>
+				<RunFunction FunctionName="playCustomSong:Music/FLDL.ogg" />  
+
+  </OnConnect>
+
+</ConditionalActions>

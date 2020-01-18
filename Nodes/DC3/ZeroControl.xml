@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ZeroControl" name="Zero 控制服务器" type="empty" ip="43.56.89.98" allowsDefaultBootModule="true" security="6" icon="chip">
+
+  <portsForCrack val="6" />
+  <ports>80, 443, 554, 6881, 21, 25</ports>
+  <proxy time="1.9" />
+  <trace time="83" />
+  <file path="home" name="info.txt">Something changed.</file>
+  <file path="home" name="Solve.txt">Stella</file>
+  <tracker />
+</Computer>

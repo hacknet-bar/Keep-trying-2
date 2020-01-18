@@ -1,0 +1,6 @@
+<ConditionalActions>
+  
+<HasFlags requiredFlags="Save">
+<RunFunction FunctionName="removeFlags:Walter_Green:DEAD"/>
+</HasFlags>
+</ConditionalActions>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="8.5Clock"
+          name="8.5 o'Clock"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>443, 6881, 21, 80, 554</ports>
+  <trace time="75" />
+  <proxy time="1" />
+  
+
+  <file path="sys" name="MemScanData.dat">#BINARY#</file>
+  <Memory>
+    <Commands>
+      <Command>如果你实在想不到要怎么做的话</Command>
+	  <Command>Connect 192.66.75.111</Command>
+    </Commands>
+    <Data>
+      <Block>tips: 乾=111 坤=000</Block>
+	  <Block>找规律吧</Block>
+	  <Block>但如果你实在不会的话...</Block>
+    </Data>
+    <Images>
+      <Image>DLC/bagua.png</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

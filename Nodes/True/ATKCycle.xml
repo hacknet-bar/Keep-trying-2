@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKCycle"
+          name="Absence - BrokenHeart中转站"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1"
+		  ip="18.81.42.24">
+  
+  <adminPass pass="keystone" /> 
+  <portsForCrack val="101" />
+  <ports>21, 22, 80, 25, 1433, 443</ports>
+  <proxy time="2" />
+  <dlink target="Pacific" />
+  <dlink target="Karma" />
+</Computer>

@@ -1,0 +1,21 @@
+<ConditionalActions>
+  
+<OnConnect target="N0peDHS" requiredFlags="PreSave">
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="2">谢谢你让我知道这个消息#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="4">其实接下来的工作让我一个人来就好</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="7">毕竟我和Sup4rX是邻居...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="11">接下来我打算将计就计</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="14">？</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="16">假装让Sup4rX死亡 让Matrix信服</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="19">然后我们在想下一步对策</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="21">不错的计划</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="27">核心替换成功了 等会Matrix可能就会随时向Sup4rX的起搏器发起进攻</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="30">或许我们还可以抓住Matrix</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="N0peDHS" Delay="33">不可能的 Matrix一定会很谨慎地使用跳板机并且删除日志</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="37">也对 做到这一步 我们已经很不错了</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="44">总之 不能让Zero任何人说起这件事 绝不能在IcaRus面前露出马脚 谁知道他跟Matrix有啥关系呢</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="N0peDHS" Delay="46">现在没啥事了 我们回Zero吧</AddIRCMessage>
+<RunFunction FunctionName="addFlags:Save"/>
+  </OnConnect>
+
+</ConditionalActions>

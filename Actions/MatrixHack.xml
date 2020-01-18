@@ -1,0 +1,40 @@
+<ConditionalActions>
+  
+<Instantly>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+		<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+<LaunchHackScript Filepath="HackerScripts/MatrixHack.txt" 
+                  DelayHost="Cheater" 
+                  Delay="0" SourceComp="Zero" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<StartScreenBleedEffect AlertTitle="BrokenHeartHacking" CompleteAction="Actions/BlankActions.xml" TotalDurationSeconds="16" DelayHost="Zero" Delay="14">ERROR ERROR ERROR
+01100011
+01101011</StartScreenBleedEffect>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="17">该死 快想想办法！</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="Zero" Delay="19">可恶 动不了...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="22">该死！</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="24">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="24.2">用户 'Coel' 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="Zero" Delay="25">不要慌 我来了</AddIRCMessage>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="28.0"/>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="28">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="28.2">用户 'IcaRus' 被封禁</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="Zero" Delay="31">赶上了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="34">呼 还好有你在 Coel</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="Zero" Delay="36">看来我错过了一场好戏呢...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="39">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="42">现在知道了 IcaRus 或者说Matrix就是这整件事件的元凶！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="44">我们先回SES</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="46">@Yan @N0pe.</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="49">你们也可以来SES</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="52">Coel会发给你们链接</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/SES3.xml" DelayHost="Cheater" Delay="52.0"/>
+  		<SetLock DelayHost="Cheater" Delay="52.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="52.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="52.1" Module="ram" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="52.1" Module="netmap" IsLocked="false" IsHidden="false" />
+  </Instantly>
+
+</ConditionalActions>

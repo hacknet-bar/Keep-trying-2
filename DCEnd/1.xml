@@ -1,0 +1,57 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DC1">
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="4">！ 干得漂亮</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="7">嗯嗯 不愧是你</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="10">话说回来= =</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="13">为什么一个这么简单的任务你就失败了呢？</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="15">因为他菜啊 是不是啊@Tom</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="19">？ 没有#PLAYERNAME#我也照样能完成任务</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="21">只不过还要久一些 怕你们等不了而已</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="25">吹吧你@Tom</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="29">无论如何 我们仍要感谢#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="32">那么 我们进入正题吧</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="35">就在几个小时前 一个叫做P的人向我发来了信息</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="38">其中附上了一份CTF文本 说到在CTF内部有这件东西的解码文本 但被保存起来了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="41">虽然我不太相信 但最终我还是想去看一看</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="44">哇哦...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="48">有一句话说得好 好奇心害死猫...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="50">所以在面对未知的东西你们还要去尝试？</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="53">......</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="55">但无论前面怎么样危险，我们都得要尝试一下...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="58">说不定最后的收获大于投入呢</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="60">这话说得在理 我喜欢</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="62">更何况 我们已经安装了WhitelistCracker.bat了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="64">没理由不用吧...</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="67">行吧 Pitiedwzr 让我们开始行动</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="70">8说了 开工</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="73">行 我很快就会运行WhitelistCracker.bat了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="74">5</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="75">4</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="76">3</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="77">2</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="78">1</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="79">开始运行...</AddIRCMessage>
+<DeleteFile TargetComp="CTFOL" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="DCDHS2" Delay="79.0"/>
+<DeleteFile TargetComp="CTFWIFI1" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="DCDHS2" Delay="79.0"/>
+<DeleteFile TargetComp="CTFWT1" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="DCDHS2" Delay="79.0"/>
+<DeleteFile TargetComp="CTFOFFL" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="DCDHS2" Delay="79.0"/>
+<AddConditionalActions Filepath="Actions/DCMission/2.xml" DelayHost="Cheater" Delay="80.0"/>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="82">@Channel 好了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="85">非常成功，现在CTF的白名单已经对我们造成不了任何威胁了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="88">@#PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="93">你可能不知道为什么我们要破坏白名单</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="95">其实是因为最近的一次入侵...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="98">不明的黑客组织进攻了CTF并偷窃了CTF储存的重要信息</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="101.5">...于是他们加大了防御力度</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="104">这对于我们很不利啊</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="106">没办法...只能硬着头皮上了</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="108">#PLAYERNAME# 好好地准备下</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="111">@Channel 这是我找到的Web破解器 应该对你们有用 已经上传到共享服务器的bin文件上了</AddIRCMessage>
+<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="DCDrop" TargetFolderpath="bin" />
+<AddConditionalActions Filepath="Actions/DCMission/9418/1.xml" DelayHost="Cheater" Delay="80.0"/>
+<AddConditionalActions Filepath="Actions/DCMission/9418/2.xml" DelayHost="Cheater" Delay="80.0"/>
+<AddConditionalActions Filepath="Actions/DCMission/9418/3.xml" DelayHost="Cheater" Delay="80.0"/>
+</HasFlags>
+
+</ConditionalActions>

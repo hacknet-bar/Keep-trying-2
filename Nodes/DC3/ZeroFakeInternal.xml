@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ZeroFakeInternal" name="Zero内部服务器" type="empty" ip="23.68.172.46" allowsDefaultBootModule="true" security="5" icon="DLCPC1">
+
+  <portsForCrack val="2" />
+  <ports>443</ports>
+  <proxy time="1.9" />
+  <trace time="83" />
+  <WhitelistAuthenticatorDaemon Remote="ZeroWhitelist"/>
+</Computer>

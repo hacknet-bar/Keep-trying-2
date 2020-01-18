@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DBWT" name="数据库白名单" type="empty" allowsDefaultBootModule="false" security="9" >
+
+  <portsForCrack val="101" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="3.5" />
+  <trace time="55" />
+  <adminPass pass="NaCl"/>
+  
+  <CustomConnectDisplayDaemon />
+   <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+
+</Computer>

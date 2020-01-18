@@ -1,0 +1,36 @@
+<ConditionalActions>
+  
+<Instantly>
+  <AddConditionalActions Filepath="Actions/Mission7.xml" DelayHost="Cheater" Delay="82.0"/>
+  <RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+  <RunFunction FunctionName="addFlags:Walter_Green:DEAD"/>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="2">自由时间结束</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="4">......</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="7">What?</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="10">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="10.5">!ANNOUNCEMENT! 用户'@Sup4rX' 离开了DHS</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="12">什么情况</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="15">这...</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="18">我想我们得去看看了...</AddIRCMessage>
+  <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="21">稍等，我和Sup4rX是邻居 我马上过去看看</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="24">但愿他没事</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="30">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="30.5">!ANNOUNCEMENT! 用户'@Sup4rX' 进入了DHS</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="33">这里是N0pe</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="35">Sup4rX他现在倒在了地上 看来是他的起搏器出了问题</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="39">我马上去叫救护车</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="42">什么...?</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="45">怎么... 可能....</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="48">...应该是某个黑客动的手</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="51">该死 怎么会</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="55">已经叫救护车了 但是...</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="58">我不知道来不来得及</AddIRCMessage>
+  <AddIRCMessage Author="Yan" TargetComp="Zero" Delay="60">可恶！</AddIRCMessage>
+  <AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="62">救护车 你快点来啊....</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="70">来了！</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="75">啊... 已经将Sup4rX送上救护车了</AddIRCMessage>
+  <AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="80">但是我不知道他去了哪一个医院</AddIRCMessage>
+  <AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="82">@#PLAYERNAME# 我需要你的帮助</AddIRCMessage>
+</Instantly>
+</ConditionalActions>

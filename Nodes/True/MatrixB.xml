@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MatrixB"
+          name="Matrix 代理控制"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="empty">
+
+  <portsForCrack val="0" />
+  <ports>21, 22, 80, 25, 1433, 443</ports>
+  <proxy time="2" />
+  <trace time="15" />
+  <file path="home" name="TEST.txt">您已获取了Matrix代理服务器的控制权限 正在更改代理服务器...</file>
+</Computer>

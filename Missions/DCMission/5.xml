@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="fileupload" target="PacPrj" file="PacificPortCrusher.exe" path="bin" destTarget="DCDrop" destPath="Drop/Uploads" />
+  </goals>
+    <missionEnd>loadConditionalActions:DCEnd/4.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="阻止 - #PLAYERNAME#" reqs="DC4" >
+找到Pacific破解器
+  </posting>
+
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>阻止</subject>
+    <body>#PLAYERNAME#
+看来这是我们的最后一个任务了...
+我们必须要找到Pacific破解器...
+但这次 我为你提供了便利 你直接从内部服务器进行探查...
+祝你好运...
+
+Pitiedwzr
+</body>
+    <attachments>
+	<note title="任务细节">找到Pacific破解器 并上传到共享服务器</note>
+      <link comp="PacInternal" />
+    </attachments>
+  </email>
+</mission>

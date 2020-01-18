@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pc" name="Matrix 车载电脑" allowsDefaultBootModule="true" icon="chip" type="4" >
+
+  <portsForCrack val="2" />
+  <ports>22, 80</ports>
+  <trace time="-1" />
+  <firewall level="4" />
+
+  <file path="home" name="MoveForward.dll">#BINARYSMALL#</file>
+  <file path="home" name="MoveBackward.dll">#BINARYSMALL#</file>
+  <file path="home" name="Speedupanddown.Conf">#BINARYSMALL#</file>
+  
+  
+
+				  				  
+</Computer>

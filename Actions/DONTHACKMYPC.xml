@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+<OnConnect target="ProxyNode5" needsMissionComplete="false">
+<AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="2">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="4">guna 自己探索自己的</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="Zero" Delay="6">不要来我们这边</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DONTHACKMYPC.xml" DelayHost="Cheater" Delay="0.0"/>
+  </OnConnect>
+
+</ConditionalActions>

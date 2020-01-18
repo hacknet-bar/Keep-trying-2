@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Inter3R" name="???? 3" type="empty" allowsDefaultBootModule="true" security="0" icon="chip">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25, 80, 443, 554, 104, 1433, 6881, 3724</ports>
+  <proxy time="28888" />
+  <trace time="20" />
+  <file path="PUZZLE" name="Puzzle3.txt">在asklfxnvckhiwjkzlf,amd 求asjfklanmclknxlkhncuoghrsajknvcz
+#BINARY##BINARY#
+File Broken.</file>
+  <dlink target="Inter3RR" />
+</Computer>

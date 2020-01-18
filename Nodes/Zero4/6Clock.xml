@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="6Clock"
+          name="6 o'Clock"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>443, 6881, 554, 22, 21, 80</ports>
+  <trace time="75" />
+
+  
+<file path="home" name="CorePassword2.txt">艮(gen第四声) 乾</file>
+  
+</Computer>

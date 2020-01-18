@@ -1,0 +1,47 @@
+<ConditionalActions>
+  
+<Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="1.0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">干得不错</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="6.0">嘿嘿，这就是团队合作啊</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="9.0">这样的话#PLAYERNAME#就能回来了吧</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="12.0">但愿吧</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="14.0">...不</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="17.0">情况比我们想象的还要复杂...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="20.0">怎么了？</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="22.0">我顺手在这个服务器上使用了MemDumpGenerator.exe</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="24.0">结果...</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="26.0">IcaRus的行动比我们更快，已经将BrokenHeart部署在更多的服务器上了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="29.0">WTF????</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="31.0">这...也就是说...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="33.0">对 我们又有活干了...</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="36.0">IcaRus已经知道我们的行动了</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="40.0">所以他已经采取了措施... 即使是我和N0pe都无法查到服务器的IP</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="42.0">等等...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="45.0">Err0r233 用Sequencer.exe</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="48.0">我去干扰IcaRus的服务器，你们趁机查找IP</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="50.0">然后Err0r233趁这个机会入侵</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="52.0">好计划！Coel你真聪明</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="55.0">就这么做吧</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="58.0">！</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="60.0">我的电脑被入侵了！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="62.0">什么！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="64.0">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="66.0">是IcaRus的入侵吗</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="68.0">该死</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="70.0">没时间了... 我们必须救回Yan</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="72.0">就按我们那个办法 只要将BrokenHeart的服务器瘫痪就可以了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="76.0">Yan 你还能支撑多久</AddIRCMessage>
+<AddIRCMessage Author="Yan" TargetComp="MissionDHS" Delay="78.0">想办法呢... 应该能支撑455秒左右，啊 他现在似乎停止对我的攻击了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="80.0">...趁着这一段时间 我们立刻行动 另外Yan，小心他的下一步进攻</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="82.0">找到BrokenHeart了！ 已经在你的Netmap上标注出来了</AddIRCMessage>
+<ShowNode DelayHost="DCDHS2" Delay="82.5" Target="Heaven" />
+<HideNode DelayHost="Cheater" Delay="0" TargetComp="Pacific" />
+<CrashComputer TargetComp="Pacific" CrashSource="Cheater" DelayHost="Zero" Delay="0" />
+<SaveGame DelayHost="Cheater" Delay="80"/>
+<AddConditionalActions Filepath="Actions/SequencerFake.xml" DelayHost="Cheater" Delay="82"/>
+</Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+<HasFlags requiredFlags="ZW1,delay1">
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="10">!ANNOUNCEMENT! @Channel</AddIRCMessage>
+  <AddIRCMessage Author="Channel" TargetComp="Zero" Delay="12">自由时间结束</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="14">新任务已经发布</AddIRCMessage>
+  <AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="17">请去接受你们的合同</AddIRCMessage>
+  <AddConditionalActions Filepath="Actions/Mission2.xml" DelayHost="Cheater" Delay="17.0"/>
+  <AddConditionalActions Filepath="Actions/DCDHS.xml" DelayHost="Cheater" Delay="17.0"/>
+  <RunFunction FunctionName="addRank" FunctionValue="10"/>
+</HasFlags>
+</ConditionalActions>

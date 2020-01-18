@@ -1,0 +1,16 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+writel Channel : ---SES内部网络 已连接--- $#%#$
+delay 1 $#%#$
+writel Channel : ---Connection Encrypted--- $#%#$
+delay 3 $#%#$
+writel Err0r233 : #PLAYERNAME# 我负责部分端口和防火墙 剩下的你专心去做 $#%#$
+delay 48 $#%#$
+clearTerminal $#%#$
+delay 1 $#%#$
+writel Err0r233 : 防火墙密码是Macrosoft-FirewallService-0018 $#%#$
+delay 3 $#%#$
+writel Err0r233 : 等下...这个密码...没时间了... $#%#$
+
+

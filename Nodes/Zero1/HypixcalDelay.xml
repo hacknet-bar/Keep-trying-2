@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="HypixcalDelay" 
+          name="Hypixcal 缓存服务器" 
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="35" />
+  <firewall level="6" solution="Hypixcal" additionalTime="0.08"/>
+    <memoryDumpFile name="AutoGenerationMemData.mem" path="sys">
+    <Memory>
+      <Data>
+	    <Block>入侵者名单</Block>
+        <Block>D I S C O N N E C T D H S</Block>
+        <Block>***REMOVERED BY HACKER***</Block>
+		<Block>措施: 无</Block>
+		<Block>Andrew</Block>
+		<Block>措施: 已经进行警告</Block>
+      </Data>
+      <Commands>
+        <Command>connect Andrew PC</Command>
+		<Command>login</Command>
+        <Command>admin</Command>
+		<Command>***REMOVERED BY HACKER***</Command>
+		<Command>cat password.txt</Command>
+		<Command>getString Password=FirewallPassword</Command>
+		<Command>rm password.txt</Command>
+		<Command>upload home/Warning.txt</Command>		
+		<Command>cd log</Command>
+		<Command>rm *</Command>
+		<Command>forkbomb</Command>
+      </Commands>
+      <Data>
+        <Block></Block>
+        <Block></Block>
+        <Block></Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+<dlink target="Hypixcalweb" />
+<dlink target="Andrew" />
+  
+</Computer>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="adCache" name="广告公司 缓存服务器" type="empty" allowsDefaultBootModule="false" security="9" >
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="3.5" />
+  <trace time="70" />
+
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="home" name="WhitelistPW.txt">人体中每天需要的少量元素
+常以化合物的形式存在
+密码是它的化合物的化学式</file>
+  
+
+</Computer>

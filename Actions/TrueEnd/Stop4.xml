@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+<OnConnect target="ATKDEC" needsMissionComplete="false">
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Autumn.ogg"/>
+<StartScreenBleedEffect AlertTitle="DESTROY ATK" CompleteAction="Actions/TrueEnd/FailActions2.xml" TotalDurationSeconds="840" DelayHost="Zero" Delay="1.5">找到ATK所有的储存服务器
+在sys文件夹上传HDDestroyer.bat
+14分钟内完成</StartScreenBleedEffect>
+<LoadMission MissionName="Missions/True/StopMission3.xml"/>
+				  
+
+  </OnConnect>
+
+</ConditionalActions>

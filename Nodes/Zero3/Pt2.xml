@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Pt2" name="Pt2" type="empty" allowsDefaultBootModule="false" security="9" ip="45.102.77.5" icon="chip">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="65" />
+  <CustomConnectDisplayDaemon />
+
+  <file path="home" name="Password2.txt">2Al(OH)3 + 3H2SO4 = Al2(SO4)3 + ?</file>
+</Computer>

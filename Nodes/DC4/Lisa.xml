@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Lisa" name="Lisa的工作站" type="1" icon="DLCPC1">
+
+  <portsForCrack val="5" />
+  <ports>80, 25, 22, 21, 443</ports>
+  <trace time="88" />
+  <WhitelistAuthenticatorDaemon Remote="PacWT2" />
+  <file path="sys" name="EOS_SyncLog.dat">#BINARY#</file>
+  <encryptedFile path="home" name="IRC.dec" extension=".txt" ip="LocalHost" header="[UNKNOWN]" pass="PacificAir">USERNAME:Lisa
+PASSWORD:GAMEOVER
+  </encryptedFile>
+  <eosDevice name="Lisa的Ephone 8" id="LisaPhone" icon="ePhone" empty="false" passOverride="alpine">
+    <note>我的秘密
+说实话 我这个人很容易忘记事情 所以我就将我加密的Dec密码设置成统一密码了...
+但我又怕我忘记了 所以我得写在这
+密码是PacificAir
+为什么我会想这个密码...?</note>
+  </eosDevice>
+</Computer>

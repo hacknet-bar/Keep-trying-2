@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MatrixA"
+          name="Matrix 代理02"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1"
+          ip="24.168.75.133">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 25, 1433, 443</ports>
+  <proxy time="2" />
+  <file path="home" name="CTF.txt">...P 你究竟在CTF里面藏了什么
+不要令我的忍耐到达极限</file>
+  <file path="home" name="IP.txt">Mirror</file>
+  <file path="home" name="Mirror.txt">1881</file>
+  <file path="home" name="BH.txt">ATK和Entech和我合作了...
+BrokenHeart也在他们的协助下十分顺利的要完成了
+-数据删除- MK III... 据说是ATK的下一个研发对象 并且将应用到现实世界中
+没想到他们要从网络世界转接到现实了
+啧 但只要我的BrokenHeart成功了 他们再来多少也不是我的对手
+很快 我就得和他们在线下进行会面了...</file>
+
+<dlink target="MatrixB" />
+</Computer>

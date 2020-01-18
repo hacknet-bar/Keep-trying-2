@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Medical"
+          name="通用医疗 服务"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="1" >
+
+  <portsForCrack val="7" />
+  <ports>22, 21, 554, 6881, 80, 25, 443</ports>
+  <portRemap>22=6666,554=12651,80=9999</portRemap>
+  <trace time="80" />
+  <proxy time="2" />
+  <firewall level="5" solution="Med1cate" additionalTime="0.05"/>
+  <admin type="basic" resetPassword="false" isSuper="false"/> 
+  <MedicalDatabase />
+  
+</Computer>

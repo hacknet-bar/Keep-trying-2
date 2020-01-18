@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DCDHS2" 
+          name="Disconnect DHS 深层网络" 
+          ip="86.9.9.9"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="chip" 
+          type="1" > 
+		  
+		  
+		  
+<adminPass pass="57fy676ihgh6gfkgk6kgygbu6yvguyuiykvu" />
+  <portsForCrack val="101" />
+  <ports>22, 21, 6881, 443, 192</ports>
+   <DHSDaemon groupName="DCDHS" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="false" themeColor="102, 49, 161" allowContractAbbandon="false">
+    <agent name="Kaguya" color="153,211,0"/>
+    <agent name="Pitiedwzr" color="102,204,255"/>
+	<agent name="D3F4ult" color="192,168,1"/>
+	<agent name="Coel" color="0,255,255"/>
+	<agent name="#PLAYERNAME#" color="92,92,92"/>
+	<agent name="Tom" color="0,255,0"/>
+	<agent name="Pot" color="255,255,0"/>
+    <agent name="iBot" color="43,255,82"/>
+	</DHSDaemon>
+
+    
+  
+
+
+  
+</Computer>

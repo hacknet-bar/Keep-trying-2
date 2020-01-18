@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="System" activeCheck="true">
+  <goals>
+  </goals>
+    <branchMissions>
+    <branch>Missions/hiddenMission/LWJ.xml</branch>
+    <!-- You can have more than one branch mission here -->
+  </branchMissions>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>System</sender>
+    <subject>帮助</subject>
+    <body>#PLAYERNAME#，如果你是老玩家的话
+
+先在在这封邮件回复"Yes"
+
+再使用跳关帮助
+
+否则会造成奇怪的东西出现- -
+
+实在是没有办法才弄这个的
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

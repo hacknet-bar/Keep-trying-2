@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="12Clock"
+          name="12 o'Clock"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="6" />
+  <ports>22, 80, 21, 443, 6881, 554</ports>
+  <trace time="75" />
+
+  <WhitelistAuthenticatorDaemon Remote="CTFWT3" />
+	<file path="home" name="COREpasswordfinal.txt">接下去的第6个值</file>
+	<file path="home" name="*Chat.txt">
+|IcaRus| : 就快了...
+|Sup4rX| : IcaRus... **那个** 计划太过危险了... P将密码保存在这是有它的用意的
+|IcaRus| : 我知道 但是只有这样我才能够解锁它
+|Sup4rX| : ....
+|Sup4rX| : 收手吧... 你知道这样下去会发生什么
+|IcaRus| : 收手？ 你知道你在说什么吗
+|Sup4rX| : 我知道 我也很清楚
+|IcaRus| : 那你为什么要阻止我？
+|Sup4rX| : P制作这个的本意是好的... 但是 你已经越界了...
+|IcaRus| : 呵呵.... Sup4rX 你在说什么呢？
+|IcaRus| : 想想看吧
+|IcaRus| : 用那个摧毁一切的感觉... 你就是信息安全的主宰!
+|Sup4rX| : .... IcaRus 你彻底疯了
+|IcaRus| : 别逼我 Sup4rX... 我可是把你当作是Zero的一员的
+|IcaRus| : 你知道下场会是什么... 我可是会  把你从这个世界上抹除的
+|Sup4rX| : 停下吧 那个计划
+|IcaRus| : !
+|Channel| : @Channel
+|Channel| : Sup4rX 被 管理员IcaRus禁言
+|IcaRus| : 呵呵
+-------------------------Sup4rX在此记录下聊天记录-------------------------
+如果让IcaRus拿到那个密码的话... 后果就严重了...
+可能我是他的第一个实验品
+但是我们根本对他没什么办法...</file>
+<dlink target="CTFCore" />
+</Computer>

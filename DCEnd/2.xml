@@ -1,0 +1,43 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DC2">
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="4">纳尼！</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="7">#PLAYERNAME#你居然比我快这么多！</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="11">该死 我还卡在那三个解谜... 哪个人想的解谜 我要去打死他</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="14">= = 找到他的话也带我一个</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="16">多谢你们... 又一次帮助了我</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="20">没有你们 我估计我要在这里浪费很多时间... 甚至一事无成</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="23">别这么说@Pitiedwzr</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="25.5">在一个团队里 就是要互相帮助啊</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="27">... 比起这个 我其实更加在意储存服务器的那几个文本</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="31">...有时间的话 大家去看看吧</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="33">密码是73和4</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="36">好的~ 马上去</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="40">那我也去看看...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="50">！@Channel</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="53">根据他留下的文本... 我们很可能...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="56">被牵扯到一件很危险的事情上了...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="60">...</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="64">...我们和SES被P同时选中了</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="68">而且这个叫P的人 似乎跟Matrix这个人在合作 然后退出了？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="70">... 不止这个... 还有Zero</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="74">原来Matrix让我们加入Zero是为了他的恐怖计划...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="78">... 所以 这一切都说得通了...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="81">Matrix需要SES的人来帮助他完成“那个东西”</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="83">所以他就拉了#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="86">同时在#PLAYERNAME#身上安装了追踪器...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="89">目的 就只是为了控制#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="91">让他成为一颗他的棋子... 在无用时丢弃掉... 他其实已经想到这一步了吧</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="93">...但Matrix已经不在Zero了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="96">只有IcaRus这个人</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="98">...怎么会</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="102">...但无论如何 我们都要加紧防备 防止Zero的突然进攻</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="105">对 没错 我同意Pot的意见</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="108">我也赞同 所以 我打算让你们去探查一下Zero</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="110">他太危险了... 就像一个定时炸弹</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="113">BKHPlan这个文本我会尽快破解的...</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DCMission/3.xml" DelayHost="Cheater" Delay="113.0"/>
+<AddConditionalActions Filepath="Actions/DCMission/9418/5.xml" DelayHost="Cheater" Delay="53.0"/>
+</HasFlags>
+
+</ConditionalActions>

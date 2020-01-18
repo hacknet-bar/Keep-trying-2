@@ -1,0 +1,26 @@
+<ConditionalActions>
+<Instantly>
+<AddIRCMessage Author="Channel" TargetComp="Zero" Delay="0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="3">呵呵...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="6">既然你邀请了我们的话</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="7">那为什么 没有SES任何一个人的名字？</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="9">...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="11">......</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="Zero" Delay="15">......</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="19">无话可说了吗</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="22">那就让我来帮你告诉其他人</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="Zero" Delay="25">你的真正目的</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="Zero" Delay="29">请选择证物:</AddIRCMessage>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
+
+<AddConditionalActions Filepath="Actions/TLDJ/lose1/3.xml" DelayHost="Cheater" Delay="29.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/lose3/3.xml" DelayHost="Cheater" Delay="29.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/loseall/3.xml" DelayHost="Cheater" Delay="29.0"/>
+<AddConditionalActions Filepath="Actions/TLDJ/all/3.xml" DelayHost="Cheater" Delay="29.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/test/6.xml" DelayHost="Cheater" Delay="29.0"/>
+<AddConditionalActions Filepath="Actions/ZWConnect/Flag6.xml" DelayHost="Cheater" Delay="1.0"/>
+  </Instantly>
+</ConditionalActions>

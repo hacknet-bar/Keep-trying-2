@@ -1,0 +1,32 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+connect $#%#$
+delay 2 $#%#$
+writel_silent Err0r233 : 嘿#PLAYERNAME# 发生什么了 $#%#$
+delay 3 $#%#$
+writel_silent Err0r233 : 我收到了你电脑发出的警报 $#%#$
+delay 3 $#%#$
+writel Err0r233 : #PLAYERNAME# ? 回答我 $#%#$
+delay 12 $#%#$
+writel Err0r233 : 什... $#%#$
+delay 3 $#%#$
+writel Err0r233 : 系统没有损坏... $#%#$
+delay 2 $#%#$
+writel Err0r233 : 但是我无法修复... $#%#$
+delay 3 $#%#$
+writel Err0r233 : #PLAYERNAME# 你刚才发生了什么... $#%#$
+delay 2 $#%#$
+writel Err0r233 : #PLAYERNAME# 不管如何 你应该可以换一台电脑 $#%#$
+delay 2 $#%#$
+writel Err0r233 : ... $#%#$
+delay 2 $#%#$
+writel Err0r233 : 该死... 这个BH.dll的隐藏文件是什么 $#%#$
+delay 2 $#%#$
+writel Err0r233 : 我无法删除... $#%#$
+delay 2 $#%#$
+writel Err0r233 : 糟了... 如果这个让#PLAYERNAME#失踪的话... $#%#$
+delay 2 $#%#$
+writel Err0r233 : Zero... 你们那发生了什么...  $#%#$
+delay 2 $#%#$
+writel Err0r233 : #PLAYERNAME# 我一定会救回你 $#%#$
+delay 2 $#%#$

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacInternal" name="太平洋航空 内部服务器" type="empty" allowsDefaultBootModule="true" security="4" icon="DLCServer">
+
+  <portsForCrack val="4" />
+  <ports>80, 443, 554, 6881, 21</ports>
+  <proxy time="2.9" />
+  <trace time="90" />
+  <dlink target="PacIRC" />
+  <dlink target="PacWT3" />
+  <dlink target="PacWIFI" />
+</Computer>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Core4" name="Core4" type="empty" allowsDefaultBootModule="true" security="0" icon="chip" ip="76.4.4.4">
+
+  <portsForCrack val="3" />
+  <ports>554, 22, 192</ports>
+  <trace time="-1" />
+  <file path="sys" name="Core.dll">#BINARY#</file>
+  <file path="sys" name="Config.sys">#BINARY#</file>
+  <file path="sys" name="LockDown.dll">#BINARY#</file>
+</Computer>

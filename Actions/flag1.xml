@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="addFlags:delay1"/>
+  </Instantly>
+
+</ConditionalActions>

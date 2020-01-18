@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MatrixC"
+          name="Matrix 代理03"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1">
+
+  <portsForCrack val="1" />
+  <ports>21, 22, 80, 25, 1433, 443</ports>
+  <proxy time="2" />
+  <file path="home" name="IP.txt">Mirror</file>
+  <file path="home" name="Mirror.txt">4224</file>
+</Computer>

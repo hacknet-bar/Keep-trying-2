@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFOFFL" name="CTF 离线缓存服务器" type="empty" allowsDefaultBootModule="true" security="5" icon="DLCServer">
+
+  <portsForCrack val="5" />
+  <ports>80, 9418, 554, 6881, 22</ports>
+  <proxy time="2.8" />
+  <trace time="78" />
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true" />
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="SSL_Info.txt">关于SSL破解器的使用说明
+此破解器能够通过旁路端口打开SSL端口（默认端口号为443）
+此SSL破解器能够兼容的旁路端口为: -s(SSH) -f(FTP) -w(WEB) -r(RTSP)
+使用方法为 SSLTrojan SSL端口号 旁路端口 旁路端口号
+例如 SSLTrojan 443 -r 554</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+</Computer>

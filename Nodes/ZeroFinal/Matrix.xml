@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Matrix"
+          name="Matrix PC"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1" 
+		  ip="13.188.276.1">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 104, 25, 1433, 443</ports>
+  <proxy time="2" />
+  <file path="home" name="*BrokenHeartPlan.txt">BrokenHeart 计划书
+BrokenHeart是我们潜心研制的病毒
+它能够使节点因不明原因而**假死亡**
+而且能够控制节点使用波长不同的电磁波加上BrokenHeart专有的电磁波使被控制节点的使用者造成不同程度的副作用...
+只要发射的电磁波没有停止，受害者的副作用就会继续存在
+副作用会使人心动过速、眩晕、昏迷、死亡...
+简单的来说 受害者会出现心、脑问题...
+但这只是个半成品...
+并没有办法大规模传播</file>
+
+  <memoryDumpFile name="*Attack.mem" path="home">
+    <Memory>
+      <Data>
+        <Block></Block>
+        <Block></Block>
+      </Data>
+      <Commands>
+        <Command>connect 216.22.55.187</Command>
+		<Command>BrokenHeart 216.22.55.187</Command>
+		<Command>216.22.55.187 ###System Fatal Error###</Command>
+		<Command>216.22.55.187 ###BrokenHeart successfully hacked.###</Command>
+		<Command>Disconnect</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+  <dlink target="Zero" />
+</Computer>

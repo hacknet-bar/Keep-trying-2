@@ -1,0 +1,85 @@
+<ConditionalActions>
+  
+<Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="1.0">@Channel 成功了！</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="3.0">结束了？</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="4.0">不 并没有</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="7.0">#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="11.0">你有没有看到在Matrix代理01的文件</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="13.0">ATK和Entech也参与到了他们的合作之中</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="16.0">而更令我担忧的是应用于现实世界的一件东西</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="17.0">----- MK III  这就是这个东西的名字 但是前面的名字被刻意抹掉了</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="19.0">Nisei MK III...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="21.0">难道是...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="23.0">没错 就是我和Kaguya一直在追踪的那份东西</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="25.0">没想到这种生化武器...都能被ATK他们制作出来吗</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="29.0">他们简直疯了...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="31.0">这种事情 必须要给线下的刑警去办了 与我们无瓜</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="34.0">在代理01里面还说最近Matrix将要和ATK他们会面 或许我们可以把这条线索告诉线下的刑警</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="37.0">不行 单凭这一条线索是不足以找到Matrix的 更何况刑警会相信我们这些黑客吗</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="40.0">hummmm...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="42.0">Sup4rX 或许Matrix只是将这个代理服务器作为跳板之一...</AddIRCMessage>
+<AddIRCMessage Author="Sup4rX" TargetComp="MissionDHS" Delay="44.0">你的意思是...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="47.0">通过代理服务器反追踪Matrix 并找到可能的移动设备</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="50.0">然后安装发信器</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="52.0">再联系刑警对吗</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="54.0">没错 而且我认识一位当刑警的朋友 或者说是特别行动队的成员</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="57.0">稍等一下...</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="60.0">难道这就是... 无中生友？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="62.0">去去去 我不是lbw</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="66">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="66.2">用户'Frost'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="69.0">我是隶属于Metal 01 行动队的Frost</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="72.0">情况我已经了解清楚了</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="79.0">那接下来让我准备反追踪Matrix...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="82.0">趁现在我们先商量好对策吧 Frost 你现在在哪</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="89.0">英华路A区 114号</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="92.0">你们就在这一带开车游荡吧 时刻等待我们的消息</AddIRCMessage>、
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="95.0">明白</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="100.0">找到了 Matrix的手机 正在上传发信器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="102.0">干得好 Sup4rX</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="105.0">Frost 你应该能看到他的座标了</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="108.0">是的 他在英海路 他还在继续前行</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="112.0">对了 我已经让发信器的接收端完全转给了你们 要记住 发信器的有效距离只有1.2km</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="114.0">不行 太远了 这里离Matrix那应该有0.9km 更何况 我们已经被他发现了 他与我们的距离正在不断加大</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="116.0">为什么Matrix会发现我们</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="MissionDHS" Delay="120.0">估计是没有清除日志吧</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="123.0">...</AddIRCMessage>
+<AddIRCMessage Author="Frost" TargetComp="MissionDHS" Delay="125.0">这样下去我们会丢失信号的 我已经让Truck加快速度了 但是按照这个速度 我们还是会赶不上</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="128.0">不行... 看来我们要从中拦截了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="131.0">@#PLAYERNAME# 为了帮助Frost他们 我们必须强制让Matrix停车！ 入侵控制车辆运行的程序！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="134.0">Coel 帮助我们在netmap上标注Matrix的车辆电脑</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="136.0">没问题...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="141.0">完成！</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="144.0">车辆电脑的安全系数很低 只有SSH端口和Web端口</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="147.0">但车辆电脑有安全核心所保护，攻下安全核心有点难度</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="151.0">做得很好 Coel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="153.0">@#PLAYERNAME# 我已经通知Frost了 接下来就得看你的了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="155.0">入侵Matrix的车辆电脑 并删除一切组件</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="157.0">但是任务失败了的话... 我们就必须继续进行追击... 我不知道是否Matrix还能给我们第三次机会</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="160.0">总之@#PLAYERNAME# 你有两次机会 120秒内解决</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="155.0">收到</AddIRCMessage>
+
+<RunFunction FunctionName="removeFlags:FinalCrack"/>
+<ShowNode DelayHost="DCDHS2" Delay="141.5" Target="Core" />
+
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="ATKCycle" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="ATKCycle" />
+<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+<HideNode DelayHost="Cheater" Delay="0.1" TargetComp="Heaven" />
+<HideNode DelayHost="Cheater" Delay="0.3" TargetComp="Hell" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Karma" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Heaven" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Hell" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Karma" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Devil" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Devil" />
+<SaveGame DelayHost="Cheater" Delay="0"/>
+<LoadMission MissionName="Missions/True/StopMission2.xml"/>
+<SaveGame DelayHost="Cheater" Delay="0"/>
+<AddConditionalActions Filepath="Actions/TrueEnd/Cracking3.xml" DelayHost="Cheater" Delay="0.0"/>
+</Instantly>
+
+</ConditionalActions>

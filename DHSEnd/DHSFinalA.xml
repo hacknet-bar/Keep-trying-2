@@ -1,0 +1,52 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DHSFinalA">
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="removeFlags:DHSFinalA"/>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<LoadMission MissionName="Missions/DHSMission/StopMission.xml"/>
+<AddConditionalActions Filepath="Actions/FinalAction.xml" DelayHost="Cheater" Delay="102.0"/>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="1">@Channel</AddIRCMessage>
+ <AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="2">我们有个好消息</AddIRCMessage>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="4">我们找到IP了，但是FinalEnd总部有EnSec保护</AddIRCMessage>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="7">所以，我正准备想找出FinalEnd真正的存放处</AddIRCMessage>
+ <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="9">PacificPortCrusher.exe也已经上传了</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="15">太棒了！</AddIRCMessage>
+ <AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="17">所以我们的下一步计划是...</AddIRCMessage>
+ <AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="20">显而易见的</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="22">终结FinalEnd.</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="25">现在我们就等着Alex将IP分析出来</AddIRCMessage>
+ <AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="28">真慢啊...</AddIRCMessage>
+ <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="32">等下吧，分析还是需要点时间的</AddIRCMessage>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="42">@Channel</AddIRCMessage>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="45">果然... FinalEnd并不像我们所想的那么简单</AddIRCMessage>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="48">它存放在了三个地点</AddIRCMessage>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="51">正正对应了三个组织...</AddIRCMessage>
+ <AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="53">这...</AddIRCMessage>
+ <AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="55">也就是说...</AddIRCMessage>
+ <AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="58">我们得分头攻破咯...</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="62">又要分头行动了吗？</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="65">那么...</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="70">加油吧各位</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="72">@Alex @Jex一组，进攻ATK组的FinalEnd</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="74">@Coel @D3f4ult一组，进攻Macrosoft存放的FinalEnd</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="76">@#PLAYERNAME#，你去进攻Entech组的FinalEnd</AddIRCMessage>
+ <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="79">...怎么就只有我一个人？</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="82">...放心吧，我会为你们争取尽量多的时间的</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="89">一旦你们连接上这些节点...</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="92">追踪计时就会开始...</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="95">收到了吗？</AddIRCMessage>
+ <AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="97">收到</AddIRCMessage>
+ <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="97.1">嗯</AddIRCMessage>
+ <AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="97.3">+1</AddIRCMessage>
+ <AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="97.5">明白了...</AddIRCMessage>
+ <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="97.7">我知道了..</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="99">@#PLAYERNAME#</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="101">这个，是Entech所存放的FinalEnd的位置：</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="101.5">!ATTACHMENT:link#%#Entech 离线 缓存 10#%#253.157.45.2</AddIRCMessage>
+  <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="103">各位，准备好了吗</AddIRCMessage>
+ <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="105">要上了！</AddIRCMessage>
+ 
+</HasFlags>
+
+</ConditionalActions>

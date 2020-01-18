@@ -1,0 +1,34 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/DCMission/StopMission2.xml"/>
+<RunFunction FunctionName="playCustomSong:Music/Silent.ogg" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Core1" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Core1" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Core2" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Core2" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Core3" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Core3" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="Core4" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="Core4" />
+<CancelScreenBleedEffect DelayHost="advExamplePC" Delay="0.0" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="4">啊啊啊 真是千钧一发</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="5">呼 成功了</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="5">我就知道你能做到@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="5">干的漂亮！</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="7">...真可惜..</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="11">呵呵 气急败坏了?</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="13">@iBot !kick IcaRus</AddIRCMessage>
+<AddIRCMessage Author="iBot" TargetComp="DCDHS2" Delay="15">@Channel Target IcaRus has been kicked</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="18">... 现在我们 就要反击！</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="21">唯一的方法就是清空BrokenHeart!</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="25">@#PLAYERNAME# @Pot @Tom</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="29">你们一人负责一个服务器 这样刚刚好</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="31">这是#PLAYERNAME#所负责的 @Pot @Tom 你们负责的服务器已经发给你们了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="34.5">!ATTACHMENT:link#%#Heaven#%#103.31.227.125</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DCMission/8.xml" DelayHost="Cheater" Delay="34.5"/>
+<SaveGame DelayHost="Cheater" Delay="34.5"/>
+<KillExe DelayHost="Cheater" Delay="0" ExeName="*" />
+</Instantly>
+
+</ConditionalActions>

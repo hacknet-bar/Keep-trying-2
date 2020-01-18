@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+<OnAdminGained target="MatrixB" >
+
+				  
+<LaunchHackScript Filepath="HackerScripts/flash.txt" 
+                  DelayHost="Cheater" 
+                  Delay="3" SourceComp="DCDHS2" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<HideNode DelayHost="Zero" Delay="6.5" TargetComp="MatrixA" />
+<ShowNode DelayHost="Zero" Delay="7.5" Target="MatrixC" />
+  </OnAdminGained>
+</ConditionalActions>

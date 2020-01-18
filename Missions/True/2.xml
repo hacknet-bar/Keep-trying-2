@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="getstring" target="4a9b5thH0ppy" />
+  </goals>
+    <missionEnd>loadConditionalActions:DCEnd/2.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  
+  <posting title="太平洋 - Sup4rX" reqs="DC2" >
+和N0pe获取PacificPortCrusher.exe
+  </posting>
+
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>突围 - #PLAYERNAME#</subject>
+    <body>#PLAYERNAME#
+我已经在DHS里面说得很清楚了
+我们的目的就是进入CTF的内部 获取那个人口中所说的我们所感兴趣的东西的密码
+这次任务或许会很轻松 也或许会很难...
+看你自己了#PLAYERNAME#
+一般这种文件通常都会在他们的储存服务器里了
+
+Pitiedwzr
+</body>
+    <attachments>
+	<note title="任务细节">1.想方设法进入CTF的储存服务器
+2.获取那个人口中所说的我们所感兴趣的东西的密码
+3.得到密码后回复
+4.对了 那个文件的名字叫做BKHPlan</note>
+      <link comp="CTFOL" />
+    </attachments>
+  </email>
+</mission>

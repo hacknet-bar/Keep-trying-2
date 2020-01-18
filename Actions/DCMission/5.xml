@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<Instantly>
+<LoadMission MissionName="Missions/DCMission/StopMission.xml"/>
+<RunFunction FunctionName="playCustomSong:Music/InkUnleashed.ogg" />
+<AddAsset FileName="CoreProtection.dll" FileContents="#BINARYSMALL#" TargetComp="DCDrop" TargetFolderpath="Drop/Uploads" />
+</Instantly>
+</ConditionalActions>

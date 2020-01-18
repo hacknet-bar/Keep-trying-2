@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PeaceMakerCore"
+          name="KBT - 6626 核心"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="kellis"
+          type="1" 
+		  ip="55.144.62.1">
+ <account username="EAdmin" password="tens86" type="0" />
+  <portsForCrack val="101" />
+  <ports>21, 22, 104</ports>
+  <proxy time="2" />
+<file path="sys" name="Core6626.dll">#BINARY##BINARY#</file>
+<file path="sys" name="config.dll">#BINARY#</file>
+<file path="sys" name="Readme.txt">更换核心方法：删除当前文件下的Core数字.dll文件
+并重新上传新的Core文件</file>
+</Computer>

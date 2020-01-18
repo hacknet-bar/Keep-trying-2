@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="teja" name="teja 办公室电脑" type="empty" allowsDefaultBootModule="true" security="9" >
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+
+  <dlink target="CTFweb" />
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <dlink target="tejaBackup" />
+    <file path="sys" name="eos_SyncLog.dat">#BINARY#</file>
+  <eosDevice name="teja的Ephone8" id="tejaPhone" icon="ePhone2" empty="false" passOverride="alpine">
+    <note>Pt2
+Noneofyourbusiness</note>
+<file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+<mail username="teja@ctfmail.com" pass="Revolution" />
+  </eosDevice>
+</Computer>

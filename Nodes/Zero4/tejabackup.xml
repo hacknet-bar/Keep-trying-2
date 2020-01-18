@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tejaBackup" name="teja 备份" type="empty" allowsDefaultBootModule="true" security="9" >
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 25, 6881, 554, 443</ports>
+  <proxy time="2.8" />
+  <trace time="75" />
+
+
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="sys" name="MemScanData.dat">#BINARY#</file>
+  <Memory>
+    <Commands>
+      <Command>ping 86.185.239.25</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+  <dlink target="tejaPrj" />
+</Computer>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFWT2"
+          name="CTF 白名单 验证器2"
+          security="10"
+		  ip="86.185.239.25"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>25, 22, 21, 554, 443, 80</ports>
+  <portRemap>22=225,554=777,443=1200</portRemap>
+  <trace time="65" />
+  
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+  <file path="Whitelist" name="list.txt">#RANDOM_IP#</file>
+  <dlink target="CTFWT1" />
+
+</Computer>

@@ -1,0 +1,45 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DC4">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="2">干 终于好了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="8">= =</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="12">所以... 现在就是决战的时候了吧</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="15">没错 大家准备好了吗？</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="18">不用你说...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="21">好的各位</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="24">等我向大家发送IP...</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="DCDHS2" Delay="26">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="DCDHS2" Delay="26.1">用户 "IcaRus" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="28">...IcaRus??</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="31">等等... IcaRus...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="33">果然还是被发现了吗...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="35">#PLAYERNAME# 呵呵呵...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="38">Disconnect的各位 你们好啊</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="40">...</AddIRCMessage>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="41">...</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="42">...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="45">别这么安静啊...</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="49">啧啧啧</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="52">不如我们来玩个游戏？</AddIRCMessage>
+<AddIRCMessage Author="IcaRus" TargetComp="DCDHS2" Delay="55">当Disconnect的基地被攻破的时候 你们就输啦</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="56">不好！</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="59">赶紧阻止他</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="61">Disconnect是由4个核心服务器保护着的</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="62">!ATTACHMENT:link#%#Core1#%#76.1.1.1</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="63">!ATTACHMENT:link#%#Core2#%#76.2.2.2</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="64">!ATTACHMENT:link#%#Core3#%#76.3.3.3</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="65">!ATTACHMENT:link#%#Core4#%#76.4.4.4</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="66">如果这4个服务器被攻破的话...就危险了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="69">我已经上传热补丁到共享服务器了</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS2" Delay="72">@#PLAYERNAME# 赶紧去4个服务器将他上传到SYS文件夹！</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS2" Delay="74.5">明白</AddIRCMessage>
+<AddIRCMessage Author="Pot" TargetComp="DCDHS2" Delay="75">预计服务器核心被完全攻破时间为152.64秒！现在开始计时！</AddIRCMessage>
+<StartScreenBleedEffect AlertTitle="SAVE DISCONNECT" CompleteAction="Actions/DCMission/FailActions.xml" TotalDurationSeconds="152.64" DelayHost="Zero" Delay="75">进入4个服务器
+安装热补丁
+断开</StartScreenBleedEffect>
+<AddIRCMessage Author="Tom" TargetComp="DCDHS2" Delay="78">加油@#PLAYERNAME#！</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/DCMission/5.xml" DelayHost="Cheater" Delay="76.2"/>
+</HasFlags>
+
+</ConditionalActions>

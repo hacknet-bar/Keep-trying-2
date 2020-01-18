@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/True/1.xml" TargetComp="MissionDHS"/>
+<AddMissionToHubServer MissionFilepath="Missions/True/2.xml" TargetComp="MissionDHS" AssignmentTag="Sup4rX"/>
+<AddMissionToHubServer MissionFilepath="Missions/True/3.xml" TargetComp="MissionDHS" AssignmentTag="Coel"/>
+<RunFunction FunctionName="addFlags:T1"/>
+<RunFunction FunctionName="playCustomSong:Music/执棋者之骨.ogg" />
+<CopyAsset DestFilePath="home" DestComp="MatrixProxy" SourceComp="Debug" SourceFileName="MemRecord.rec" SourceFilePath="home" />
+<AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddConditionalActions Filepath="Actions/TrueEnd/Show1.xml" DelayHost="Cheater" Delay="0.0"/>
+</Instantly>
+</ConditionalActions>

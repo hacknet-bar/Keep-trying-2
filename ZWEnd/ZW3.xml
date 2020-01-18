@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+  <Instantly>
+    <RunFunction FunctionName="addFlags:ZW3"/>
+    <AddConditionalActions Filepath="ZWEnd/ZW3failed.xml" DelayHost="Cheater" Delay="0.0"/>
+  </Instantly>
+
+</ConditionalActions>

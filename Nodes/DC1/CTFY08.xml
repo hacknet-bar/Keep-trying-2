@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFY08" 
+          name="CTF 代理Y08" 
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80, 6881, 554</ports>
+  <trace time="80" />
+  <portRemap>22=350,6881=7882</portRemap>
+  <proxy time="-1" />
+<dlink target="CTFWA" />
+  <Memory>
+    <Commands>scan 151.168.79.64</Commands>
+    <Data>
+      <Block>password = 4161164 (8 --> 10)</Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+</Computer>

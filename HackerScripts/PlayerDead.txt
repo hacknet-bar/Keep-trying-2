@@ -1,0 +1,68 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+writel_silent #PLAYERNAME# : 什... $#%#$
+delay 3 $#%#$
+writel_silent #PLAYERNAME# : Matrix... $#%#$
+delay 3 $#%#$
+connect $#%#$
+writel ??? : 被你找到了啊... $#%#$
+delay 3 $#%#$
+writel ??? : 那就没办法了 $#%#$
+delay 3 $#%#$
+writel ??? : 那就得... 让你试试和Sup4rX一样的待遇吧... $#%#$
+delay 3 $#%#$
+writel #PLAYERNAME# : 怎么可能... 我可没有心脏起搏器 $#%#$
+delay 2 $#%#$
+writel ??? : 呵呵... 你以为没有起搏器我就没有办法了吗 $#%#$
+delay 2 $#%#$
+writel ??? : 死吧 $#%#$
+delay 3 $#%#$
+writel #PLAYERNAME# : 啊! $#%#$
+delay 3 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+writel #PLAYERNAME# : 怎么会... 我的头... 为什么会... $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+writel #PLAYERNAME# : 我不要... 在这里 倒下... $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+delete /bin * $#%#$
+delete /log * $#%#$
+delete /home/MemDump * $#%#$
+delete /home * $#%#$

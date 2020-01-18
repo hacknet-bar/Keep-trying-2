@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MissionDHS"
+          name="SES"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1">
+
+<adminPass pass="AKLSJFKAFDJLKASJLKJLKFJAKLJFDJIAJFLIALAJKFLAJLKGJ"/>
+
+<ports>22, 21, 25, 80, 1433, 554, 6881, 443, 192, 104</ports>
+<portsForCrack val="10"/>
+
+<proxy time="2"/>
+<firewall level="6"/>
+<trace time="95"/>
+
+
+
+<dlink target="MissionDrop"/>
+
+<DHSDaemon groupName="SES" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="false" themeColor="106, 110, 127" allowContractAbbandon="false">
+    <agent name="Err0r233" color="19,248,253"/>
+    <agent name="Alex" color="255,153,18"/>
+	<agent name="N0pe" color="0,255,0"/>
+	<agent name="#PLAYERNAME#" color="92,92,92"/>
+	<agent name="Yan" color="254,140,1"/>
+	<agent name="Coel" color="255,0,0"/>
+	<agent name="D3f4ult" color="201,60,255"/>
+	<agent name="Yan" color="254,140,1"/>
+	<agent name="Frost" color="0,0,255" />
+</DHSDaemon>
+
+</Computer>

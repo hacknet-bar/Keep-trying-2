@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AlphaTestDB" name="Alpha 测试" type="empty" allowsDefaultBootModule="true" security="7" icon="chip">
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 80, 443, 6881, 554, 1433</ports>
+  <proxy time="2" />
+  <trace time="90" />
+  <tracker />
+  <file path="Project" name="Vision.cs">#BINARY##BINARY#</file>
+  <file path="Project" name="Development.jar">#BINARY##BINARY#</file>
+  <file path="Project" name="ViperScan.jar">#BINARY##BINARY#</file>
+  <file path="Project" name="Database.dll">#BINARY##BINARY#</file>
+</Computer>

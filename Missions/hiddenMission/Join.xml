@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Join" activeCheck="true" shouldIgnoreSenderVerification="true" >
+  <goals>
+  <goal type="delay" time="450.0"/>
+  </goals>
+  <missionEnd>loadConditionalActions:Actions/Join.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+
+  <email>
+    <sender>0</sender>
+    <subject>1</subject>
+    <body>B R O K E N H E A R T .
+</body>
+    <attachments>
+
+    </attachments>
+  </email>
+</mission>

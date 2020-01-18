@@ -1,0 +1,25 @@
+<ConditionalActions>
+  
+<HasFlags requiredFlags="test">
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="4">...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="8">你待在这这么久 怎么还不走</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="12">莫非是想加入我们Disconnect?</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="15">想加入我们Disconnect也不是不可以</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="18">但一般呢 都需要通关我们的试炼的</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="20">额... 不...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="22">我只想来看看Err0r233所说的Disconnect</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25">！</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="28">Err0r233！</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="30">...？</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="33">额... 他帮了我们Disconnect很多... 曾经...</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="35">emm.... @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="38">你已经通过测试了... 欢迎随时加入Disconnect</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="40">当你准备好的时候 就进入Disconnect的深层网络吧</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="43">!ATTACHMENT:link#%#Disconnect DHS 深层网络#%#86.9.9.9</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="46">为了安全起见 5秒钟后此服务器就要重置 所以 请记住深层网络的IP 方便随时进入</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Hide.xml" DelayHost="Cheater" Delay="46.0"/>
+<AddConditionalActions Filepath="Actions/InDc.xml" DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="removeFlags:test"/>
+  </HasFlags>
+
+</ConditionalActions>

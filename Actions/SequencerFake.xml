@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+<OnConnect target="Heaven" needsMissionComplete="false">
+<StartScreenBleedEffect AlertTitle="SAVE EVERYONE" CompleteAction="Actions/bad_end.xml" TotalDurationSeconds="455.5" DelayHost="Cheater" Delay="0">进入BrokenHeart服务器
+清空sys文件夹
+GO! GO! GO!</StartScreenBleedEffect>
+<LoadMission MissionName="Missions/SESMission/StopMission2.xml"/>
+<RunFunction FunctionName="playCustomSong:Music/HistoryoftheMoon.ogg" />
+</OnConnect>
+</ConditionalActions>

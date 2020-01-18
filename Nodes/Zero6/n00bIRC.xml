@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="n00bIRC" name="n00b IRC" type="empty" allowsDefaultBootModule="true" security="9">
+
+  <portsForCrack val="80" />
+  <ports>21, 22, 80, 25, 6881, 554, 443, 1433</ports>
+  <proxy time="2" />
+  <trace time="80" />
+<account username="n00b" password="gravelS0" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="n00b IRC Channel" needsLogin="true">
+    <user name="n00b" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="n00b">计划进行的怎么样</post>
+    <post user="da_vito">不错</post>
+    <post user="dardypants">那个 能不能让我加入白名单</post>
+    <post user="n00b">174.33.228.6 自己去</post>
+    <post user="dardypants">no....</post>
+    <post user="n00b">?</post>
+    <post user="dardypants">我手残把文件删了 还没备份...</post>
+    <post user="n00b">噗 哈哈哈哈哈xswl</post>
+  </IRCDaemon>
+
+</Computer>

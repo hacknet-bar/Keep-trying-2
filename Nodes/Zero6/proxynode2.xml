@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="proxynode2" name="n00b 代理节点 2" type="empty" allowsDefaultBootModule="true" security="9">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881, 554, 443, 1433</ports>
+  <proxy time="2" />
+  <trace time="80" />
+  <file path="home/Backup" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  
+  <eosDevice name="testphone" id="eosIntroPhone" icon="ePhone2" empty="false" passOverride="alpine">
+    <note>IRC账号密码
+n00b
+gravelS0</note>
+    <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  </eosDevice>
+  
+<dlink target="n00bInternal" /> 
+</Computer>

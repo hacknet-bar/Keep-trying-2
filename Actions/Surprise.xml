@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<OnConnect target="DCDHS" needsMissionComplete="false">
+<LoadMission MissionName="Missions/hiddenMission/Join.xml" />
+<RunFunction FunctionName="addFlags:test"/>
+<AddConditionalActions Filepath="Actions/Retry.xml" DelayHost="Cheater" Delay="0.0"/>
+  </OnConnect>
+
+</ConditionalActions>

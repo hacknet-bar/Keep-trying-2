@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DCDHS"
+          name="Disconnect DHS"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1">
+
+<adminPass pass="AKLSJFKAFDJLKASJLKJLKFJAKLJFDJIAJFLIALAJKFLAJLKGJ"/>
+
+<ports>22, 21, 25, 80, 1433, 554, 6881, 443, 192, 104</ports>
+<portsForCrack val="101"/>
+
+<proxy time="2"/>
+<firewall level="6"/>
+<trace time="95"/>
+
+
+
+
+
+<DHSDaemon groupName="Disconnect DHS" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="false" themeColor="106, 110, 127" allowContractAbbandon="false">
+	<agent name="#PLAYERNAME#" color="92,92,92"/>
+	<agent name="D3f4ult" color="201,60,255"/>
+    <agent name="Pitiedwzr" color="102,204,255"/>
+	<agent name="D3F4ult" color="192,168,1"/>
+	<agent name="Tom" color="0,255,0"/>
+	<agent name="Pot" color="255,255,0"/>
+</DHSDaemon>
+
+</Computer>

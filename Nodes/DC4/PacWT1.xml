@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacWT1" name="太平洋航空 白名单1" type="1" ip="233.230.165.8">
+
+  <portsForCrack val="5" />
+  <ports>443, 22, 80, 25, 1433, 554, 6881</ports>
+  <trace time="75" />
+  <proxy time="2.5" />
+  <firewall level="6" solution="Pskjjop13" additionalTime="0.6"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  <WhitelistAuthenticatorDaemon Remote="PacWT2" />
+
+  
+</Computer>

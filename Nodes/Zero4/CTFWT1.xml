@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CTFWT1"
+          name="CTF 白名单 验证器1"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>554, 80, 21, 443, 22</ports>
+  <trace time="65" />
+  <firewall level="5" solution="1132kx75" additionalTime="0.03"/>
+  
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true" /> 
+  
+  <file path="Whitelist" name="list.txt">71.36.144.2</file>
+  
+  <dlink target="ctfmail" />
+  <dlink target="CTFSOLVE" />
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P_WT2" name="PiliPili 白名单 2" type="empty" allowsDefaultBootModule="true" security="9" ip="173.23.99.6">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="60" />
+  
+  <CustomConnectDisplayDaemon />
+   
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+  <dlink target="P_WT3" />
+
+
+</Computer>

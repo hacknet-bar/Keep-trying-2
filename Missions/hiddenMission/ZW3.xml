@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ZW3" activeCheck="true" shouldIgnoreSenderVerification="true" >
+  <goals>
+  <goal type="filedownload" target="12Clock" file="*Chat.txt" path="home"/>
+  </goals>
+  <missionEnd>loadConditionalActions:ZWEnd/ZW3.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+
+  <email>
+    <sender>0</sender>
+    <subject>1</subject>
+    <body>F U C K
+</body>
+    <attachments>
+
+    </attachments>
+  </email>
+</mission>

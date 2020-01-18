@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P_Internal" name="PiliPili 内部服务器" type="empty" allowsDefaultBootModule="false" security="3" >
+
+  <portsForCrack val="3" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <proxy time="2" />
+  <trace time="70" />
+  
+  <firewall level="4" solution="helpless" additionalTime="0.8"/>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  
+  <CustomConnectDisplayDaemon />
+   
+   <dlink target="P_WT1" />
+
+
+</Computer>

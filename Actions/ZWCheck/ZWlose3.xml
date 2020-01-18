@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="ZW3Failed">
+<CopyAsset DestFilePath="home" DestComp="Matrix" SourceComp="Debug" SourceFileName="*IcaRus.txt" SourceFilePath="home" />
+<CopyAsset DestFilePath="home" DestComp="Matrix" SourceComp="Debug" SourceFileName="*Invitation.docx" SourceFilePath="home" />
+<CopyAsset DestFilePath="home" DestComp="Matrix" SourceComp="Debug" SourceFileName="*list.txt" SourceFilePath="home" />
+<AddConditionalActions Filepath="Actions/ZWloseall.xml" DelayHost="Cheater" Delay="0.0"/>
+<RunFunction FunctionName="addFlags:ZWlose3"/>
+</HasFlags>
+
+</ConditionalActions>

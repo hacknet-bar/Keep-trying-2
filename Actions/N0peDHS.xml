@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+<OnConnect target="Zero" needsMissionComplete="false" >
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<RunFunction FunctionName="setHubServer:N0peDHS"/>
+<ChangeAlertIcon Target="N0peDHS" Type="irchub" DelayHost="Zero" Delay="1.0"/>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="1">@N0pe在吗</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="Zero" Delay="3">我发现了一点东西 能和你私底下聊一聊吗</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="5">可以</AddIRCMessage>
+<AddIRCMessage Author="N0pe" TargetComp="Zero" Delay="6">!ATTACHMENT:link#%#N0pe DHS#%#165.237.168.9</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/SaveSup4rX2.xml" DelayHost="Cheater" Delay="6.0"/>
+  </OnConnect>
+
+</ConditionalActions>
